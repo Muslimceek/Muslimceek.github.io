@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>Турция для узбеков - Новости и работа</title>
-    <link>https://t.me/turkiyada_uzbekla</link>
-    <description>Новости Стамбула, вакансии и икамет для узбеков. Подпишись: @turkiyada_uzbekla</description>
-    <language>uz</language>
-    <lastBuildDate>2026-10-07T02:06:14.013058+03:00</lastBuildDate>
-    <image>
-      <url>https://via.placeholder.com/200x200?text=Turkiyada+Ishlar</url>
-      <title>Турция для узбеков</title>
-      <link>https://t.me/turkiyada_uzbekla</link>
-    </image>
-    
-    <item>
-      <title>🚇 Бугун Истанбулда жамоат транспорти бепул</title>
-      <link>https://t.me/turkiyada_uzbekla</link>
-      <pubDate>2026-10-07T02:06:14.013058+03:00</pubDate>
-      <description>6-октабр Истанбулда жамоат транспорти бепул бўлиди. Тўлиқ маълумот учун каналимизга обуна бўлинг.</description>
-      <category>Янгилик</category>
-    </item>
-    
-    <item>
-      <title>💸 2027 йилда энг кам иш ҳақи 35.936–36.608 TL</title>
-      <link>https://t.me/turkiyada_uzbekla</link>
-      <pubDate>2026-10-07T02:06:14.013058+03:00</pubDate>
-      <description>2027 йилда минимум маошнинг ўзбекча мақсади ва варианти. Подробнее - на нашем канале.</description>
-      <category>Нарх</category>
-    </item>
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Туркияда ишлар — Туркияда иш ва янгиликлар</title><link>https://muslimceek.github.io/</link><atom:link href="https://muslimceek.github.io/feed.xml" rel="self" type="application/rss+xml"/><description>Истанбул ва Туркия янгиликлари ҳамда иш эълонлари ўзбек тилида.</description><language>uz</language>
+<item><title>Истанбулда 7 октябрь куни чанг ва кучли ёмғир кутилмоқда</title><link>https://muslimceek.github.io/yangiliklar/1307-istanbulda-7-oktyabr-kuni-chang-va-kuchli-yomgir-kutilmoqda/</link><guid isPermaLink="true">https://muslimceek.github.io/yangiliklar/1307-istanbulda-7-oktyabr-kuni-chang-va-kuchli-yomgir-kutilmoqda/</guid><pubDate>Tue, 06 Oct 2026 22:11:21 +0300</pubDate><description>Метеорология Бош бошқармасининг маълумотига кўра, эртага, 7 октябрь куни Истанбулда чанг кўтарилиши ва кучли ёмғир ёғиши ҳақида огоҳлантирилди.</description><enclosure url="https://muslimceek.github.io/img/p/1307.jpg" type="image/jpeg" length="68598"/></item>
+<item><title>455 минг инвесторнинг активлари учун янги тартибга солиш</title><link>https://muslimceek.github.io/yangiliklar/1306-455-ming-investorning-aktivlari-uchun-yangi-tartibga-solish/</link><guid isPermaLink="true">https://muslimceek.github.io/yangiliklar/1306-455-ming-investorning-aktivlari-uchun-yangi-tartibga-solish/</guid><pubDate>Tue, 06 Oct 2026 21:21:12 +0300</pubDate><description>Фон операцияларига янги тартибга солиш киритилмоқда, бу 455 минг инвесторнинг активларини тугатиш йўлини очади.</description><enclosure url="https://muslimceek.github.io/img/p/1306.jpg" type="image/jpeg" length="110219"/></item>
+<item><title>Икром ходими (İkram Personeli)</title><link>https://muslimceek.github.io/ish/1305-ikrom-xodimi-ikram-personeli/</link><guid isPermaLink="true">https://muslimceek.github.io/ish/1305-ikrom-xodimi-ikram-personeli/</guid><pubDate>Tue, 06 Oct 2026 20:30:48 +0300</pubDate><description>Иш эълони: Etik Koruma Ve Güvenlik, İstanbul, Kadıköy, маош 46.000 TL, Ҳафтасига 5,5 кун, 08:00-17:00.</description><enclosure url="https://muslimceek.github.io/img/p/1305.jpg" type="image/jpeg" length="48921"/></item>
+<item><title>Booking, Expedia ва Airbnb учун 5 млн TL рухсатнома шарти</title><link>https://muslimceek.github.io/yangiliklar/1304-booking-expedia-va-airbnb-uchun-5-mln-tl-ruxsatnoma-sharti/</link><guid isPermaLink="true">https://muslimceek.github.io/yangiliklar/1304-booking-expedia-va-airbnb-uchun-5-mln-tl-ruxsatnoma-sharti/</guid><pubDate>Tue, 06 Oct 2026 19:41:22 +0300</pubDate><description>Туркияда Booking, Expedia ва Airbnb каби хорижий рақамли жойлаштириш платформалари учун 5 миллион TL миқдорида рухсатнома талаб қилинадиган янги давр бошланди.</description><enclosure url="https://muslimceek.github.io/img/p/1304.jpg" type="image/jpeg" length="84775"/></item>
+<item><title>Booking, Expedia ва Airbnb учун янги қоидалар: нархлар 40% гача ошиши мумкин</title><link>https://muslimceek.github.io/yangiliklar/1303-booking-expedia-va-airbnb-uchun-yangi-qoidalar-narxlar-40/</link><guid isPermaLink="true">https://muslimceek.github.io/yangiliklar/1303-booking-expedia-va-airbnb-uchun-yangi-qoidalar-narxlar-40/</guid><pubDate>Tue, 06 Oct 2026 18:51:18 +0300</pubDate><description>Туркияда Booking, Expedia ва Airbnb каби хорижий рақамли жойлаштириш платформалари учун янги давр бошланмоқда, унга кўра 5 миллион TL миқдорида рухсатнома талаб қилинади.</description><enclosure url="https://muslimceek.github.io/img/p/1303.jpg" type="image/jpeg" length="80505"/></item>
+<item><title>Ишлаб чиқариш ходими (Üretim Personeli)</title><link>https://muslimceek.github.io/ish/1302-ishlab-chiqarish-xodimi-uretim-personeli/</link><guid isPermaLink="true">https://muslimceek.github.io/ish/1302-ishlab-chiqarish-xodimi-uretim-personeli/</guid><pubDate>Tue, 06 Oct 2026 18:03:14 +0300</pubDate><description>Иш эълони: Bofor Lojistik, İstanbul, Sultanbeyli, маош 40.000 TL, 3 смена, тўлиқ иш куни.</description><enclosure url="https://muslimceek.github.io/img/p/1302.jpg" type="image/jpeg" length="50752"/></item>
+<item><title>Европа рейсларида 3 соатлик кечикиш учун 33 минг TL товон</title><link>https://muslimceek.github.io/yangiliklar/1301-yevropa-reyslarida-3-soatlik-kechikish-uchun-33-ming-tl/</link><guid isPermaLink="true">https://muslimceek.github.io/yangiliklar/1301-yevropa-reyslarida-3-soatlik-kechikish-uchun-33-ming-tl/</guid><pubDate>Tue, 06 Oct 2026 17:11:16 +0300</pubDate><description>Европага учадиган йўловчилар учун муҳим янгилик: 3 соатлик рейс кечикиши учун 33 минг TL миқдорида товон пули олиш мумкин.</description><enclosure url="https://muslimceek.github.io/img/p/1301.jpg" type="image/jpeg" length="67585"/></item>
+<item><title>Инфляция сентябрда ойлик 1,61 фоизга ошди</title><link>https://muslimceek.github.io/yangiliklar/1300-inflyatsiya-sentyabrda-oylik-1-61-foizga-oshdi/</link><guid isPermaLink="true">https://muslimceek.github.io/yangiliklar/1300-inflyatsiya-sentyabrda-oylik-1-61-foizga-oshdi/</guid><pubDate>Tue, 06 Oct 2026 16:44:53 +0300</pubDate><description>Мавсумий таъсирлардан тозаланган истеъмол нархлари индекси (TÜFE) сентябрь ойида ойлик 1,61 фоизга ўсди.</description><enclosure url="https://muslimceek.github.io/img/p/1300.jpg" type="image/jpeg" length="37966"/></item>
+</channel></rss>
