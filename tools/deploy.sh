@@ -1,8 +1,10 @@
 #!/bin/bash
+# Mac-side fallback: the GitHub Actions workflow does the same job in the cloud.
 # Pull new channel posts, rebuild the site and publish it if anything changed.
 cd "$(dirname "$0")/.." || exit 1
 PY=/opt/homebrew/bin/python3
 echo "--- $(date '+%F %H:%M')"
+git pull -q --ff-only origin main || { echo "local copy differs from GitHub, skipping"; exit 0; }
 "$PY" tools/sync.py && "$PY" tools/build.py || exit 1
 git add -A
 if git diff --cached --quiet -- . ':(exclude)data/meta.json' ':(exclude)index.html' ':(exclude)lotin/index.html'; then
