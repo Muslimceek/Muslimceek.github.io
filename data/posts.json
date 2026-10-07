@@ -1,5 +1,115 @@
 [
  {
+  "id": 1325,
+  "date": "2026-10-07T19:13:11+00:00",
+  "link": "https://www.eleman.net/is-ilani/paket-servis-ve-online-siparis-deneyimli-garson-i4782574",
+  "kind": "job",
+  "title": "Сервис ва буюртма официанти (Garson)",
+  "company": "Skythen Sanayii Ticaret Limited Şirketi",
+  "place": "İstanbul, Beylikdüzü",
+  "salary": "40.000 TL - 50.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Иш жойи: Истанбул, Beylikdüzü тумани",
+   "Yemeksepeti, Trendyol буюртмаларини қабул қилиш ва назорат этиш",
+   "Буюртмаларни ошхонадан олиб, курьерларга тўлиқ топшириш",
+   "Ресторан ёки етказиб бериш соҳасида тажриба талаб қилинади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1324,
+  "date": "2026-10-07T18:23:13+00:00",
+  "link": "https://www.hurriyet.com.tr/bilgi/son-dakika-saganak-yagis-uyarisi-yarin-8-ekim-hava-nasil-olacak-istanbulda-yagmur-var-mi-hava-durumu-tahminleri-il-il-meteoroloji-43333254",
+  "kind": "news",
+  "title": "Истанбулда 8 октябрь куни кучли ёмғир кутилмоқда",
+  "cat": "obhavo",
+  "lead": "Метеорология бошқармасининг хабар беришича, 8 октябрь куни Истанбулда кучли ёмғир ёғиши кутилмоқда.",
+  "facts": [],
+  "source": "hurriyet.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1323,
+  "date": "2026-10-07T17:36:15+00:00",
+  "link": "https://www.sondakika.com/amp/haber-turk-devletleri-teskilati-adalet-bakanlari-istanbu-20307306/",
+  "kind": "news",
+  "title": "Истанбулда ТДТ Адлия вазирларининг йиғилиши бўлиб ўтди",
+  "cat": "turkiya",
+  "lead": "Истанбул шаҳрида Туркий давлатлар ташкилоти (ТДТ) Адлия вазирлари йиғилиб, ўзаро ҳуқуқий ҳамкорлик масалаларини муҳокама қилдилар.",
+  "facts": [
+   "Тадбирда ТДТга аъзо мамлакатлар вакиллари иштирок этди"
+  ],
+  "source": "sondakika.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1322,
+  "date": "2026-10-07T16:47:40+00:00",
+  "link": "https://www.eleman.net/is-ilani/lojistik-depo-personeli-i4782652",
+  "kind": "job",
+  "title": "Логистика омбор ходими (Lojistik Depo Personeli)",
+  "company": "Efora İnsan Kaynakları",
+  "place": "İstanbul, Tuzla",
+  "salary": "33.000 ₺ нет + сервис + овқат",
+  "schedule": "Тўлиқ иш куни, 3 смена",
+  "points": [
+   "Маош: 33.000 ₺ нет + сервис + овқат",
+   "Талаблар: 18-45 ёш, соғлиги жойида бўлиш",
+   "Вазифа: товарларни ташиш, қадоқлаш ва жойлаштириш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1321,
+  "date": "2026-10-07T16:10:26+00:00",
+  "link": "https://12punto.com.tr/yerel-haberler/edirnede-taksi-ve-minibus-ucretlerine-yuzde-15-zam-yeni-tarife-belli-oldu-154767",
+  "kind": "news",
+  "title": "Edirne'de taksi va minibüs нархларига 15 фоизлик зам",
+  "cat": "narx",
+  "lead": "Edirne'да такси ва минибус хизматларига 15 фоизлик нарх ошириш қарори қабул қилинди. Янги тарифлар эълон қилинди.",
+  "facts": [],
+  "source": "12punto.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1320,
+  "date": "2026-10-07T15:04:30+00:00",
+  "link": "https://edirnesonhaber.com/edirnede-toplu-tasimaya-zam-binis-42-tl/193116",
+  "kind": "news",
+  "title": "Эдирнеда жамоат транспортига 42 TL нархда нарх оширилди",
+  "cat": "narx",
+  "lead": "Эдирне шаҳрида жамоат транспорти нархлари оширилди, энди бир марталик йўл кира 42 TL этиб белгиланди.",
+  "facts": [],
+  "source": "edirnesonhaber.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1319,
+  "date": "2026-10-07T14:14:18+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-personeli-arnavutkoy-hadimkoy-i4782523",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "EKOL KORUMA",
+  "place": "İstanbul, Arnavutköy",
+  "salary": "39.250 TL",
+  "schedule": "Тўлиқ иш куни, 3 смена",
+  "points": [
+   "Арнавуткўйдаги объектларда умумий тозалик ишларини бажариш",
+   "Эркаклар, 20-45 ёш, тозалик соҳасида тажрибали бўлиши керак",
+   "Иш жойида овқат ва сервис имконияти мавжуд",
+   "Маош: 39.250 TL"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1318,
   "date": "2026-10-07T13:22:30+00:00",
   "link": "https://www.babaocagi.com.tr/hazine-ve-maliye-bakani-mehmet-simsekten-zam-aciklamasi-memur-emekli-ve-calisanlari-ilgilendiriyor",
