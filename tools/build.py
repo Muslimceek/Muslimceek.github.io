@@ -10,6 +10,7 @@ from translit import to_latin, slugify
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://muslimceek.github.io"
 TG = "https://t.me/turkiyada_uzbekla"
+BOT = "https://t.me/istanbulda_ish_bot"
 HANDLE, BRAND = "@turkiyada_uzbekla", "Туркияда ишлар"
 IST = timezone(timedelta(hours=3))
 PER_PAGE = 24
@@ -106,7 +107,8 @@ def cta():
     return (f'<section><div class="wrap"><div class="cta glass rv"><span class="chip">{HANDLE}</span>'
             f'<h2 class="h2">Янгиликни биринчи бўлиб <em>Telegram</em>\'да ўқинг</h2>'
             f'<p>Ҳар куни 08:00 дан 22:00 гача — Истанбул ва Туркия янгиликлари ҳамда иш эълонлари. Обуна бепул.</p>'
-            f'<a class="btn red" href="{TG}" rel="noopener">{TG_ICON}Каналга қўшилиш</a></div></div></section>')
+            f'<div class="acts" style="justify-content:center;margin-top:0"><a class="btn red" href="{TG}" rel="noopener">{TG_ICON}Каналга қўшилиш</a>'
+            f'<a class="btn" href="{BOT}" rel="noopener">Ботдан савол сўраш</a></div></div></div></section>')
 
 def head_block(chip, title, link=None, label=""):
     more = f'<a class="arrow" href="{LP}{link}">{label}</a>' if link else ""
@@ -182,7 +184,7 @@ def shell(path, title, desc, body, *, image="/assets/og.jpg", og_type="website",
 <footer><div class="wrap foot">
 <div><a class="logo" href="{LP}/"><i></i>{BRAND}</a>
 <p>Туркиядаги ўзбеклар учун янгиликлар ва иш эълонлари. Хабарлар Telegram каналдан олинади, манба ҳар бир хабарда кўрсатилган.</p></div>
-<nav aria-label="Қуйи меню"><a href="{LP}/yangiliklar/">Янгиликлар</a><a href="{LP}/ish/">Иш эълонлари</a><a href="{TG}" rel="noopener">Telegram</a>
+<nav aria-label="Қуйи меню"><a href="{LP}/yangiliklar/">Янгиликлар</a><a href="{LP}/ish/">Иш эълонлари</a><a href="{TG}" rel="noopener">Telegram</a><a href="{BOT}" rel="noopener">Бот</a>
 <a href="/feed.xml">RSS</a><a href="https://t.me/Muslim_Ostanov" rel="noopener">Реклама</a></nav>
 </div></footer>
 <script src="/assets/site.js?v={CSS_V}" defer></script>
@@ -287,8 +289,8 @@ def home(posts, meta):
 
 <section id="savollar"><div class="wrap faq">
 <div class="faq-l rv"><span class="chip">Савол-жавоб</span><h2 class="h2">Кўп сўраладиган саволлар</h2>
-<p>Жавоб топилмадими? Каналга ёзинг ёки админ билан боғланинг.</p>
-<a class="btn" href="https://t.me/Muslim_Ostanov" rel="noopener">Админга ёзиш</a></div>
+<p>Жавоб топилмадими? Ёрдамчи ботга ёзинг — у ўзбекча, русча ва туркча жавоб беради.</p>
+<a class="btn" href="{BOT}" rel="noopener">Ботдан сўраш</a></div>
 <div class="rv">{faq}</div>
 </div></section>
 {cta()}

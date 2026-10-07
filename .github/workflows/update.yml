@@ -1,0 +1,45 @@
+name: Update site and wake the bot
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Wake the bot (it publishes only when a post is due)
+        run: curl -s -m 290 https://turkiyada-bot.vercel.app/api/tick || true
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Pull new channel posts and rebuild the site
+        run: |
+          pip install -q Pillow
+          python tools/sync.py
+          python tools/build.py
+
+      - name: Publish if anything changed
+        run: |
+          git add -A
+          if git diff --cached --quiet -- . ':(exclude)data/meta.json' ':(exclude)index.html' ':(exclude)lotin/index.html'; then
+            echo "no new posts"
+            exit 0
+          fi
+          git config user.name "turkiyada-site"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Update site: $(date -u '+%F %H:%M') UTC"
+          git push
