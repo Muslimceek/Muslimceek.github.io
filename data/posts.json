@@ -1,5 +1,33 @@
 [
  {
+  "id": 1309,
+  "date": "2026-10-07T05:59:02+00:00",
+  "link": "https://www.sondakika.com/amp/haber-istanbulda-3-projeden-daire-alan-yabancilara-20304557/",
+  "kind": "news",
+  "title": "İstanbulда 3 лойиҳадан уй олган чет элликларга фуқаролик шоки",
+  "cat": "hujjat",
+  "lead": "İstanbulда 3 та лойиҳадан уй сотиб олган чет элликлар фуқаролик олишда муаммоларга дуч келмоқда, уларнинг келажаги ноаниқ.",
+  "facts": [],
+  "source": "sondakika.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1308,
+  "date": "2026-10-07T05:10:08+00:00",
+  "link": "https://www.kartal24.com/161054-bos-istanbul-kart-ne-kadar",
+  "kind": "news",
+  "title": "Истанбулда бўш İstanbulkart нархи 165 лира бўлди",
+  "cat": "narx",
+  "lead": "Истанбулда жамоат транспортидан фойдаланиш учун мўлжалланган бўш İstanbulkart нархи 2026 йилда 165 TL этиб белгиланди.",
+  "facts": [
+   "Бўш карта нархи 165 лирани ташкил қилмоқда"
+  ],
+  "source": "kartal24.com",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1307,
   "date": "2026-10-06T19:11:21+00:00",
   "link": "http://mobil.hurriyet.com.tr/bilgi/son-dakika-hava-durumu-tahminleri-il-il-yarin-7-ekim-hava-nasil-olacak-istanbulda-yagmur-var-mi-meteorolojiden-toz-tasinimi-ve-43331949",
