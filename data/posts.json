@@ -1,5 +1,131 @@
 [
  {
+  "id": 1318,
+  "date": "2026-10-07T13:22:30+00:00",
+  "link": "https://www.babaocagi.com.tr/hazine-ve-maliye-bakani-mehmet-simsekten-zam-aciklamasi-memur-emekli-ve-calisanlari-ilgilendiriyor",
+  "kind": "news",
+  "title": "Молия вазиридан иш ҳақига \"зам\" ҳақида баёнот",
+  "cat": "narx",
+  "lead": "Ғазна ва Молия вазири Меҳмет Шимшек давлат хизматчилари, нафақахўрлар ва ходимларга \"зам\" ҳақида баёнот берди.",
+  "facts": [],
+  "source": "babaocagi.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1317,
+  "date": "2026-10-07T12:32:20+00:00",
+  "link": "https://www.habermemur.net/istanbulda-hava-durumu-alarmlari-caldi-akomdan-sicaklik-dususu-uyarisi/",
+  "kind": "news",
+  "title": "AKOM'дан Истанбул учун ҳарорат пасайиши ҳақида огоҳлантириш",
+  "cat": "obhavo",
+  "lead": "AKOM Истанбулда ҳаво ҳароратининг кескин пасайиши ҳақида огоҳлантирди, бу эса шаҳарда ҳаво ҳарорати сигналини чалди.",
+  "facts": [],
+  "source": "habermemur.net",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1316,
+  "date": "2026-10-07T11:41:41+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-gorevlisi-i4781785",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Görevlisi)",
+  "company": "Esas K Yönetim Hizmetleri Ltd. Şti",
+  "place": "İstanbul, Çekmeköy",
+  "salary": "35.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Истанбул, Чекмекўйдаги объектда умумий жойларни тозалаш",
+   "Гигиена стандартларига мувофиқ тозалаш ва дезинфекция қилиш",
+   "Чиқиндиларни бошқариш ва мунтазам тозаликни таъминлаш",
+   "Ойлик маош 35.000 TL (йўл ва овқат билан)"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1315,
+  "date": "2026-10-07T10:56:12+00:00",
+  "link": "https://mansethaber.com/ekonomi/calisma-hayatinda-yeni-duzenleme-esnek-calisma-modeli-gundemde",
+  "kind": "news",
+  "title": "Иш ҳаётида янги тартиб: Мослашувчан иш модели кун тартибида",
+  "cat": "turkiya",
+  "lead": "Туркияда иш ҳаётида янги тартиб жорий этилиб, мослашувчан иш модели муҳокама қилинмоқда.",
+  "facts": [],
+  "source": "mansethaber.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1313,
+  "date": "2026-10-07T09:21:34+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-gorevlisi-goztepe-i4781914",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Görevlisi)",
+  "company": "RO GROUP A.Ş.",
+  "place": "İstanbul, Kadıköy",
+  "salary": "38.500 TL",
+  "schedule": "Тўлиқ иш куни, 08:00-17:00",
+  "points": [
+   "Иш жойи: Kadıköy, Göztepe ҳудудида жойлашган",
+   "Эркаклар учун, умумий ва кундалик тозалик ишлари",
+   "Тажрибали ёки тозалик ишларини ўрганишга иштиёқли бўлиш",
+   "Шанба ва якшанба — дам олиш кунлари"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1312,
+  "date": "2026-10-07T08:28:39+00:00",
+  "link": "https://www.canligaste.com/istanbul-hava-tahmini-22-13-derece-bekleniyor-07-10-2026/921556/",
+  "kind": "news",
+  "title": "İstanbul'da ҳаво ҳарорати 22/13 даража бўлиши кутилмоқда",
+  "cat": "obhavo",
+  "lead": "İstanbul'da 07.10.2026 куни ҳаво ҳарорати 22/13 даража бўлиши кутилмоқда.",
+  "facts": [
+   "Ҳарорат: 22/13 даража",
+   "Сана: 07.10.2026"
+  ],
+  "source": "canligaste.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1311,
+  "date": "2026-10-07T07:40:45+00:00",
+  "link": "https://www.gzt.com/ekonomi/kara-para-duzenlemesi-nakit-doviz-ve-kuyum-islemlerinde-sinir-370-bin-tl-oldu-4267529",
+  "kind": "news",
+  "title": "Nakit, döviz va zargarlik buyumlari operatsiyalarida chegara 370 минг TL бўлди",
+  "cat": "narx",
+  "lead": "Қора пул билан курашиш доирасида нақд пул, хорижий валюта ва заргарлик буюмлари билан амалга ошириладиган операцияларда шахсни аниқлаш чегараси 370 минг TL этиб белгиланди.",
+  "facts": [
+   "Янги қоида бугун кучга кирди."
+  ],
+  "source": "gzt.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1310,
+  "date": "2026-10-07T06:55:26+00:00",
+  "link": "https://www.eleman.net/is-ilani/bellboy-i4781557",
+  "kind": "job",
+  "title": "Беллбой (Bellboy)",
+  "company": "Lions Royal Hotel",
+  "place": "İstanbul, Fatih",
+  "salary": "35.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Меҳмонхона меҳмонларини кутиб олиш",
+   "Инглиз тилини билиш талаб этилади",
+   "Ойлик маош: 35.000 TL"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1309,
   "date": "2026-10-07T05:59:02+00:00",
   "link": "https://www.sondakika.com/amp/haber-istanbulda-3-projeden-daire-alan-yabancilara-20304557/",
