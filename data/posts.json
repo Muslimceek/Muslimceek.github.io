@@ -1,5 +1,104 @@
 [
  {
+  "id": 1341,
+  "date": "2026-10-08T17:36:37+00:00",
+  "link": "https://www.gazetevatan.com/galeri/2027-trafik-cezalari-pasaport-ve-imei-ucreti-ne-kadar-olacak-yeni-yilda-ehliyet-mtv-ve-harclara-ne-kadar-zam-gelecek-2415355",
+  "kind": "news",
+  "title": "2027 йил учун жарима, паспорт ва IMEI нархлари қанча бўлади?",
+  "cat": "narx",
+  "lead": "2027 йилда ҳайдовчилик гувоҳномаси, MTV ва бошқа йиғимларга қанча миқдорда ошириш бўлиши маълум бўлди.",
+  "facts": [],
+  "source": "gazetevatan.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1340,
+  "date": "2026-10-08T16:45:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/beylikduzu-site-temizlik-gorevlisi-i4783636",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Görevlisi)",
+  "company": "Cansav Group",
+  "place": "İstanbul, Beylikdüzü",
+  "salary": "36.000 TL - 44.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Турар жой мажмуасида кундалик тозалик ишларини олиб бориш",
+   "Чиқиндиларни йиғиш ва озодаликни таъминлаш",
+   "1-2 йиллик тажриба, интизом ва масъулият талаб этилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1339,
+  "date": "2026-10-08T16:10:49+00:00",
+  "link": "https://www.eleman.net/is-ilani/kargo-elemani-i4783618",
+  "kind": "job",
+  "title": "Карго ходими (Kargo Elemanı)",
+  "company": "BORTAS GRUP",
+  "place": "İstanbul, Tuzla",
+  "salary": "",
+  "schedule": "Тўлиқ, 2 смена, якшанба дам",
+  "points": [
+   "Карголарни тушириш, саралаш, терминал орқали сканерлаш ва юклаш",
+   "20-45 ёшдаги эркак/аёл, судланмаган, қўл терминалидан фойдалана оладиган",
+   "Ойлик 39.624 TL брут + 2 ойдан кейин 2.500 TL мукофот, овқат, сервис, суғурта"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1337,
+  "date": "2026-10-08T14:14:02+00:00",
+  "link": "https://www.eleman.net/is-ilani/lojistik-depo-elemani-i4783459",
+  "kind": "job",
+  "title": "Логистика омбор ходими (Lojistik Depo Elemanı)",
+  "company": "BORTAS GRUP",
+  "place": "İstanbul, Tuzla",
+  "salary": "28.071 TL",
+  "schedule": "Тўлиқ иш куни, 2 смена",
+  "points": [
+   "Косметика ва шахсий парвариш маҳсулотларини этикеткалаш ва қадоқлаш.",
+   "Аёллар учун, 18-45 ёш, соғлиғида муаммоси бўлмаган.",
+   "Ойлик: 28.071 TL + 4.000 TL иш самарадорлиги учун мукофот + 1.000 TL давомат учун мукофот.",
+   "Хизмат, овқат ва СГК суғуртаси мавжуд."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1336,
+  "date": "2026-10-08T13:23:36+00:00",
+  "link": "https://www.milligazete.com.tr/2027-asgari-ucret-tahmini-35-bin-936-tl-mi-36-bin-608-tl-mi-zam-orani-kac-olacak-kesin-rakam-ne-zaman-belli-olacak",
+  "kind": "news",
+  "title": "2027 йил учун энг кам иш ҳақи тахминлари эълон қилинди",
+  "cat": "narx",
+  "lead": "2027 йил учун энг кам иш ҳақи 35 минг 936 TL ёки 36 минг 608 TL бўлиши тахмин қилинмоқда.",
+  "facts": [
+   "Аниқ рақам қачон эълон қилиниши ҳозирча номаълум"
+  ],
+  "source": "milligazete.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1335,
+  "date": "2026-10-08T12:37:21+00:00",
+  "link": "https://www.yenimesaj.com.tr/istanbulda-yapilan-incelemelere-gore-bin-238-bina-her-an-cokebilir-ibb-tarafindan-hazirlanan-bir-rapor-ise-incelenen-40-bin-binadan-yarisinin-yuksek-riskli-oldugunu-ortaya-koydu-H1618689.htm",
+  "kind": "news",
+  "title": "Истанбулда 1238 та бино ҳар лаҳзада қулаши мумкин",
+  "cat": "favqulodda",
+  "lead": "Истанбулда ўтказилган текширувларга кўра, 1238 та бино ҳар лаҳзада қулаши мумкин. İBB томонидан тайёрланган ҳисоботда текширилган 40 минг бинонинг ярми «юқори хавфли» экани аниқланди.",
+  "facts": [
+   "İBB ҳисоботида 40 минг бино текширилган",
+   "Текширилган биноларнинг ярми юқори хавфли"
+  ],
+  "source": "yenimesaj.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1334,
   "date": "2026-10-08T11:41:35+00:00",
   "link": "https://www.eleman.net/is-ilani/cay-ikram-ve-ofis-temizligi-istanbul-i4783294",
