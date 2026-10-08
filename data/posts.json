@@ -1,5 +1,133 @@
 [
  {
+  "id": 1334,
+  "date": "2026-10-08T11:41:35+00:00",
+  "link": "https://www.eleman.net/is-ilani/cay-ikram-ve-ofis-temizligi-istanbul-i4783294",
+  "kind": "job",
+  "title": "Чой ва офис тозалиги (ÇAY İKRAM VE OFİS TEMİZLİĞİ)",
+  "company": "Atalian Global Services",
+  "place": "İstanbul, Kadıköy",
+  "salary": "45.395,63 TL брут + 3.628 TL йўл + 18.700 TL овқат (Ticket)",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "60-65 кишилик офисда чой дамлаш ва хизмат кўрсатиш, меҳмонларга икрамлар бериш",
+   "Барча офис майдонларини тозалаш ва назорат қилиш",
+   "Ойиналарни ва гиламларни тозалаш (ойга 2 марта шанба куни)",
+   "Маош: 45.395,63 TL брут + 3.628 TL йўл + 18.700 TL овқат (Ticket)"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1333,
+  "date": "2026-10-08T10:56:04+00:00",
+  "link": "https://www.hasretgazetesi.com.tr/foto-galeri/emekli-ve-memur-maaslarinda-ocak-2027-hesabi-degisti-iste-kurusu-kurusuna-yeni-maaslar",
+  "kind": "news",
+  "title": "2027 йил январ ойи учун пенсия ва давлат хизматчилари маошлари ҳисоби ўзгарди",
+  "cat": "narx",
+  "lead": "Пенсия ва давлат хизматчиларининг 2027 йил январ ойи учун маошларини ҳисоблаш тизими ўзгарди, бу янги маошларнинг аниқ миқдорига таъсир қилади.",
+  "facts": [],
+  "source": "hasretgazetesi.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1332,
+  "date": "2026-10-08T10:24:14+00:00",
+  "link": "https://www.haberturk.com/bilgi/istanbul-da-ulasimda-yeni-donem-17-ilcede-basladi-3918128",
+  "kind": "news",
+  "title": "İstanbul транспорт тизимида 17 туманда янги давр бошланди",
+  "cat": "transport",
+  "lead": "İstanbul шаҳрининг 17 та туманида жамоат транспорти соҳасида янги босқич ва тартиблар амалиётга жорий этилди.",
+  "facts": [
+   "Янги тизим шаҳарнинг 17 та туманини қамраб олди"
+  ],
+  "source": "haberturk.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1331,
+  "date": "2026-10-08T09:22:24+00:00",
+  "link": "https://www.eleman.net/is-ilani/depo-elemani-i4783105",
+  "kind": "job",
+  "title": "Омбор ходими (Depo Elemanı)",
+  "company": "Asya Pazarı",
+  "place": "İstanbul, Ataşehir",
+  "salary": "41.000 TL",
+  "schedule": "Тўлиқ иш куни, 2 смена",
+  "points": [
+   "Иш жойи: Малтепе тумани, Истанбул",
+   "Ёши 22-38 оралиғидаги эркак номзодлар қабул қилинади.",
+   "Омбор тартибини сақлаш, товарларни қабул қилиш ва жойлаштириш.",
+   "Ойлик маош: 41.000 TL, кунлик овқат берилади."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1330,
+  "date": "2026-10-08T08:28:31+00:00",
+  "link": "https://www.sondakika.com/guncel/haber-istanbulda-coken-binada-1-kisi-hayatini-kaybetti-20308710/",
+  "kind": "news",
+  "title": "İstanbul Maltepe'да бино қулаши оқибатида 1 киши ҳалок бўлди",
+  "cat": "favqulodda",
+  "lead": "Истанбулнинг Maltepe туманида 7 қаватли бинонинг қулаши оқибатида 1 киши ҳаётдан кўз юмди, 3 киши қидирилмоқда.",
+  "facts": [],
+  "source": "sondakika.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1329,
+  "date": "2026-10-08T07:40:16+00:00",
+  "link": "https://www.sondakika.com/amp/haber-istanbul-maltepe-de-7-katli-bina-coktu-5-kisi-kurt-20308276/",
+  "kind": "news",
+  "title": "Maltepe'да 7 қаватли бино қулаб тушди",
+  "cat": "favqulodda",
+  "lead": "Истанбулнинг Maltepe туманида 7 қаватли бино қулаб тушди. Қутқарувчилар 5 кишини қутқарди, 7 киши вайроналар остида қолган.",
+  "facts": [],
+  "source": "sondakika.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1328,
+  "date": "2026-10-08T06:54:21+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-ve-ikram-personeli-i4782631",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Ve İkram Personeli)",
+  "company": "Wılco İnsan Kaynakları Ve Hizmet Aş.",
+  "place": "İstanbul, Pendik",
+  "salary": "41.250 TL",
+  "schedule": "Тўлиқ иш куни, 07:00-17:00",
+  "points": [
+   "Pendik туманидаги Банк Бош бошқармаси лойиҳасида ишлаш",
+   "Талаблар: тозалик соҳасида тажриба ва тартиблилик",
+   "Иш вақти: 07:00 дан 17:00 гача, эркак номзодлар учун",
+   "Кунлик 660 TL овқат ва 3 628 TL йўл ҳақи берилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1327,
+  "date": "2026-10-08T05:58:54+00:00",
+  "link": "https://www.hurriyet.com.tr/gundem/live-maltepede-6-katli-bina-coktu-arama-kurtarma-ekibi-sevk-edildi-43333414",
+  "kind": "news",
+  "title": "Маltepe'да 7 қаватли бино қулаб тушди: 5 киши қутқарилди",
+  "cat": "favqulodda",
+  "lead": "Истанбулнинг Maltepe туманида 7 қаватли бинонинг дастлабки 3 қавати қулаб тушди. Қидирув-қутқарув ишлари давом этмоқда.",
+  "facts": [
+   "Воқеа жойига кўплаб қидирув-қутқарув гуруҳлари юборилди.",
+   "Ҳозиргача 5 киши вайроналар остидан олиб чиқилди.",
+   "Валий Гүлнинг сўзларига кўра, вайроналар остида 7 киши бор, улардан 4 нафари билан алоқа ўрнатилган."
+  ],
+  "source": "hurriyet.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1326,
   "date": "2026-10-08T05:10:55+00:00",
   "link": "https://www.sozcu.com.tr/son-dakika-maltepe-de-6-katli-bina-coktu-p367155",
