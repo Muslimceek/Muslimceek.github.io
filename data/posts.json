@@ -1,5 +1,18 @@
 [
  {
+  "id": 1342,
+  "date": "2026-10-08T18:21:59+00:00",
+  "link": "https://www.trthaber.com/haber/turkiye/istanbulda-7-katli-bina-kismen-coktu-3-kisi-araniyor-959568.html",
+  "kind": "news",
+  "title": "Maltepe'да 7 қаватли бино қисман қулаб тушди, 3 киши қидирилмоқда",
+  "cat": "favqulodda",
+  "lead": "Истанбулнинг Maltepe туманида 7 қаватли бинонинг бир қисми қулаб тушди. Қутқарувчилар 3 кишини қидирмоқда.",
+  "facts": [],
+  "source": "trthaber.com",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1341,
   "date": "2026-10-08T17:36:37+00:00",
   "link": "https://www.gazetevatan.com/galeri/2027-trafik-cezalari-pasaport-ve-imei-ucreti-ne-kadar-olacak-yeni-yilda-ehliyet-mtv-ve-harclara-ne-kadar-zam-gelecek-2415355",
@@ -45,6 +58,19 @@
    "20-45 ёшдаги эркак/аёл, судланмаган, қўл терминалидан фойдалана оладиган",
    "Ойлик 39.624 TL брут + 2 ойдан кейин 2.500 TL мукофот, овқат, сервис, суғурта"
   ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1338,
+  "date": "2026-10-08T15:04:31+00:00",
+  "link": "https://finans.cnnturk.com/finans-haberler/galeri/emekli-zammi-2027-milyonlarin-maasi-yeniden-hesaplandi-emekli-memur-ve-asgari-ucrette-yeni-tablo-3476487",
+  "kind": "news",
+  "title": "2027 йил январь ойи учун пенсионер ва давлат хизматчилари маошларига 25-30% ошириш сценарийси",
+  "cat": "narx",
+  "lead": "CNN Türk Finans хабарига кўра, 2027 йил январь ойида пенсионер ва давлат хизматчилари маошларига 25-30% миқдорида ошириш сценарийси муҳокама қилинмоқда.",
+  "facts": [],
+  "source": "finans.cnnturk.com",
   "w": 640,
   "h": 800
  },
