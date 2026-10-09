@@ -1,5 +1,20 @@
 [
  {
+  "id": 1345,
+  "date": "2026-10-09T05:59:03+00:00",
+  "link": "https://www.hurriyet.com.tr/gundem/istanbul-havalimani-dunyada-1-numara-43334752",
+  "kind": "news",
+  "title": "İstanbul Havalimanı дунёдаги энг йирик транзит маркази деб топилди",
+  "cat": "sayohat",
+  "lead": "İstanbul Havalimanı дунёнинг энг кўп нуқталарига парвозларни амалга оширувчи глобал ўтказиш маркази деб эълон қилинди.",
+  "facts": [
+   "Дунё бўйича энг кўп йўналишга парвоз таъминлайдиган хабга айланди"
+  ],
+  "source": "hurriyet.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1344,
   "date": "2026-10-09T05:10:11+00:00",
   "link": "https://www.sozcu.com.tr/istanbul-un-25-ilcesinde-elektrik-kesintisi-yasanacak-p367500",
