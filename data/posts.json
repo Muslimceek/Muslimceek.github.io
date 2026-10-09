@@ -1,5 +1,69 @@
 [
  {
+  "id": 1357,
+  "date": "2026-10-09T16:10:28+00:00",
+  "link": "https://www.diken.com.tr/istanbulda-trafik-yogunlugu-yuzde-83-11/",
+  "kind": "news",
+  "title": "Истанбулда транспорт тирбандлиги 83 фоизга етди",
+  "cat": "transport",
+  "lead": "Истанбулда кечки соатларда транспорт тирбандлиги 83 фоизни ташкил этди.",
+  "facts": [],
+  "source": "diken.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1356,
+  "date": "2026-10-09T15:05:30+00:00",
+  "link": "https://gazetekalem.com.tr/ibb-baskanvekili-nuri-aslan-372-milyar-liralik-sosyal-destek-paketini-acikladi-ihtiyac-sahibi-emekliye-yilda-24-bin-lira-kira-8-bin-lira-bayram-10-bin-cifte-evlilik-destegi/",
+  "kind": "news",
+  "title": "İBB 37,2 миллиард лиралик ижтимоий кўмак пакетини эълон қилди",
+  "cat": "narx",
+  "lead": "İBB раис ўринбосари Nuri Aslan 37,2 миллиард лиралик ижтимоий ёрдам пакетини маълум қилди. Ушбу маблағ муҳтож нафақахўрлар ва янги оила қурувчиларга йўналтирилади.",
+  "facts": [
+   "Муҳтож нафақахўрларга йилига 24 минг лира ижара ёрдами берилади",
+   "Нафақахўрларга йилига 8 минг лира байрам пули ажратилади",
+   "Янги турмуш қураётган 10 минг жуфтликка никоҳ ёрдами кўрсатилади"
+  ],
+  "source": "gazetekalem.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1355,
+  "date": "2026-10-09T14:13:34+00:00",
+  "link": "https://www.eleman.net/is-ilani/uretim-iscisi-erkek-i4784233",
+  "kind": "job",
+  "title": "Ишлаб чиқариш ишчиси (Üretim İşçisi/ERKEK)",
+  "company": "TATBAK GIDA",
+  "place": "İstanbul, Pendik",
+  "salary": "33.000 TL",
+  "schedule": "Тўлиқ иш куни, 05:00-13:00",
+  "points": [
+   "Озиқ-овқат саноатида ишлаб чиқариш ва қадоқлаш жараёнларида иштирок этиш",
+   "Камида бошланғич маълумотли, жамоада ишлашга мойил, масъулиятли",
+   "Ойлик маош 33.000 TL, озиқ-овқат купони, йўл ва овқат, бонуслар",
+   "Пендик атрофида яшовчилар афзал"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1354,
+  "date": "2026-10-09T13:22:39+00:00",
+  "link": "https://www.cumhuriyet.com.tr/ekonomi/ibb-den-emeklilere-yeni-odeme-100-bin-kisiye-kira-destegi-yolda-2545169",
+  "kind": "news",
+  "title": "İBB 100 минг нафақахўрга ижара ёрдами бермоқчи",
+  "cat": "narx",
+  "lead": "İBB Истанбулда 100 минг нафақахўрга янги ижара кўмаги пулини тўлашни режалаштирмоқда.",
+  "facts": [
+   "100 минг кишини қамраб олади"
+  ],
+  "source": "cumhuriyet.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1353,
   "date": "2026-10-09T12:37:22+00:00",
   "link": "https://www.hurriyet.com.tr/gundem/2027-michelin-rehberinin-turkiye-ulusal-seckisi-3-aralikta-aciklanacak-43335342",
