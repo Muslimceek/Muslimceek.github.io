@@ -1,5 +1,37 @@
 [
  {
+  "id": 1361,
+  "date": "2026-10-09T19:13:47+00:00",
+  "link": "https://www.eleman.net/is-ilani/bulasik-sorumlusu-optimum-avm-i4784299",
+  "kind": "job",
+  "title": "Идиш ювувчи (Bulaşık sorumlusu)",
+  "company": "Saray Muhallebicisi",
+  "place": "İstanbul, Ataşehir",
+  "salary": "",
+  "schedule": "Тўлиқ иш куни, сменали",
+  "points": [
+   "Optimum AVM да жойлашган Saray Muhallebicisi ресторанида ишлаш",
+   "Гигиена қоидаларини билиш ва уларга риоя қилиш",
+   "Тез ўрганиш ва тез ишлаш қобилияти",
+   "Овқатланиш соҳасида карьера қилишни исташ"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1360,
+  "date": "2026-10-09T18:22:34+00:00",
+  "link": "https://www.cnnturk.com/turkiye/istanbul-barajlarinda-son-durum-ne-iski-acikladi-9-ekim-omerli-darlik-elmali-baraji-doluluk-orani-3477244",
+  "kind": "news",
+  "title": "Истанбул сув омборларининг тўлиш даражаси",
+  "cat": "favqulodda",
+  "lead": "İSKİ 9 октябрь ҳолатига кўра Истанбул сув омборларининг тўлиш даражасини эълон қилди: Ömerli, Darlık, Elmalı сув омборларидаги ҳолат маълум қилинди.",
+  "facts": [],
+  "source": "cnnturk.com",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1359,
   "date": "2026-10-09T17:36:03+00:00",
   "link": "https://ankahaber.net/haber/ibb-baskanvekili-nuri-aslan-37-2-milyar-liralik-sosyal-destek-paketini-acikladi-ihtiyac-sahibi-emekliye-yilda-24-bin-lira-kira-8-bin-lira-bayram-10-bin-cifte-evlilik-destegi-6b127e3f",
