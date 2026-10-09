@@ -1,5 +1,52 @@
 [
  {
+  "id": 1353,
+  "date": "2026-10-09T12:37:22+00:00",
+  "link": "https://www.hurriyet.com.tr/gundem/2027-michelin-rehberinin-turkiye-ulusal-seckisi-3-aralikta-aciklanacak-43335342",
+  "kind": "news",
+  "title": "2027 MICHELIN Rehberi'нин Туркия танлови 3 декабрда эълон қилинади",
+  "cat": "tadbir",
+  "lead": "2027 MICHELIN Rehberi Туркия миллий танлови 2026 йил 3 декабрь пайшанба куни Истанбулдаги Divan Kuruçeşme'да бўлиб ўтадиган маросимда эълон қилинади.",
+  "facts": [],
+  "source": "hurriyet.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1352,
+  "date": "2026-10-09T11:40:44+00:00",
+  "link": "https://www.eleman.net/is-ilani/sevkiyat-gorevlisi-i4784056",
+  "kind": "job",
+  "title": "Юк ташиш ходими (Sevkiyat Görevlisi)",
+  "company": "Serdar Plastik",
+  "place": "İstanbul, Tuzla",
+  "salary": "42.150 TL",
+  "schedule": "Тўлиқ иш куни, 3 смена",
+  "points": [
+   "Пластик фабрикасида ишлаш",
+   "Маҳсулотларни қўл транспалети билан ташиш ва юклаш",
+   "Форклифт ҳайдаш гувоҳномаси афзал",
+   "Ойлик: 42.150 TL (барча қўшимчалар билан)"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1351,
+  "date": "2026-10-09T10:56:14+00:00",
+  "link": "https://www.ntv.com.tr/turkiye/galeri-ilk-teklifler-14-ekimde-alinacak-istanbula-marmaraya-alternatif-yeni-demir-yolu-geliyor-1745526",
+  "kind": "news",
+  "title": "Marmaray'га муқобил янги темир йўл қурилади",
+  "cat": "transport",
+  "lead": "Улов ва инфратузилма вазири Абдулқодир Уралоғлунинг сўзларига кўра, Истанбулда Явуз Султон Салим кўприги орқали ўтадиган Marmaray'га муқобил янги темир йўл қурилади.",
+  "facts": [
+   "Биринчи таклифлар 14 октябрда қабул қилинади."
+  ],
+  "source": "ntv.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1350,
   "date": "2026-10-09T10:24:13+00:00",
   "link": "https://www.cumhuriyet.com.tr/turkiye/akom-uyardi-istanbul-da-sicakliklar-13-dereceye-kadar-dusecek-2545096",
