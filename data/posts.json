@@ -1,5 +1,38 @@
 [
  {
+  "id": 1359,
+  "date": "2026-10-09T17:36:03+00:00",
+  "link": "https://ankahaber.net/haber/ibb-baskanvekili-nuri-aslan-37-2-milyar-liralik-sosyal-destek-paketini-acikladi-ihtiyac-sahibi-emekliye-yilda-24-bin-lira-kira-8-bin-lira-bayram-10-bin-cifte-evlilik-destegi-6b127e3f",
+  "kind": "news",
+  "title": "İBB'дан ижтимоий ёрдам: нафақахўрларга ижара ва байрам пули",
+  "cat": "narx",
+  "lead": "İBB 37,2 миллиард лиралик ижтимоий ёрдам пакетини эълон қилди. Эҳтиёжманд нафақахўрларга йилига 24 минг лира ижара ва 8 минг лира байрам ёрдами берилади.",
+  "facts": [
+   "10 минг жуфтликка никоҳ тўйи учун ёрдам берилади."
+  ],
+  "source": "ankahaber.net",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1358,
+  "date": "2026-10-09T16:45:21+00:00",
+  "link": "https://www.eleman.net/is-ilani/ofis-temizlik-ikram-ve-destek-personeli-i4784386",
+  "kind": "job",
+  "title": "Офис тозалик ходими (Ofis Temizlik,İkram)",
+  "company": "Galata Marine Gemi İnşa San. Ve Tic. A. Ş.",
+  "place": "İstanbul, Sarıyer",
+  "salary": "45.000 TL - 55.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Идора ва хоналарни тозалаш, озодаликни сақлаш.",
+   "Меҳмонларни кутиб олиш, чой ва қаҳва улашиш.",
+   "Хушмуомала, ораста ва сигарет чекмайдиган бўлиш."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1357,
   "date": "2026-10-09T16:10:28+00:00",
   "link": "https://www.diken.com.tr/istanbulda-trafik-yogunlugu-yuzde-83-11/",
