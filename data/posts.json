@@ -1,5 +1,20 @@
 [
  {
+  "id": 1366,
+  "date": "2026-10-10T08:28:38+00:00",
+  "link": "https://www.gazetekadikoy.com.tr/cevre/goztepe-metro-hatti-yil-sonunda-aciliyor",
+  "kind": "news",
+  "title": "Истанбулда Göztepe метро тармоғи йил охирида очилади",
+  "cat": "transport",
+  "lead": "Gazete Kadıköy хабарига кўра, Истанбулдаги Göztepe метро йўналиши жорий йилнинг охирида фойдаланишга топширилади.",
+  "facts": [
+   "Метро тармоғи йил охирида фойдаланишга топширилиши кутилмоқда"
+  ],
+  "source": "gazetekadikoy.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1365,
   "date": "2026-10-10T07:40:15+00:00",
   "link": "https://onedio.com/haber/istanbul-da-e-5-te-12-gun-surecek-calisma-basladi-her-gun-7-saat-kapanacak-1387381",
