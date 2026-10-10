@@ -1,5 +1,71 @@
 [
  {
+  "id": 1365,
+  "date": "2026-10-10T07:40:15+00:00",
+  "link": "https://onedio.com/haber/istanbul-da-e-5-te-12-gun-surecek-calisma-basladi-her-gun-7-saat-kapanacak-1387381",
+  "kind": "news",
+  "title": "Истанбулда E-5 йўли 12 кун давомида кунига 7 соатга ёпилади",
+  "cat": "transport",
+  "lead": "Истанбулда E-5 магистралида таъмирлаш ишлари бошланди, шу муносабат билан йўл 12 кун давомида ҳар куни 7 соатга ёпиб қўйилади.",
+  "facts": [
+   "Ҳаракат белгиланган соатларда ён йўлга (yan yol) йўналтирилади"
+  ],
+  "source": "onedio.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1364,
+  "date": "2026-10-10T06:54:17+00:00",
+  "link": "https://www.eleman.net/is-ilani/misafir-iliskileri-i4784398",
+  "kind": "job",
+  "title": "Меҳмонлар билан ишлаш (Misafir İlişkileri)",
+  "company": "Klas Otelcilik",
+  "place": "İstanbul, Fatih",
+  "salary": "45.000 TL - 55.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Фатиҳ Везнежилерда жойлашган 4 юлдузли Klas Hotel меҳмонхонаси.",
+   "Меҳмонларни кутиб олиш ва мурожаатларини ҳал қилиш.",
+   "Бошқа бўлимлар билан мувофиқлаштирилган ҳолда ишлаш.",
+   "Меҳмонхона ва туризм соҳасида тажриба бўлиши афзал."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1363,
+  "date": "2026-10-10T05:59:07+00:00",
+  "link": "https://www.ntv.com.tr/turkiye/galeri-bedas-elektrik-kesintisi-icin-uyardi-15-ilcede-elektrik-kesintisi-yasanacak-8-saat-surecek-1745626",
+  "kind": "news",
+  "title": "Истанбулнинг 15 туманида 8 соатгача электр ўчирилади",
+  "cat": "favqulodda",
+  "lead": "BEDAŞ маълумотига кўра, Истанбулнинг 15 та туманида 8 соатгача давом этадиган электр узилишлари юз беради. Жадвал бугун эрталабдан кучга киради.",
+  "facts": [
+   "Электр узилиши 15 та туманни қамраб олади",
+   "Узилишлар 8 соатгача давом этади",
+   "Режа BEDAŞ томонидан эълон қилинди"
+  ],
+  "source": "ntv.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1362,
+  "date": "2026-10-10T05:10:56+00:00",
+  "link": "https://www.hurriyet.com.tr/gundem/halkali-edirne-1-5-saate-inecek-43336128",
+  "kind": "news",
+  "title": "Halkalı-Kapıkule тезюрар поезд линиясининг бир қисми ишга тушди",
+  "cat": "transport",
+  "lead": "Истанбул-Эдирне оралиғини 1,5 соатга қисқартирадиган Halkalı-Kapıkule тезюрар поезд линиясининг Çerkezköy-Kapıkule қисми хизматга киритилди.",
+  "facts": [
+   "Президент Ражаб Тоййиб Эрдўғон иштирокидаги маросимда очилди."
+  ],
+  "source": "hurriyet.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1361,
   "date": "2026-10-09T19:13:47+00:00",
   "link": "https://www.eleman.net/is-ilani/bulasik-sorumlusu-optimum-avm-i4784299",
