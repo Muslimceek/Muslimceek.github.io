@@ -1,5 +1,31 @@
 [
  {
+  "id": 1372,
+  "date": "2026-10-10T13:23:26+00:00",
+  "link": "https://www.ntv.com.tr/turkiye/galeri-pastirma-sicaklari-kisa-surecek-istanbula-uc-gun-yagmur-yagacak-sicaklik-7-derece-dusecek-1745688",
+  "kind": "news",
+  "title": "Истанбулга уч кун ёмғир ёғади, ҳарорат 7 даражага тушади",
+  "cat": "obhavo",
+  "lead": "Истанбулда об-ҳаво ўзгариб, уч кун давомида ёмғир ёғиши кутилмоқда. Ҳарорат 7 даражагача пасаяди.",
+  "facts": [],
+  "source": "ntv.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1371,
+  "date": "2026-10-10T12:37:51+00:00",
+  "link": "https://www.haberturk.com/bilgi/foto/son-dakika-benzine-indirim-motorine-zam-geldi-benzin-ve-motorin-fiyatlari-ne-kadar-oldu-kac-tl-10-ekim-2026-guncel-akaryakit-fiyatlari-3918655",
+  "kind": "news",
+  "title": "Бензинга чегирма, дизелга зам келди",
+  "cat": "narx",
+  "lead": "10 октябрь 2026 йил ҳолатига кўра, Истанбул, Анқара, Измирда бензин нархи пасайди, дизель ёнилғисига эса зам қўшилди.",
+  "facts": [],
+  "source": "haberturk.com",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1370,
   "date": "2026-10-10T11:40:38+00:00",
   "link": "https://www.eleman.net/is-ilani/sirket-soforu-i4784497",
