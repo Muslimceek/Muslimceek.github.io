@@ -1,5 +1,78 @@
 [
  {
+  "id": 1378,
+  "date": "2026-10-10T18:22:12+00:00",
+  "link": "https://www.sozcu.com.tr/istanbul-da-hastanede-yangin-hastalar-tahliye-ediliyor-p367930",
+  "kind": "news",
+  "title": "Истанбулдаги шифохонада ёнғин чиқди",
+  "cat": "favqulodda",
+  "lead": "Истанбулдаги Koşuyolu Yüksek İhtisas Eğitim ve Araştırma Hastanesi биносида ёнғин юз берди ва беморлар хавфсиз ҳудудга эвакуация қилинмоқда.",
+  "facts": [
+   "Қутқарув гуруҳлари воқеа жойида фаол иш олиб бормоқда"
+  ],
+  "source": "sozcu.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1377,
+  "date": "2026-10-10T17:36:00+00:00",
+  "link": "https://www.yenicaggazetesi.com/meteoroloji-duyurdu-istanbul-dahil-bircok-ilde-hava-tersine-donuyor-sicakliklar-10-derece-dusecek-1080757h.htm",
+  "kind": "news",
+  "title": "İstanbulда ҳаво ҳарорати 10 даражагача пасаяди",
+  "cat": "obhavo",
+  "lead": "Метеорология бошқармасининг маълум қилишича, Истанбул ва бошқа кўплаб вилоятларда ҳаво ҳарорати 10 даражагача пасайиб, об-ҳаво ўзгаради.",
+  "facts": [],
+  "source": "yenicaggazetesi.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1376,
+  "date": "2026-10-10T16:46:19+00:00",
+  "link": "https://www.eleman.net/is-ilani/mutfak-bulasik-personeli-i4784560",
+  "kind": "job",
+  "title": "Ошхона ва идиш ювиш ходими (Mutfak & Bulaşık Personeli)",
+  "company": "ALİOĞLU GIDA",
+  "place": "İstanbul, Bağcılar",
+  "salary": "",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Бағжилар туманидаги Alioğlu Catering лойиҳасида ишлайди.",
+   "Овқат тарқатиш, идиш-товоқ, қозон-ўчоқ ва ошхона жиҳозларини ювиш.",
+   "Озиқ-овқат хавфсизлиги, гигиена ва санитария қоидаларига риоя қилиш.",
+   "Жамоавий овқатланиш/кейтеринг соҳасида тажриба афзал."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1375,
+  "date": "2026-10-10T16:11:29+00:00",
+  "link": "https://www.takvim.com.tr/guncel/2026/10/10/istanbulda-o-yol-21-ekim-2026ya-kadar-her-gece-kapanacak",
+  "kind": "news",
+  "title": "D-100'да йўналиш ўзгаради: ИBB сана ва соатларни эълон қилди",
+  "cat": "transport",
+  "lead": "Истанбулнинг D-100 трассасида йўналиш ўзгаради. ИBB ҳайдовчиларни огоҳлантириб, ишларнинг сана ва соатларини маълум қилди.",
+  "facts": [],
+  "source": "takvim.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1374,
+  "date": "2026-10-10T15:03:42+00:00",
+  "link": "https://havasosyalmedya.com/ozbekistan-ve-thy-turist-sayisini-artirmak-icin-is-birligini-gorusuyor/",
+  "kind": "news",
+  "title": "Ўзбекистон ва THY туристик ҳамкорликни муҳокама қилмоқда",
+  "cat": "sayohat",
+  "lead": "Ўзбекистон ва THY туристлар сонини ошириш бўйича ҳамкорлик алоқаларини муҳокама қилмоқда.",
+  "facts": [],
+  "source": "havasosyalmedya.com",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1373,
   "date": "2026-10-10T14:13:20+00:00",
   "link": "https://www.eleman.net/is-ilani/servis-elemani-kasiyer-i4784365",
