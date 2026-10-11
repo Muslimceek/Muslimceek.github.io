@@ -1,5 +1,39 @@
 [
  {
+  "id": 1384,
+  "date": "2026-10-11T07:17:00+00:00",
+  "link": "https://www.eleman.net/is-ilani/satis-danismani-i4784569",
+  "kind": "job",
+  "title": "Сотувчи-маслаҳатчи (Satış Danışmanı)",
+  "company": "Parez Giyim",
+  "place": "İstanbul, Küçükçekmece",
+  "salary": "40.000 TL - 50.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Sefaköy MetroPark AVM кийим дўконида эркаклар учун иш.",
+   "21-40 ёшдаги, 1-2 йиллик савдо тажрибаси бор номзодлар.",
+   "Вазифа: харидорларга кийим танлашда ёрдам бериш."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1383,
+  "date": "2026-10-11T06:30:07+00:00",
+  "link": "https://www.sozcu.com.tr/istanbulda-da-hissedilen-yalova-depremi-sonrasi-sener-usumezsoydan-cok-net-aciklama-p367989",
+  "kind": "news",
+  "title": "Мармара денгизида 3,5 баллик зилзила юз берди",
+  "cat": "favqulodda",
+  "lead": "Мармара денгизининг Yalova қирғоқларида 3,5 баллик зилзила содир бўлди. Тебранишлар İstanbul ва атроф вилоятларда ҳам сезилди.",
+  "facts": [
+   "Зилзила магнитудаси 3,5 ни ташкил этди",
+   "Эпицентри Yalova очиқ денгизида қайд этилди"
+  ],
+  "source": "sozcu.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1379,
   "date": "2026-10-10T19:12:55+00:00",
   "link": "https://www.eleman.net/is-ilani/temizlik-personeli-cekmekoy-i4784572",
