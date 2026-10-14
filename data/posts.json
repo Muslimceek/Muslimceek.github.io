@@ -1,5 +1,37 @@
 [
  {
+  "id": 1420,
+  "date": "2026-10-14T07:44:17+00:00",
+  "link": "https://www.eleman.net/is-ilani/depo-kargo-sorumlusu-i4786999",
+  "kind": "job",
+  "title": "Омбор ва Карго масъули (Depo & Kargo Sorumlusu)",
+  "company": "Pan Etiket &Barkod",
+  "place": "İstanbul, Kartal",
+  "salary": "30.000 TL - 36.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Истанбул, Kartal туманида жойлашган PAN Etiket & Barkod компаниясига ишга қабул қилинади.",
+   "20-29 ёш оралиғидаги эркак номзодлар афзал кўрилади.",
+   "Маош: 30.000 TL - 36.000 TL.",
+   "Маҳсулотларни қабул қилиш, назорат қилиш, сақлаш ва жўнатиш."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1419,
+  "date": "2026-10-14T06:30:35+00:00",
+  "link": "https://www.izgazete.net/1-turkiyeden-abye-vize-mesaji-kritik-duzenleme-icin-calisma-basladi",
+  "kind": "news",
+  "title": "Туркиядан Европа Иттифоқига виза бўйича хабар: янги тартиб бошланди",
+  "cat": "hujjat",
+  "lead": "Туркия Европа Иттифоқига визасиз саёҳат қилиш учун янги тартиб устида иш бошлади.",
+  "facts": [],
+  "source": "izgazete.net",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1416,
   "date": "2026-10-13T17:19:20+00:00",
   "link": "https://www.hurriyet.com.tr/gundem/istanbul-havalimaninda-riyad-seferleri-askiya-alindi-43340493",
