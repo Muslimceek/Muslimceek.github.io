@@ -1,5 +1,37 @@
 [
  {
+  "id": 1435,
+  "date": "2026-10-15T11:17:44+00:00",
+  "link": "https://www.eleman.net/is-ilani/ofis-cay-ve-temizlik-elemani-i4788160",
+  "kind": "job",
+  "title": "Офис тозалик ва чойхона ходими (OFİS ÇAY VE TEMİZLİK ELEMANI)",
+  "company": "Logistics Turtransit Uluslararası Nakliyat",
+  "place": "İstanbul, Pendik",
+  "salary": "30.000 TL - 35.000 TL",
+  "schedule": "Тўлиқ иш куни, ҳафтасига 5 кун",
+  "points": [
+   "Офис ва умумий фойдаланиш жойларини тозалаш ва тартибга солиш.",
+   "Чой, қаҳва ва бошқа ичимликларни тайёрлаш ва тақдим этиш.",
+   "Якшанба ва душанба дам олиш кунлари, шанба куни умумий тозалик.",
+   "Маош: 30.000 - 35.000 TL."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1434,
+  "date": "2026-10-15T09:52:48+00:00",
+  "link": "https://www.sozcu.com.tr/istanbul-valisinin-uyarilarini-bir-kenara-not-edin-madde-madde-siraladi-p369428",
+  "kind": "news",
+  "title": "İstanbul'да тошқин оқибатида 2 киши ҳалок бўлди",
+  "cat": "favqulodda",
+  "lead": "İstanbul Valisi Davut Gül сув тошқини оқибатида 2 киши ҳаётдан кўз юмганини маълум қилди. Шаҳарда сўнгги 84 йилнинг энг юқори ёғингарчилик рекорди қайд этилди.",
+  "facts": [],
+  "source": "sozcu.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1432,
   "date": "2026-10-15T07:43:25+00:00",
   "link": "https://www.eleman.net/is-ilani/uretim-elemani-i4788001",
