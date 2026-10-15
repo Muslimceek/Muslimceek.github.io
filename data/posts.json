@@ -1,5 +1,39 @@
 [
  {
+  "id": 1438,
+  "date": "2026-10-15T15:42:35+00:00",
+  "link": "https://www.eleman.net/is-ilani/kasap-reyon-gorevlisi-umraniye-i4788643",
+  "kind": "job",
+  "title": "Қассоб бўлими ходимаси (Kasap Reyon Görevlisi)",
+  "company": "Beşler Et Gıda Sanayi Ve Ticaret A. Ş.",
+  "place": "İstanbul, Ümraniye",
+  "salary": "",
+  "schedule": "Тўлиқ иш куни, 2 смена",
+  "points": [
+   "A101 маркетларидаги қассоб бўлимларида ишлаш",
+   "Гўшт маҳсулотларини тақдим этиш, тортиш ва қадоқлаш",
+   "Мижозларга маҳсулотлар ҳақида маълумот бериш ва сотиш",
+   "Иш тажрибаси талаб қилинмайди, ўргатилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1437,
+  "date": "2026-10-15T14:17:53+00:00",
+  "link": "https://www.sozcu.com.tr/son-dakika-istanbul-valiligi-nden-son-dakika-uyarisi-yarin-daha-kotusu-geliyor-p369502",
+  "kind": "news",
+  "title": "İstanbul'да 16 октябрь эрталабдан янги кучли ёмғир кутилмоқда",
+  "cat": "obhavo",
+  "lead": "İstanbul Valiliği 14 октябрдаги сув тошқинидан сўнг, 16 октябрь жума куни эрталабдан бошлаб шаҳарда янги кучли ёғингарчилик тўлқини кутилаётгани ҳақида огоҳлантирди.",
+  "facts": [
+   "14 октябрда шаҳарда кучли сув тошқини юз берган эди"
+  ],
+  "source": "sozcu.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1435,
   "date": "2026-10-15T11:17:44+00:00",
   "link": "https://www.eleman.net/is-ilani/ofis-cay-ve-temizlik-elemani-i4788160",
