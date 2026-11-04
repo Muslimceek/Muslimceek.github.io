@@ -1,5 +1,46 @@
 [
  {
+  "id": 1453,
+  "date": "2026-11-04T19:32:50+00:00",
+  "link": "https://www.ntv.com.tr/turkiye/galeri-esenyurtta-metrobus-kazasi-yaralilar-var-1749374",
+  "kind": "news",
+  "title": "Esenyurt'да метробyc аварияси: 6 киши жароҳатланди",
+  "cat": "transport",
+  "lead": "Истанбулнинг Esenyurt туманидаги Haramidere Sanayi бекатида йўловчи олаётган метробycга орқадан келаётган бошқа метробyc урилди.",
+  "facts": [
+   "Ҳодиса оқибатида 6 киши жароҳат олди."
+  ],
+  "source": "ntv.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1452,
+  "date": "2026-11-04T19:32:47+00:00",
+  "link": "https://m.haber7.com/guncel/haber/2439602-yabanci-ogrencilere-haklari-anlatildi",
+  "kind": "news",
+  "title": "Чет эллик талабаларга ҳуқуқлари тушунтирилди",
+  "cat": "turkiya",
+  "lead": "Туркияда таҳсил олаётган чет эллик талабаларга уларнинг ҳуқуқлари ҳақида маълумот берилди.",
+  "facts": [],
+  "source": "m.haber7.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 1451,
+  "date": "2026-11-04T19:32:42+00:00",
+  "link": "https://www.ekoturk.com/ekonomi-verileri/istanbulda-suruculer-dikkat-8-kasimda-bu-yollar-kapanacak",
+  "kind": "news",
+  "title": "8 ноябрда Истанбулда айрим йўллар ёпилади",
+  "cat": "transport",
+  "lead": "Истанбулда 8 ноябрда айрим йўллар ёпилиши сабабли ҳайдовчилар диққатли бўлишлари керак.",
+  "facts": [],
+  "source": "ekoturk.com",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 1446,
   "date": "2026-10-19T15:55:21+00:00",
   "link": "https://www.unyegundemhaber.com/cep-telefonu-alacaklara-mujde-12-taksit-siniri-40-bin-tl-oldu-99932",
