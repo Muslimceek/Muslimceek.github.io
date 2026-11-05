@@ -1,0 +1,21 @@
+/* Shared tokens. Radius rule: cards 16px, inputs 12px, buttons pill. */
+@font-face{font-family:Onest;src:url(onest.woff2) format("woff2");font-weight:100 900;font-display:swap;unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2192}
+@font-face{font-family:Onest;src:url(onest-ext.woff2) format("woff2");font-weight:100 900;font-display:swap;unicode-range:U+0100-02BA,U+1E00-1EFF}
+:root{--bg:#f3f5f8;--surface:#fff;--ink:#10151d;--muted:#566070;--line:#dfe4ec;--accent:#1747d1;--accent-text:#1747d1;--on-accent:#f7f9fc;--tint:#e6ecfb;--danger:#b3261e;color-scheme:light}
+:root:not([data-theme=light]){color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0c1118;--surface:#161d27;--ink:#edf1f6;--muted:#a0abba;--line:#2a3442;--accent:#5b86ff;--accent-text:#8fadff;--on-accent:#08101f;--tint:#1c2a45;--danger:#ff8a80}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Onest,system-ui,sans-serif;font-size:16px;-webkit-font-smoothing:antialiased}
+a{color:var(--accent-text)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:0 24px;border:0;border-radius:999px;background:var(--accent);color:var(--on-accent);font:600 16px/1 Onest,system-ui,sans-serif;text-decoration:none;cursor:pointer;white-space:nowrap;transition:transform .15s,opacity .15s}
+.btn:active{transform:scale(.98)}
+.btn:disabled{opacity:.6;cursor:wait}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}
+.btn.small{min-height:40px;padding:0 16px;font-size:15px}
+.btn.wide{width:100%}
+label{display:block;font-weight:600;margin-bottom:8px}
+input,select{width:100%;min-height:50px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:500 16px Onest,system-ui,sans-serif}
+#c{font-size:22px;font-weight:700;letter-spacing:.08em}
+input:focus-visible,select:focus-visible,.btn:focus-visible,button:focus-visible,a:focus-visible{outline:2.5px solid var(--accent);outline-offset:2px}
+.err{min-height:22px;margin:8px 0 10px;color:var(--danger);font-size:15px;line-height:1.4}
