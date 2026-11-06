@@ -4,171 +4,164 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Istanbul VIP Gid: o'zbek tilida mobil yo'riqnoma</title>
-<meta name="description" content="18 joy, kemalar, tayyor marshrutlar va narxlar. Istanbul bo'yicha o'zbek tilidagi mobil gid.">
+<meta name="description" content="Istanbul bo'yicha o'zbek tilidagi mobil gid: 18 joy, kemalar, tayyor marshrutlar, yo'l va byudjet hisoblagichi.">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://muslimceek.github.io/gid/">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Istanbul VIP Gid">
 <meta property="og:description" content="18 joy, kemalar, tayyor marshrutlar va narxlar. O'zbek tilida.">
-<meta property="og:image" content="assets/uskudar.jpg">
+<meta property="og:url" content="https://muslimceek.github.io/gid/">
+<meta property="og:image" content="https://muslimceek.github.io/gid/assets/uskudar.jpg">
 <link rel="preload" href="assets/onest.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/ph-regular.css">
+<link rel="stylesheet" href="assets/ph-fill.css">
 <link rel="stylesheet" href="assets/base.css">
+<script src="assets/telegram-web-app.js"></script>
 <style>
-.top{display:flex;align-items:center;justify-content:space-between;height:68px;max-width:1200px;margin:auto;padding:0 20px}
-.brand{font-weight:800;font-size:18px;letter-spacing:-.02em}
-.hero{max-width:1200px;margin:auto;padding:24px 20px 72px;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(40px,5.4vw,68px);line-height:1.04;letter-spacing:-.035em;font-weight:800;margin:0 0 20px}
-.hero p{font-size:19px;line-height:1.5;color:var(--muted);margin:0 0 30px;max-width:30em}
-.cta{display:flex;flex-wrap:wrap;gap:12px}
-.hero figure{margin:0;position:relative}
-.hero figure img{width:100%;height:auto;aspect-ratio:4/4.4;object-fit:cover;border-radius:16px;display:block}
-.band{max-width:1200px;margin:auto;padding:72px 20px}
-.band h2{font-size:clamp(30px,3.6vw,44px);line-height:1.1;letter-spacing:-.03em;font-weight:800;margin:0 0 14px}
-.band>p{color:var(--muted);font-size:18px;line-height:1.55;max-width:38em;margin:0 0 36px}
-.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
-.tile{border-radius:16px;padding:26px;min-height:230px;background:var(--surface);display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
-.tile h3{font-size:23px;letter-spacing:-.02em;margin:0 0 6px;font-weight:700}
-.tile p{margin:0;line-height:1.5;color:var(--muted)}
-.tile i{font-size:30px;color:var(--accent);margin-bottom:auto}
-.t1{grid-column:span 4;color:#f3f5f8;min-height:320px}
-.t1 img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.t1:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgb(9 16 34/.86),rgb(9 16 34/.1) 62%)}
-.t1>div{position:relative;z-index:1}.t1 p{color:#d8dee9}
-.t2{grid-column:span 2;background:var(--accent);color:var(--on-accent)}.t2 p{color:inherit;opacity:.9}.t2 i{color:inherit}
-.t3,.t4,.t5{grid-column:span 2}
-.free{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(300px,1fr);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
-.place{scroll-snap-align:start;background:var(--surface);border-radius:16px;overflow:hidden}
-.place img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block}
-.place-body{padding:20px}
-.place h3{font-size:20px;line-height:1.25;letter-spacing:-.02em;margin:0 0 4px}
-.muted{color:var(--muted);margin:0 0 14px;font-size:15px}
-dl{margin:0;display:grid;gap:10px}dl div{display:grid;grid-template-columns:84px 1fr;gap:8px;font-size:15px;line-height:1.4}
-dt{color:var(--muted);display:flex;gap:6px;align-items:flex-start}dt i{margin-top:2px}dd{margin:0}
-.tip{margin:16px 0 0;font-size:15px;line-height:1.5;color:var(--accent-text);font-weight:600}
-.buy{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
-.flow{list-style:none;margin:0;padding:0;display:grid;gap:26px}
-.flow li{display:grid;grid-template-columns:44px 1fr;gap:14px}
-.flow i{font-size:26px;color:var(--accent);width:44px;height:44px;border-radius:12px;background:var(--tint);display:grid;place-items:center}
-.flow b{display:block;font-size:18px;margin-bottom:3px}.flow span{color:var(--muted);line-height:1.5}
-.code{background:var(--surface);border-radius:16px;padding:28px}
-.code h3{margin:0 0 6px;font-size:23px;letter-spacing:-.02em}
-.code>p{color:var(--muted);margin:0 0 20px;line-height:1.5}
-footer{max-width:1200px;margin:auto;padding:32px 20px 48px;color:var(--muted);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
-footer a{color:inherit}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s cubic-bezier(.16,1,.3,1),transform .6s cubic-bezier(.16,1,.3,1)}
-.reveal.in{opacity:1;transform:none}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 max(16px,env(safe-area-inset-left));background:var(--glass);-webkit-backdrop-filter:blur(24px) saturate(180%);backdrop-filter:blur(24px) saturate(180%)}
+.top b{font-weight:600}.top a{font-weight:500;font-size:.95rem}
+.wrap{max-width:1040px;margin:auto;padding:0 16px}
+.hero{text-align:center;padding:44px 0 28px}
+.hero .eye{font-weight:600;color:var(--blue-text);margin:0 0 10px}
+.hero h1{font-size:clamp(2.6rem,10.5vw,5rem);line-height:1.04;letter-spacing:-.035em;font-weight:700}
+.hero p.sub{margin:16px auto 24px;max-width:27em;font-size:1.15rem;line-height:1.4;color:var(--label2)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.shot{margin:30px 0 0}.shot img{display:block;width:100%;height:auto;aspect-ratio:16/11;object-fit:cover;border-radius:22px}
+section{padding:44px 0 0}
+section h2{font-size:clamp(1.9rem,7vw,3rem);line-height:1.08;letter-spacing:-.03em;font-weight:700}
+section>.wrap>p{margin:10px 0 22px;color:var(--label2);line-height:1.42;max-width:34em}
+.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.tile{position:relative;overflow:hidden;min-height:176px;padding:20px;border-radius:22px;background:var(--cell);display:flex;flex-direction:column;justify-content:flex-end;grid-column:span 3}
+.tile h3{font-size:1.25rem;letter-spacing:-.02em;font-weight:600;margin-bottom:3px}.tile p{margin:0;color:var(--label2);font-size:.95rem;line-height:1.35}
+.tile i{position:absolute;top:18px;left:20px;font-size:1.9rem;color:var(--blue)}
+.big{grid-column:span 6;min-height:300px;color:#fff}.big img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.big:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgb(0 0 0/.72),rgb(0 0 0/0) 58%)}.big div{position:relative;z-index:1}.big p{color:rgb(255 255 255/.86)}
+.blue{background:var(--blue);color:#fff}.blue p{color:rgb(255 255 255/.88)}.blue i{color:#fff}
+.free{display:grid;grid-auto-flow:column;grid-auto-columns:min(84%,340px);gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:0 16px 6px;scroll-padding-left:16px;scrollbar-width:none}.free::-webkit-scrollbar{display:none}
+.place{scroll-snap-align:start;border-radius:22px;overflow:hidden;background:var(--cell)}
+.place img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.pb{padding:16px}.pb h3{font-size:1.2rem;line-height:1.2;letter-spacing:-.02em;font-weight:600}.muted{color:var(--label2);margin:3px 0 12px;font-size:.92rem}
+dl{margin:0;display:grid;gap:9px}dl div{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:.92rem;line-height:1.35}dt{color:var(--blue-text);font-size:1.05rem}dd{margin:0}
+.tip{margin:13px 0 0;padding:11px 12px;border-radius:14px;background:var(--tint);font-size:.9rem;line-height:1.38}
+.steps{margin:0;padding:0;list-style:none;background:var(--cell);border-radius:22px;overflow:hidden}
+.steps li{display:grid;grid-template-columns:44px 1fr;gap:12px;padding:14px 16px;align-items:center;position:relative}
+.steps li+li:before{content:"";position:absolute;left:72px;right:0;top:0;height:.5px;background:var(--sep)}
+.steps i{width:44px;height:44px;border-radius:12px;background:var(--blue);color:#fff;display:grid;place-items:center;font-size:1.4rem}
+.steps b{display:block;font-weight:600}.steps span{color:var(--label2);font-size:.92rem;line-height:1.32}
+.code{margin-top:12px;background:var(--cell);border-radius:22px;padding:20px}
+.code h3{font-size:1.35rem;letter-spacing:-.02em;font-weight:700}.code>p{margin:5px 0 14px;color:var(--label2);line-height:1.38;font-size:.95rem}
+label{display:block;font-weight:500;font-size:.9rem;margin-bottom:6px;color:var(--label2)}
+#c{font-size:1.5rem;font-weight:600;letter-spacing:.09em;text-align:center}
+footer{padding:36px 16px calc(30px + env(safe-area-inset-bottom));text-align:center;color:var(--label2);font-size:.85rem}
+.reveal{opacity:0;transform:translateY(14px);transition:opacity 500ms var(--out),transform 500ms var(--out)}.reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
-@media (max-width:820px){
- .hero{grid-template-columns:1fr;gap:28px;padding-bottom:44px}.hero figure{order:-1}.hero figure img{aspect-ratio:16/11}
- .band{padding:48px 20px}.bento{grid-template-columns:1fr}.t1,.t2,.t3,.t4,.t5{grid-column:auto}.tile{min-height:180px}.t1{min-height:280px}
- .free{grid-auto-columns:86%;margin:0 -20px;padding:0 20px 8px;scroll-padding-left:20px}
- .buy{grid-template-columns:1fr;gap:36px}
-}
+@media (min-width:760px){.big{grid-column:span 4;min-height:360px}.blue{grid-column:span 2}.tile:not(.big):not(.blue){grid-column:span 2}.buy{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}.code{margin-top:0}.free{grid-auto-flow:row;grid-template-columns:repeat(3,1fr);margin:0;padding:0;overflow:visible}}
 </style>
 </head>
 <body>
-<header class="top">
-  <span class="brand">Istanbul VIP Gid</span>
-  <a class="btn ghost small" href="#kod">Kodim bor</a>
-</header>
-
+<header class="top"><b>Istanbul VIP Gid</b><a id="have" href="#kod">Kodim bor</a></header>
 <main>
-<section class="hero">
-  <div>
-    <h1>Istanbulni mahalliy odamdek kezing</h1>
-    <p>18 joy, kemalar, tayyor marshrutlar va aniq narxlar. O'zbek tilida, telefoningizda.</p>
-    <div class="cta">
-      <a class="btn" href="https://t.me/istanbulda_ish_bot?start=gid"><i class="ph ph-telegram-logo"></i>Gidni sotib olish</a>
-      <a class="btn ghost" href="#bepul">Bepul ko'rish</a>
-    </div>
+<div class="wrap">
+<div class="hero">
+  <p class="eye">O'zbek tilida</p>
+  <h1>Butun Istanbul.<br>Bitta telefonda.</h1>
+  <p class="sub">18 joy, kemalar, tayyor marshrutlar va aniq narxlar.</p>
+  <div class="cta">
+    <a class="btn press" href="https://t.me/istanbulda_ish_bot?start=gid"><i class="ph-fill ph-telegram-logo"></i>Gidni sotib olish</a>
+    <a class="btn tinted press" href="#bepul">Bepul ko'rish</a>
   </div>
-  <figure><img src="assets/uskudar.jpg" alt="Bosfor bo'yidagi masjid va ko'prik, quyosh botishi" width="720" height="538" fetchpriority="high"></figure>
-</section>
+  <figure class="shot"><img src="assets/uskudar.jpg" alt="Bosfor bo'yidagi masjid va ko'prik, quyosh botishi" width="720" height="538" fetchpriority="high"></figure>
+</div>
+</div>
 
-<section class="band reveal">
-  <h2>Sayohat uchun kerak bo'lgan hamma narsa</h2>
-  <p>Internetdagi tarqoq maslahatlar o'rniga bitta joy. Har bir joyga qanday borish va qancha pul ketishi yozilgan.</p>
+<section class="reveal"><div class="wrap">
+  <h2>Sayohatga kerak hamma narsa</h2>
+  <p>Har bir joyga qanday borish va qancha pul ketishi yozilgan.</p>
   <div class="bento">
-    <div class="tile t1"><img src="assets/buyukada.jpg" alt="Büyükada oroli" loading="lazy"><div><h3>Jonli xarita va 18 joy</h3><p>Pinni bosing, Google yoki Yandex xaritada marshrut ochiladi.</p></div></div>
-    <div class="tile t2"><i class="ph ph-sailboat"></i><div><h3>Kemalar</h3><p>Qaysi pristandan, qaysi kemaga, necha pulga.</p></div></div>
-    <div class="tile t3"><i class="ph ph-path"></i><div><h3>Tayyor marshrutlar</h3><p>Ertalabdan kechgacha qadam-baqadam rejalar.</p></div></div>
-    <div class="tile t4"><i class="ph ph-calculator"></i><div><h3>Byudjet hisobi</h3><p>Kun va odam soniga qarab jami xarajat.</p></div></div>
-    <div class="tile t5"><i class="ph ph-chats-circle"></i><div><h3>Sardor Agha</h3><p>Aeroport, halol ovqat va xaridlar haqida tayyor javoblar.</p></div></div>
+    <div class="tile big"><img src="assets/buyukada.jpg" alt="Büyükada oroli" loading="lazy"><div><h3>Jonli xarita va 18 joy</h3><p>6 ta yashirin joy bilan. Bir bosishda Google yoki Yandex marshruti.</p></div></div>
+    <div class="tile blue"><i class="ph-fill ph-boat"></i><h3>Kemalar</h3><p>Qaysi pristandan, necha pulga.</p></div>
+    <div class="tile"><i class="ph-fill ph-path"></i><h3>Marshrutlar</h3><p>Ertalabdan kechgacha, qadam-baqadam.</p></div>
+    <div class="tile"><i class="ph-fill ph-calculator"></i><h3>Byudjet</h3><p>Kun va odam soniga qarab jami xarajat.</p></div>
+    <div class="tile"><i class="ph-fill ph-chats-circle"></i><h3>Sardor Agha</h3><p>Aeroport, halol ovqat va xaridlar haqida javoblar.</p></div>
   </div>
-</section>
+</div></section>
 
-<section class="band reveal" id="bepul">
+<section class="reveal" id="bepul"><div class="wrap">
   <h2>Uchta joy bepul</h2>
-  <p>Gid ichida har bir joy shunday ko'rinadi. Qolgan 15 tasi, jumladan 6 ta yashirin joy, kod bilan ochiladi.</p>
+  <p>Gid ichida joylar shunday ko'rinadi. Qolgan 15 tasi, jumladan 6 ta yashirin joy, kod bilan ochiladi.</p>
   <div class="free">
 <article class="place">
   <img src="assets/ayasofya.jpg" alt="Ayasofya va Sultonahmet Maydoni" width="720" height="538" loading="lazy">
-  <div class="place-body">
+  <div class="pb">
     <h3>Ayasofya va Sultonahmet Maydoni</h3>
     <p class="muted">Fotih (Sultonahmet)</p>
     <dl>
-      <div><dt><i class="ph ph-ticket"></i>Kirish</dt><dd>Ko'k Masjid: BEPUL • Ayasofya galereyasi: €25 (~960 TL)</dd></div>
-      <div><dt><i class="ph ph-train-simple"></i>Yo'l</dt><dd>T1 Tramvay (Bağcılar - Kabataş), Sultanahmet bekati (2 daqiqa piyoda)</dd></div>
-      <div><dt><i class="ph ph-clock"></i>Vaqt</dt><dd>Har kuni 09:00 - 19:30</dd></div>
+      <div><dt><i class="ph-fill ph-ticket"></i></dt><dd>Ko'k Masjid: BEPUL • Ayasofya galereyasi: €25 (~960 TL)</dd></div>
+      <div><dt><i class="ph-fill ph-train-simple"></i></dt><dd>T1 Tramvay (Bağcılar - Kabataş), Sultanahmet bekati (2 daqiqa piyoda)</dd></div>
+      <div><dt><i class="ph-fill ph-clock"></i></dt><dd>Har kuni 09:00 - 19:30</dd></div>
     </dl>
     <p class="tip">Agar €25 to'lamoqchi bo'lmasangiz, Ko'k Masjid (Sultanahmet Camii) ichiga mutlaqo BEPUL kirishingiz mumkin!</p>
   </div>
 </article>
 <article class="place">
   <img src="assets/galata.jpg" alt="Galata Minorasi va Istiqlol Ko'chasi" width="720" height="538" loading="lazy">
-  <div class="place-body">
+  <div class="pb">
     <h3>Galata Minorasi va Istiqlol Ko'chasi</h3>
     <p class="muted">Beyoğlu (Galata)</p>
     <dl>
-      <div><dt><i class="ph ph-ticket"></i>Kirish</dt><dd>Minora tashqarisida sayr va foto: BEPUL • Ichiga chiqish: €30 (~1,150 TL)</dd></div>
-      <div><dt><i class="ph ph-train-simple"></i>Yo'l</dt><dd>M2 Metro (Şişhane bekati) yoki T1 Karaköy + F2 Tarixiy Tünel, Şişhane metrosining 'Galata Kulesi' chiqishidan 3 daqiqa tekis yo'l</dd></div>
-      <div><dt><i class="ph ph-clock"></i>Vaqt</dt><dd>Minora: 08:30 - 22:00 (Maydon 24 soat ochiq)</dd></div>
+      <div><dt><i class="ph-fill ph-ticket"></i></dt><dd>Minora tashqarisida sayr va foto: BEPUL • Ichiga chiqish: €30 (~1,150 TL)</dd></div>
+      <div><dt><i class="ph-fill ph-train-simple"></i></dt><dd>M2 Metro (Şişhane bekati) yoki T1 Karaköy + F2 Tarixiy Tünel, Şişhane metrosining 'Galata Kulesi' chiqishidan 3 daqiqa tekis yo'l</dd></div>
+      <div><dt><i class="ph-fill ph-clock"></i></dt><dd>Minora: 08:30 - 22:00 (Maydon 24 soat ochiq)</dd></div>
     </dl>
     <p class="tip">Karaköydan F2 Tünel yer osti vagoniga (46.20 TL) chiqing - 90 soniyada sizni tepaga olib chiqadi!</p>
   </div>
 </article>
 <article class="place">
   <img src="assets/kapalicarsi.jpg" alt="Kapalıçarşı (Katta Yopiq Bozor)" width="720" height="538" loading="lazy">
-  <div class="place-body">
+  <div class="pb">
     <h3>Kapalıçarşı (Katta Yopiq Bozor)</h3>
     <p class="muted">Fotih (Beyazıt)</p>
     <dl>
-      <div><dt><i class="ph ph-ticket"></i>Kirish</dt><dd>Kirish BEPUL (0 TL)</dd></div>
-      <div><dt><i class="ph ph-train-simple"></i>Yo'l</dt><dd>T1 Tramvay (Bağcılar - Kabataş), Beyazıt - Kapalıçarşı bekati (1 daqiqa)</dd></div>
-      <div><dt><i class="ph ph-clock"></i>Vaqt</dt><dd>08:30 - 19:00 (Yakshanba kuni yopiq!)</dd></div>
+      <div><dt><i class="ph-fill ph-ticket"></i></dt><dd>Kirish BEPUL (0 TL)</dd></div>
+      <div><dt><i class="ph-fill ph-train-simple"></i></dt><dd>T1 Tramvay (Bağcılar - Kabataş), Beyazıt - Kapalıçarşı bekati (1 daqiqa)</dd></div>
+      <div><dt><i class="ph-fill ph-clock"></i></dt><dd>08:30 - 19:00 (Yakshanba kuni yopiq!)</dd></div>
     </dl>
     <p class="tip">Arzonroq kiyim-kechak va sovg'a kerak bo'lsa, Kapalıçarşıning pastki darvozasidan Mahmutpaşa ko'chasiga tushing - narxlar 2 barobar arzon!</p>
   </div>
 </article>
   </div>
-</section>
+</div></section>
 
-<section class="band reveal">
+<section class="reveal"><div class="wrap">
   <h2>Qanday sotib olinadi</h2>
   <p>Hammasi Telegram bot orqali, bir necha daqiqada.</p>
   <div class="buy">
-    <ul class="flow">
-      <li><i class="ph ph-telegram-logo"></i><div><b>Botga kiring</b><span>Bot narx va karta raqamini ko'rsatadi.</span></div></li>
-      <li><i class="ph ph-receipt"></i><div><b>To'lab, chekni yuboring</b><span>Chek skrinshotini botga jo'nating.</span></div></li>
-      <li><i class="ph ph-key"></i><div><b>Kodni oling</b><span>To'lov tasdiqlangach bot shaxsiy kodingizni yuboradi.</span></div></li>
+    <ul class="steps">
+      <li><i class="ph-fill ph-telegram-logo"></i><div><b>Botga kiring</b><span>Bot narx va karta raqamini ko'rsatadi.</span></div></li>
+      <li><i class="ph-fill ph-receipt"></i><div><b>To'lab, chekni yuboring</b><span>Chek skrinshotini botga jo'nating.</span></div></li>
+      <li><i class="ph-fill ph-key"></i><div><b>Kodni oling</b><span>To'lov tasdiqlangach bot kodingizni yuboradi.</span></div></li>
     </ul>
     <form class="code" id="kod" novalidate>
       <h3>Kodingiz bormi?</h3>
-      <p>Kodni kiriting. Bir marta kirsangiz, telefoningiz sizni eslab qoladi.</p>
+      <p>Bir marta kirsangiz, telefoningiz sizni eslab qoladi.</p>
       <label for="c">Kirish kodi</label>
-      <input id="c" name="code" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" maxlength="9" aria-describedby="err">
+      <input id="c" name="code" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="9" placeholder="XXXX-XXXX" aria-describedby="err">
       <p class="err" id="err" role="alert"></p>
-      <button class="btn wide" id="go" type="submit">Gidni ochish</button>
+      <button class="btn wide press" id="go" type="submit">Gidni ochish</button>
     </form>
   </div>
-</section>
+</div></section>
 </main>
-
-<footer>
-  <span>Istanbul VIP Gid, 2026</span>
-  <a href="https://t.me/turk_ish_iskandar">TURK | ISH kanali</a>
-</footer>
-
+<footer>Istanbul VIP Gid, 2026<br><a href="https://t.me/turk_ish_iskandar">TURK | ISH kanali</a></footer>
 <script>
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+const tg=window.Telegram&&Telegram.WebApp&&Telegram.WebApp.initData?Telegram.WebApp:null;
+if(tg){tg.ready();tg.expand();document.documentElement.dataset.theme=tg.colorScheme;try{tg.setHeaderColor('bg_color')}catch(_){}}
+const saved=(()=>{try{return localStorage.getItem('gid_auth')}catch(_){return null}})();
+const wantKod=location.search.includes('kod=1');
+if(saved&&tg)location.replace('app.html');
+if(saved&&!wantKod){const k=document.getElementById('have');k.href='app.html';k.textContent='Gidni ochish'}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});
 document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
 const f=document.getElementById('kod'),c=document.getElementById('c'),err=document.getElementById('err'),go=document.getElementById('go');
 const MSG={invalid:"Kod noto'g'ri. Tekshirib, qayta kiriting.",limit:"Bu kod allaqachon 2 ta qurilmada ishlatilgan. Botga yozing.",server:"Xatolik yuz berdi. Birozdan keyin urinib ko'ring."};
@@ -179,12 +172,13 @@ f.addEventListener('submit',async e=>{e.preventDefault();err.textContent='';
  go.disabled=true;go.textContent='Tekshirilmoqda...';
  try{const dev=device();const r=await fetch('https://yeoursdadumvobnlaqwq.supabase.co/rest/v1/rpc/gid_open',{method:'POST',headers:{'content-type':'application/json',apikey:'sb_publishable_TcYmYxYVbbpJETdBEjRW5Q_G7X-50PQ',authorization:'Bearer sb_publishable_TcYmYxYVbbpJETdBEjRW5Q_G7X-50PQ'},body:JSON.stringify({p_code:c.value,p_device:dev})});
   const j=await r.json().catch(()=>({}));
-  if(r.ok&&j&&j.data){try{localStorage.setItem('gid_auth',JSON.stringify({code:c.value,device:dev}))}catch(_){}location.href='app.html';return}
+  if(r.ok&&j&&j.data){try{localStorage.setItem('gid_auth',JSON.stringify({code:c.value,device:dev}))}catch(_){}
+   try{const ch=await caches.open('gid-v1');await ch.put('content',new Response(JSON.stringify(j.data)))}catch(_){}
+   location.href='app.html';return}
   err.textContent=MSG[j&&j.error]||MSG.server}
  catch(_){err.textContent=MSG.server}
  go.disabled=false;go.textContent='Gidni ochish'});
-if(location.search.includes('kod=1'))document.getElementById('kod').scrollIntoView();
-try{if(localStorage.getItem('gid_auth')&&!location.search.includes('kod=1')){const k=document.querySelector('.top .btn');k.href='app.html';k.textContent='Gidni ochish'}}catch(_){}
+if(wantKod)f.scrollIntoView({block:'center'});
 </script>
 </body>
 </html>

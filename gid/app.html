@@ -2,187 +2,305 @@
 <html lang="uz">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="robots" content="noindex">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <title>Istanbul VIP Gid</title>
 <link rel="stylesheet" href="assets/ph-regular.css">
 <link rel="stylesheet" href="assets/ph-fill.css">
 <link rel="stylesheet" href="assets/leaflet.css">
-<script src="assets/leaflet.js"></script>
 <link rel="stylesheet" href="assets/base.css">
+<script src="assets/leaflet.js"></script>
+<script src="assets/telegram-web-app.js"></script>
 <style>
-body{padding-bottom:calc(74px + env(safe-area-inset-bottom))}
-.bar{position:sticky;top:0;z-index:30;background:var(--bg);display:flex;align-items:center;justify-content:space-between;gap:12px;height:60px;padding:0 16px}
-.bar b{font-size:18px;letter-spacing:-.02em;font-weight:800}
-.plan{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border-radius:999px;border:0;background:var(--tint);color:var(--accent-text);font:600 15px Onest,sans-serif;cursor:pointer}
-main{max-width:1100px;margin:auto;padding:0 16px 24px}
-.view{display:none;animation:fade .25s ease}.view.on{display:block}
-@keyframes fade{from{opacity:0;transform:translateY(6px)}}
-@media (prefers-reduced-motion:reduce){.view{animation:none}html{scroll-behavior:auto}}
-h2{font-size:28px;line-height:1.12;letter-spacing:-.03em;font-weight:800;margin:10px 0 6px}
-.lead{color:var(--muted);line-height:1.5;margin:0 0 18px}
-#map{height:46dvh;min-height:300px;border-radius:16px;z-index:1;background:var(--tint)}
-.chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
-.chip{flex:none;min-height:40px;padding:0 14px;border-radius:999px;border:0;background:var(--surface);color:var(--ink);font:600 14px Onest,sans-serif;cursor:pointer}
-.chip.on{background:var(--accent);color:var(--on-accent)}
-.search{position:relative;margin-bottom:12px}.search i{position:absolute;left:14px;top:16px;color:var(--muted);font-size:18px}.search input{padding-left:40px;background:var(--surface)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
-.card{background:var(--surface);border-radius:16px;overflow:hidden;border:0;padding:0;text-align:left;color:inherit;font:inherit;cursor:pointer;display:block;width:100%}
-.card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
-.card div{padding:14px 16px 16px}.card b{display:block;font-size:17px;line-height:1.25;letter-spacing:-.01em;margin-bottom:4px}.card span{color:var(--muted);font-size:14px;line-height:1.4}
-.empty{padding:36px 16px;text-align:center;color:var(--muted)}
-.panel{background:var(--surface);border-radius:16px;padding:18px;margin-bottom:14px}
-.panel h3{margin:0 0 4px;font-size:19px;line-height:1.25;letter-spacing:-.02em}
-.tag{color:var(--accent-text);font-weight:600;font-size:14px;line-height:1.4;margin:0 0 10px}
-.rows{display:grid;gap:10px;margin:12px 0 0}.row{display:grid;grid-template-columns:22px 1fr;gap:8px;line-height:1.45;font-size:15px}.row i{color:var(--accent-text);font-size:18px;margin-top:1px}.row small{display:block;color:var(--muted);font-size:13px}
-.note{margin:14px 0 0;padding:12px 14px;border-radius:12px;background:var(--tint);line-height:1.5;font-size:15px}
-.steps{margin:12px 0 0;padding-left:20px;line-height:1.55}.steps li{margin-bottom:8px}
-.acts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.acts .btn{font-size:15px;padding:0 10px;min-height:46px}
-.form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.form .full{grid-column:1/-1}
-.step{display:flex;align-items:center;gap:10px}.step button{width:46px;height:46px;flex:none;border:0;border-radius:999px;background:var(--tint);color:var(--accent-text);font-size:20px;cursor:pointer}.step output{flex:1;text-align:center;font-size:20px;font-weight:700}
-.total{background:var(--accent);color:var(--on-accent);border-radius:16px;padding:20px;margin-bottom:14px}
-.total small{display:block;opacity:.9;font-size:14px;line-height:1.4}.total strong{display:block;font-size:36px;letter-spacing:-.03em;margin:6px 0 2px}
-.split{display:grid;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid color-mix(in srgb,currentColor 28%,transparent);font-size:15px}.split div{display:flex;justify-content:space-between;gap:12px}
-.check{display:flex;gap:10px;align-items:center;min-height:44px;font-weight:500;margin:0;line-height:1.3;font-size:15px}.check input{width:22px;height:22px;min-height:0;flex:none;accent-color:var(--accent)}.check span{flex:1}.check em{font-style:normal;color:var(--muted);white-space:nowrap}
-.chat{display:grid;gap:10px;margin-bottom:12px}
-.msg{max-width:88%;padding:12px 14px;border-radius:16px;line-height:1.5;font-size:15px;background:var(--surface)}.msg.me{justify-self:end;background:var(--accent);color:var(--on-accent)}
-.msg p{margin:0 0 6px}.msg ol,.msg ul{margin:6px 0;padding-left:18px}.msg li{margin-bottom:5px}
-.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.links button{min-height:36px;padding:0 12px;border-radius:999px;border:0;background:var(--tint);color:var(--accent-text);font:600 13px Onest,sans-serif;cursor:pointer}
-.qs{display:flex;gap:8px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none}.qs button{flex:none;max-width:250px;min-height:44px;padding:8px 14px;border-radius:16px;border:0;background:var(--surface);color:var(--ink);font:500 14px/1.3 Onest,sans-serif;text-align:left;cursor:pointer}
-.ask{display:grid;grid-template-columns:1fr 50px;gap:8px}.ask button{border:0;border-radius:999px;background:var(--accent);color:var(--on-accent);font-size:20px;cursor:pointer;height:50px}.ask input{background:var(--surface)}
-nav{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:repeat(6,1fr);background:var(--surface);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
-nav button{border:0;background:none;color:var(--muted);font:600 11px Onest,sans-serif;display:grid;justify-items:center;gap:3px;min-height:52px;align-content:center;cursor:pointer;border-radius:12px}
-nav button i{font-size:23px}nav button.on{color:var(--accent-text)}
-.sheet{position:fixed;inset:0;z-index:50;display:none;background:rgb(6 10 18/.55)}.sheet.on{display:block}
-.sheet>div{position:absolute;left:0;right:0;bottom:0;max-height:92dvh;overflow:auto;background:var(--bg);border-radius:16px 16px 0 0;max-width:640px;margin:auto;animation:up .28s cubic-bezier(.16,1,.3,1)}
-@keyframes up{from{transform:translateY(40px);opacity:0}}
-@media (prefers-reduced-motion:reduce){.sheet>div{animation:none}}
-.sheet img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
-.sheet .in{padding:18px 16px calc(24px + env(safe-area-inset-bottom))}.sheet h3{font-size:24px;line-height:1.15;letter-spacing:-.025em;margin:0 0 4px}
-.sheet .sub{color:var(--muted);margin:0 0 6px;line-height:1.4}.sheet p.h{line-height:1.55;margin:14px 0 0}
-.close{position:absolute;top:12px;right:12px;width:44px;height:44px;border:0;border-radius:999px;background:rgb(10 15 25/.62);color:#f3f5f8;font-size:20px;cursor:pointer}
-.save{width:100%;margin-top:10px}
-.pin{width:30px;height:30px;border-radius:999px;display:grid;place-items:center;background:var(--accent);color:var(--on-accent);border:2.5px solid var(--surface);box-shadow:0 3px 10px rgb(10 25 70/.35);font-size:15px}.pin.secret{background:var(--ink);color:var(--surface)}
-.leaflet-container{font-family:Onest,sans-serif}.leaflet-div-icon{background:none;border:0}
-.table{display:grid;gap:0}.table div{display:grid;grid-template-columns:1fr auto;gap:12px;padding:10px 0;font-size:14px;line-height:1.35}.table div+div{border-top:1px solid var(--line)}.table span:last-child{color:var(--muted);text-align:right;max-width:52%}
-details summary{cursor:pointer;font-weight:700;font-size:17px;min-height:30px}
-@media (min-width:900px){body{padding-bottom:0;padding-left:92px}nav{top:0;right:auto;width:92px;grid-template-columns:1fr;align-content:center;border-top:0;border-right:1px solid var(--line);gap:6px}.bar{padding:0 24px}main{padding:0 24px 32px}#map{height:56dvh}}
-@media (max-width:420px){.form{grid-template-columns:1fr}}
-.load{position:fixed;inset:0;z-index:60;background:var(--bg);display:grid;place-content:center;gap:14px;padding:24px;text-align:center;color:var(--muted);line-height:1.5}.load b{color:var(--ink);font-size:20px}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none}
+.load{position:fixed;inset:0;z-index:90;background:var(--bg);display:grid;place-content:center;gap:12px;padding:24px;text-align:center;color:var(--label2);line-height:1.45}.load b{color:var(--label);font-size:1.5rem;letter-spacing:-.02em;font-weight:700}
+.view{position:fixed;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-y:contain;background:var(--bg);visibility:hidden;opacity:0;transition:opacity 160ms ease;padding-bottom:calc(96px + env(safe-area-inset-bottom))}
+.view.on{visibility:visible;opacity:1}
+#v-map{overflow:hidden;padding:0}
+.page{max-width:680px;margin:auto;padding:calc(env(safe-area-inset-top) + 10px) 16px 0}
+.nav{position:sticky;top:0;z-index:4;height:calc(44px + env(safe-area-inset-top));padding-top:env(safe-area-inset-top);display:grid;place-items:center;font-weight:600;background:var(--glass);-webkit-backdrop-filter:blur(24px) saturate(180%);backdrop-filter:blur(24px) saturate(180%);opacity:0;transition:opacity 140ms ease;pointer-events:none;margin-bottom:calc(-44px - env(safe-area-inset-top))}
+.nav.show{opacity:1}
+.large{font-size:2.125rem;line-height:1.12;letter-spacing:-.026em;font-weight:700;margin:6px 4px 4px}
+.lead{margin:0 4px 16px;color:var(--label2);line-height:1.38;font-size:.97rem}
+.foot{margin:-8px 16px 22px;color:var(--label2);font-size:.8rem;line-height:1.35}
+.head{margin:0 16px 6px;color:var(--label2);font-size:.8rem;font-weight:500;text-transform:uppercase;letter-spacing:.01em}
+/* grouped list */
+.group{background:var(--cell);border-radius:14px;overflow:hidden;margin-bottom:22px}
+.row{position:relative;display:flex;align-items:center;gap:12px;min-height:46px;padding:11px 16px;width:100%;text-align:left}
+.row+.row:before,.row+details:before,details+.row:before,details+details:before{content:"";position:absolute;left:16px;right:0;top:0;height:.5px;background:var(--sep)}
+.row .ic{flex:none;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;color:#fff;font-size:1.05rem;background:var(--blue)}
+.row .tx{flex:1;min-width:0;line-height:1.3}.row .tx small{display:block;margin-top:2px;color:var(--label2);font-size:.82rem;line-height:1.3}
+.row .val{color:var(--label2);text-align:right;flex:none;max-width:58%}
+.row.tap:active{background:var(--cell2)}
+.row .chev{color:var(--label3);font-size:.9rem;flex:none}
+.pick{display:block}.pick label{display:block;color:var(--label2);font-size:.82rem;margin-bottom:3px}.pick select{min-height:30px;padding:0;background:none;border-radius:0;font-weight:500;-webkit-appearance:none;appearance:none;color:var(--blue-text);text-overflow:ellipsis}
+.step{display:flex;flex:none;align-items:center;background:var(--cell2);border-radius:10px;overflow:hidden}.step button{width:46px;height:34px;display:grid;place-items:center;font-size:1rem}.step button:active{background:var(--sep)}.step output{min-width:30px;text-align:center;font-weight:600;font-variant-numeric:tabular-nums}
+.switch{position:relative;flex:none;width:51px;height:31px}.switch input{position:absolute;inset:0;opacity:0;margin:0;min-height:0;z-index:1}.switch span{position:absolute;inset:0;border-radius:999px;background:var(--cell2);transition:background 180ms ease}.switch span:after{content:"";position:absolute;top:2px;left:2px;width:27px;height:27px;border-radius:50%;background:#fff;box-shadow:0 2px 5px rgb(0 0 0/.25);transition:transform 220ms var(--drawer)}.switch input:checked+span{background:var(--green)}.switch input:checked+span:after{transform:translateX(20px)}
+.seg{position:relative;display:grid;grid-template-columns:repeat(3,1fr);padding:2px;margin:0 0 18px;border-radius:10px;background:var(--cell2)}
+.seg button{position:relative;z-index:1;min-height:34px;font-size:.87rem;font-weight:500}.seg i{position:absolute;z-index:0;top:2px;bottom:2px;left:2px;width:calc((100% - 4px)/3);border-radius:8px;background:var(--cell);box-shadow:0 1px 4px rgb(0 0 0/.14);transition:transform 260ms var(--drawer)}
+:root[data-theme=dark] .seg i{background:#636366}@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .seg i{background:#636366}}
+.pane{display:none}.pane.on{display:block}
+.total{padding:20px;border-radius:22px;background:var(--blue);color:#fff;margin-bottom:22px}.total small{display:block;font-size:.92rem;line-height:1.35;opacity:.92}.total strong{display:block;font-size:2.75rem;line-height:1.08;letter-spacing:-.03em;font-weight:700;margin:4px 0;font-variant-numeric:tabular-nums}
+.total dl{margin:12px 0 0;padding-top:10px;border-top:.5px solid rgb(255 255 255/.34);display:grid;gap:6px}.total dl div{display:flex;justify-content:space-between;gap:12px;font-size:.95rem}.total dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums}.total dt{opacity:.92}
+.prose{padding:13px 16px;line-height:1.42}.prose p{margin:0 0 8px}.prose p:last-child{margin:0}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:8px}.act{display:grid;justify-items:center;gap:3px;min-height:58px;padding:9px 6px;border-radius:14px;background:var(--cell);color:var(--blue-text);font-size:.78rem;font-weight:500;transition:transform 140ms var(--out)}.act:active{transform:scale(.97)}.act i{font-size:1.4rem}
+.acts.three{grid-template-columns:repeat(3,1fr)}.act.main{background:var(--blue);color:#fff}
+.call{padding:12px 14px;border-radius:14px;background:var(--tint);line-height:1.4;font-size:.94rem;margin:0 0 22px}.call b{display:block;color:var(--blue-text);font-size:.82rem;margin-bottom:2px}
+details>summary{list-style:none;cursor:pointer}details>summary::-webkit-details-marker{display:none}
+details{position:relative}details[open] .chev{transform:rotate(90deg)}.chev{transition:transform 200ms var(--drawer)}
+.body{padding:0 16px 14px}.body .rows{display:grid;gap:9px}.line{display:grid;grid-template-columns:22px 1fr;gap:8px;line-height:1.36;font-size:.94rem}.line i{color:var(--blue-text);font-size:1.1rem;margin-top:1px}.line small{display:block;color:var(--label2);font-size:.82rem}
+.body .call{margin:12px 0 10px}.steps{margin:12px 0 0;padding:0;list-style:none;counter-reset:s}.steps li{position:relative;counter-increment:s;padding-left:32px;margin-bottom:10px;line-height:1.38;font-size:.95rem}.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:23px;height:23px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-size:.76rem;font-weight:600}
+/* map + detent sheet */
+#map{position:absolute;inset:0;background:var(--cell2);z-index:0}
+:root[data-theme=dark] .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(.9)}@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(.9)}}
+.leaflet-control-attribution{font-size:9px;background:transparent!important}.leaflet-container{font-family:inherit;background:var(--cell2)}.leaflet-div-icon{background:none;border:0}
+.fab{position:absolute;z-index:3;right:12px;top:calc(env(safe-area-inset-top) + 12px);display:grid;border-radius:14px;overflow:hidden}.fab button{position:relative;width:46px;height:46px;display:grid;place-items:center;font-size:1.3rem;color:var(--blue-text)}.fab button+button{border-top:.5px solid var(--sep)}.fab button:active{background:var(--sep)}
+.badge{position:absolute;top:5px;right:5px;min-width:16px;height:16px;padding:0 4px;border-radius:9px;background:var(--red);color:#fff;font-size:.66rem;font-weight:600;display:none;place-items:center}.badge.on{display:grid}
+.pin{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;color:#fff;border:2px solid #fff;box-shadow:0 3px 9px rgb(0 0 0/.34);font-size:.95rem}
+.medot{width:18px;height:18px;border-radius:50%;background:var(--blue);border:3px solid #fff;box-shadow:0 0 0 6px var(--tint)}
+.dsheet{position:absolute;z-index:4;left:0;right:0;top:0;bottom:0;border-radius:16px 16px 0 0;will-change:transform;display:flex;flex-direction:column;max-width:560px;margin:auto;touch-action:none}
+.grab{flex:none;height:22px;display:grid;place-items:center}.grab:before{content:"";width:38px;height:5px;border-radius:3px;background:var(--label3)}
+.dhead{flex:none;padding:0 14px 8px}
+.search{position:relative}.search i{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--label2)}.search input{min-height:38px;padding:0 12px 0 34px;border-radius:11px;background:var(--cell2)}
+.search input::placeholder{color:var(--label2)}
+.chips{display:flex;gap:7px;overflow-x:auto;margin:9px -14px 0;padding:0 14px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}.chip{flex:none;min-height:34px;padding:0 13px;border-radius:999px;background:var(--cell2);font-size:.87rem;font-weight:500;display:inline-flex;align-items:center;gap:5px;transition:transform 140ms var(--out)}.chip:active{transform:scale(.96)}.chip.on{background:var(--blue);color:#fff}
+.dlist{flex:1;min-height:0;overflow:hidden;padding:0 14px calc(100px + env(safe-area-inset-bottom));-webkit-overflow-scrolling:touch}.dsheet.full .dlist{overflow-y:auto;overscroll-behavior:contain}
+.item{position:relative;display:flex;align-items:center;gap:12px;width:100%;padding:9px 0;text-align:left}.item+.item:before{content:"";position:absolute;left:68px;right:0;top:0;height:.5px;background:var(--sep)}.item:active{opacity:.6}
+.item img{flex:none;width:56px;height:56px;border-radius:12px;object-fit:cover;background:var(--cell2)}.item .tx{min-width:0;flex:1;line-height:1.26}.item b{display:block;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.item small{display:block;color:var(--label2);font-size:.82rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.empty{padding:30px 12px;text-align:center;color:var(--label2);line-height:1.4}
+/* tab bar */
+.tabs{position:fixed;z-index:20;left:50%;bottom:calc(env(safe-area-inset-bottom) + 10px);transform:translateX(-50%);width:min(92vw,400px);height:62px;border-radius:31px;display:grid;grid-template-columns:repeat(4,1fr);padding:4px;transition:transform 240ms var(--drawer),opacity 160ms ease}
+.tabs.hide{transform:translate(-50%,120px);opacity:0;pointer-events:none}
+.tabs .ind{position:absolute;top:4px;bottom:4px;left:4px;width:calc((100% - 8px)/4);border-radius:27px;background:var(--tint);transition:transform 300ms var(--drawer)}
+.tabs button{position:relative;z-index:1;display:grid;justify-items:center;align-content:center;gap:1px;color:var(--label2);font-size:.68rem;font-weight:500;letter-spacing:0}.tabs button i{font-size:1.45rem}.tabs button.on{color:var(--blue-text)}
+/* modal sheet */
+.scrim{position:fixed;inset:0;z-index:30;background:#000;opacity:0;visibility:hidden}
+.modal{position:fixed;z-index:31;left:0;right:0;bottom:0;top:calc(env(safe-area-inset-top) + 34px);max-width:600px;margin:auto;background:var(--bg);border-radius:16px 16px 0 0;overflow:hidden;visibility:hidden;will-change:transform;display:flex;flex-direction:column;touch-action:none}
+.mgrab{position:absolute;z-index:3;left:0;right:0;top:0}.mgrab:before{background:rgb(255 255 255/.72);box-shadow:0 0 6px rgb(0 0 0/.3)}
+.mbody{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:calc(26px + env(safe-area-inset-bottom))}
+.mclose{position:absolute;z-index:4;top:12px;right:12px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:.92rem;color:var(--label)}
+.hero{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}
+.pad{padding:14px 16px 0}.mtitle{font-size:1.65rem;line-height:1.14;letter-spacing:-.024em;font-weight:700}.msub{margin:4px 0 14px;color:var(--label2);line-height:1.32;font-size:.94rem}
+.plain{padding-top:40px}
+/* chat */
+.chat{display:grid;gap:6px;margin-bottom:10px}.msg{max-width:86%;padding:9px 13px;border-radius:18px;background:var(--cell);line-height:1.38;font-size:.98rem;justify-self:start;animation:pop 240ms var(--out)}.msg.me{justify-self:end;background:var(--blue);color:#fff}
+@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.98)}}
+.msg p{margin:0 0 6px}.msg p:last-child{margin:0}.msg ol,.msg ul{margin:5px 0;padding-left:19px}.msg li{margin-bottom:5px}.msg b{font-weight:600}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.links button{min-height:34px;padding:5px 11px;border-radius:999px;background:var(--tint);color:var(--blue-text);font-size:.82rem;font-weight:500;text-align:left}
+.qs{display:flex;gap:8px;overflow-x:auto;margin:0 -16px 14px;padding:0 16px;scrollbar-width:none}.qs::-webkit-scrollbar{display:none}.qs button{flex:none;width:200px;min-height:66px;padding:10px 12px;border-radius:14px;background:var(--cell);text-align:left;font-size:.9rem;line-height:1.28;transition:transform 140ms var(--out)}.qs button:active{transform:scale(.97)}
+.ask{position:sticky;bottom:calc(env(safe-area-inset-bottom) + 82px);display:grid;grid-template-columns:1fr 38px;gap:6px;align-items:center;padding:5px 5px 5px 14px;border-radius:24px}.ask input{min-height:36px;padding:0;background:none;border-radius:0}.ask button{width:38px;height:38px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-size:1.05rem}
+body.kbd .ask{bottom:10px}#v-chat{padding-bottom:calc(90px + env(safe-area-inset-bottom))}body.kbd #v-chat{padding-bottom:10px}
+.toast{position:fixed;z-index:60;left:50%;top:calc(env(safe-area-inset-top) + 12px);transform:translate(-50%,-90px);padding:10px 16px;border-radius:999px;font-size:.9rem;font-weight:500;transition:transform 300ms var(--drawer);max-width:88vw;text-align:center}.toast.on{transform:translate(-50%,0)}
+.tbl .row{padding-top:9px;padding-bottom:9px;font-size:.9rem;align-items:flex-start}.tbl .val{max-width:52%;font-size:.85rem}
+@media (prefers-reduced-motion:reduce){.msg{animation:none}.seg i,.tabs .ind,.switch span:after{transition:none}}
+@media (min-width:900px){.dsheet{left:16px;right:auto;width:380px;margin:0;border-radius:16px}}
 </style>
 </head>
 <body>
 <div class="load" id="load"><b>Istanbul VIP Gid</b><span id="loadTxt">Gid yuklanmoqda...</span></div>
-<header class="bar"><b>Istanbul VIP Gid</b><button class="plan" id="planBtn"><i class="ph ph-bookmark-simple"></i>Rejam <span id="planN">0</span></button></header>
-<main>
+
 <section class="view on" id="v-map">
   <div id="map" role="application" aria-label="Istanbul xaritasi"></div>
-  <div class="chips" id="lineChips"></div>
-  <div class="search"><i class="ph ph-magnifying-glass"></i><input id="q" type="search" placeholder="Joy qidirish" aria-label="Joy qidirish"></div>
-  <div class="chips" id="cats" style="padding-top:0"></div>
-  <div class="grid" id="list"></div>
+  <div class="fab glass">
+    <button id="planBtn" aria-label="Rejam"><i class="ph-fill ph-bookmark-simple"></i><span class="badge" id="planN">0</span></button>
+    <button id="layerBtn" aria-label="Transport chiziqlari"><i class="ph-fill ph-stack"></i></button>
+    <button id="meBtn" aria-label="Joylashuvim"><i class="ph-fill ph-navigation-arrow"></i></button>
+  </div>
+  <div class="dsheet glass" id="ds">
+    <div class="grab"></div>
+    <div class="dhead">
+      <div class="search"><i class="ph ph-magnifying-glass"></i><input id="q" type="search" placeholder="18 ta joydan qidiring" aria-label="Joy qidirish" autocomplete="off"></div>
+      <div class="chips" id="cats"></div>
+    </div>
+    <div class="dlist" id="list"></div>
+  </div>
 </section>
+
 <section class="view" id="v-go">
-  <h2>Yo'l hisoblagich</h2><p class="lead">Turgan joyingizni tanlang: qaysi transport va necha pul ketishi darhol chiqadi.</p>
-  <div class="panel form">
-    <div class="full"><label for="from">Hozir qayerdasiz?</label><select id="from"></select></div>
-    <div class="full"><label for="to">Qayerga bormoqchisiz?</label><select id="to"></select></div>
-    <div class="full"><label>Necha kishisiz?</label><div class="step"><button data-s="-1" aria-label="Kamaytirish"><i class="ph ph-minus"></i></button><output id="pax">2</output><button data-s="1" aria-label="Ko'paytirish"><i class="ph ph-plus"></i></button></div></div>
+  <div class="nav">Yo'l</div>
+  <div class="page">
+    <h1 class="large">Yo'l</h1>
+    <p class="lead">Transport, kemalar va tayyor rejalar.</p>
+    <div class="seg" id="seg"><i></i><button data-p="0">Hisoblagich</button><button data-p="1">Kemalar</button><button data-p="2">Marshrutlar</button></div>
+    <div class="pane on" data-pane="0">
+      <div class="group">
+        <div class="row pick"><label for="from">Hozir qayerdasiz?</label><select id="from"></select></div>
+        <div class="row pick"><label for="to">Qayerga borasiz?</label><select id="to"></select></div>
+        <div class="row"><span class="tx">Necha kishi</span><span class="step"><button data-s="-1" aria-label="Kamaytirish"><i class="ph ph-minus"></i></button><output id="pax">2</output><button data-s="1" aria-label="Ko'paytirish"><i class="ph ph-plus"></i></button></span></div>
+      </div>
+      <div id="goOut"></div>
+    </div>
+    <div class="pane" data-pane="1">
+      <p class="call"><b>Bosfor sirri</b>Turistlar $40-50 to'laydigan Bosfor sayohatini davlat kemasida 46.20 TL ga qiling. Barcha shahar kemalariga oddiy Istanbulkart bosiladi.</p>
+      <div class="group" id="ships"></div>
+    </div>
+    <div class="pane" data-pane="2"><div class="group" id="routes"></div></div>
   </div>
-  <div id="goOut"></div>
 </section>
-<section class="view" id="v-ship">
-  <h2>Kemalar</h2><p class="lead">Turistlar $40-50 to'laydigan Bosfor sayohatini davlat kemasida 46.20 TL ga qiling. Barcha shahar kemalariga oddiy Istanbulkart bosiladi.</p>
-  <div class="grid" id="ships" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))"></div>
-</section>
-<section class="view" id="v-route">
-  <h2>Tayyor marshrutlar</h2><p class="lead">Ertalabdan kechgacha qadam-baqadam. Transport va narxi bilan.</p><div id="routes"></div>
-</section>
+
 <section class="view" id="v-chat">
-  <h2>Sardor Agha</h2><p class="lead">Savolni tanlang yoki o'zingiz yozing.</p>
-  <div class="qs" id="qs"></div><div class="chat" id="chat" aria-live="polite"></div>
-  <form class="ask" id="ask"><input id="askIn" aria-label="Savolingiz" placeholder="Savolingiz..."><button aria-label="Yuborish"><i class="ph ph-paper-plane-right"></i></button></form>
-</section>
-<section class="view" id="v-money">
-  <h2>Byudjet</h2><p class="lead">Kun, odam soni va chiptalarni belgilang.</p>
-  <div class="total"><small id="tNote"></small><strong id="tTL">0 TL</strong><small id="tFx"></small>
-    <div class="split"><div><span>Transport</span><b id="tTr"></b></div><div><span>Chiptalar</span><b id="tTi"></b></div><div><span>Ovqat</span><b id="tFo"></b></div></div></div>
-  <div class="panel form">
-    <div><label>Necha kishi</label><div class="step"><button data-b="people:-1" aria-label="Kamaytirish"><i class="ph ph-minus"></i></button><output id="bP">2</output><button data-b="people:1" aria-label="Ko'paytirish"><i class="ph ph-plus"></i></button></div></div>
-    <div><label>Necha kun</label><div class="step"><button data-b="days:-1" aria-label="Kamaytirish"><i class="ph ph-minus"></i></button><output id="bD">4</output><button data-b="days:1" aria-label="Ko'paytirish"><i class="ph ph-plus"></i></button></div></div>
-    <div class="full"><label for="rides">Kuniga transportga chiqish</label><select id="rides"><option value="2">2 marta: asosan piyoda (92.40 TL/kun)</option><option value="4" selected>4 marta: tramvay, metro, kema (184.80 TL/kun)</option><option value="6">6 marta: Osiyo va orollar (277.20 TL/kun)</option></select></div>
-    <div class="full"><label for="food">Ovqat (1 kishi, kuniga)</label><select id="food"><option value="550">Tejamkor: simit, döner, lokanta (~550 TL)</option><option value="1250" selected>O'rtacha: kafe, kabob, paxlava (~1,250 TL)</option><option value="2800">VIP: panoramali restoranlar (~2,800 TL)</option></select></div>
+  <div class="nav">Sardor Agha</div>
+  <div class="page">
+    <h1 class="large">Sardor Agha</h1>
+    <p class="lead">Shaxsiy gidingiz. Savolni tanlang yoki yozing.</p>
+    <div class="qs" id="qs"></div>
+    <div class="chat" id="chat" aria-live="polite"></div>
+    <form class="ask glass" id="ask"><input id="askIn" aria-label="Savolingiz" placeholder="Savolingiz..." autocomplete="off"><button aria-label="Yuborish"><i class="ph-fill ph-arrow-up"></i></button></form>
   </div>
-  <div class="panel"><h3>Chiptalar (1 kishi)</h3><div id="tix" style="margin-top:8px"></div></div>
-  <div class="panel"><details><summary>2026 narxlar jadvali</summary><p class="lead" style="margin:8px 0 0">1 USD ≈ 35.1 TL, 1 EUR ≈ 38.4 TL</p><div class="table" id="prices"></div></details></div>
 </section>
-</main>
-<nav aria-label="Bo'limlar"></nav>
-<div class="sheet" id="sheet"><div role="dialog" aria-modal="true"><button class="close" aria-label="Yopish"><i class="ph ph-x"></i></button><div id="sheetIn"></div></div></div>
+
+<section class="view" id="v-money">
+  <div class="nav">Byudjet</div>
+  <div class="page">
+    <h1 class="large">Byudjet</h1>
+    <p class="lead">Sayohat qancha turishini hisoblang.</p>
+    <div class="total"><small id="tNote"></small><strong id="tTL">0 TL</strong><small id="tFx"></small>
+      <dl><div><dt>Transport</dt><dd id="tTr"></dd></div><div><dt>Chiptalar</dt><dd id="tTi"></dd></div><div><dt>Ovqat</dt><dd id="tFo"></dd></div></dl></div>
+    <div class="group">
+      <div class="row"><span class="tx">Necha kishi</span><span class="step"><button data-b="people:-1" aria-label="Kamaytirish"><i class="ph ph-minus"></i></button><output id="bP">2</output><button data-b="people:1" aria-label="Ko'paytirish"><i class="ph ph-plus"></i></button></span></div>
+      <div class="row"><span class="tx">Necha kun</span><span class="step"><button data-b="days:-1" aria-label="Kamaytirish"><i class="ph ph-minus"></i></button><output id="bD">4</output><button data-b="days:1" aria-label="Ko'paytirish"><i class="ph ph-plus"></i></button></span></div>
+      <div class="row pick"><label for="rides">Kuniga transportga chiqish</label><select id="rides"><option value="2">2 marta: asosan piyoda (92.40 TL/kun)</option><option value="4" selected>4 marta: tramvay, metro, kema (184.80 TL/kun)</option><option value="6">6 marta: Osiyo va orollar (277.20 TL/kun)</option></select></div>
+      <div class="row pick"><label for="food">Ovqat (1 kishi, kuniga)</label><select id="food"><option value="550">Tejamkor: simit, döner, lokanta (~550 TL)</option><option value="1250" selected>O'rtacha: kafe, kabob, paxlava (~1,250 TL)</option><option value="2800">VIP: panoramali restoranlar (~2,800 TL)</option></select></div>
+    </div>
+    <p class="head">Chiptalar, 1 kishi uchun</p>
+    <div class="group" id="tix"></div>
+    <div class="group"><details><summary class="row tap"><span class="tx">2026 narxlar jadvali<small>Yashirin joylarning deyarli barchasiga kirish BEPUL</small></span><i class="ph ph-caret-right chev"></i></summary><div class="tbl" id="prices"></div></details></div>
+    <p class="foot">1 USD ≈ 35.1 TL, 1 EUR ≈ 38.4 TL. Narxlar taxminiy.</p>
+  </div>
+</section>
+
+<nav class="tabs glass" id="tabs" aria-label="Bo'limlar"></nav>
+<div class="scrim" id="scrim"></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="grab mgrab"></div><button class="mclose glass" aria-label="Yopish"><i class="ph ph-x"></i></button><div class="mbody" id="mbody"></div></div>
+<div class="toast glass" id="toast" role="status"></div>
+
 <script>
+const tg=window.Telegram&&Telegram.WebApp&&Telegram.WebApp.initData?Telegram.WebApp:null;
+if(tg){tg.ready();tg.expand();document.documentElement.dataset.theme=tg.colorScheme;try{tg.disableVerticalSwipes();tg.setHeaderColor('bg_color');tg.setBackgroundColor('bg_color')}catch(_){}}
+const haptic=(k='light')=>{try{tg&&tg.HapticFeedback.impactOccurred(k)}catch(_){}};
+const tick=()=>{try{tg&&tg.HapticFeedback.selectionChanged()}catch(_){}};
+const REDUCE=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// Spring that starts from the live value and carries velocity, so any motion can be grabbed mid-flight.
+function springTo(st,to,v0,done,response=.42,damping=.92){
+  cancelAnimationFrame(st.raf);
+  if(REDUCE){st.y=to;st.apply(to);done&&done();return}
+  const w=2*Math.PI/response;let x=st.y,v=v0||0,last=performance.now();
+  const step=now=>{let dt=Math.min(.032,(now-last)/1000);last=now;
+    for(let i=0;i<4;i++){const h=dt/4,a=-w*w*(x-to)-2*damping*w*v;v+=a*h;x+=v*h}
+    if(Math.abs(x-to)<.4&&Math.abs(v)<8){st.y=to;st.apply(to);done&&done();return}
+    st.y=x;st.apply(x);st.raf=requestAnimationFrame(step)};
+  st.raf=requestAnimationFrame(step)}
+const project=v=>v/1000*.998/.002;
+const rubber=(o,d)=>o*d*.55/(d+.55*Math.abs(o));
+function velocity(hist){const n=hist.length;if(n<2)return 0;const a=hist[Math.max(0,n-5)],b=hist[n-1],dt=b.t-a.t;return dt>0?(b.y-a.y)/dt*1000:0}
+
 function start(){
 const $=s=>document.querySelector(s),P=G.places,byId=id=>P.find(p=>p.id===id),fmt=n=>Math.round(n).toLocaleString('en-US');
 const FARE=46.2,USD=35.1,EUR=38.4;
-const gUrl=(p)=>`https://www.google.com/maps/search/?api=1&query=${p.coords[0]},${p.coords[1]}`;
-const yUrl=(p)=>`https://yandex.com/maps/?pt=${p.coords[1]},${p.coords[0]}&z=16&l=map`;
-const mapBtns=(g,y)=>`<div class="acts"><a class="btn" target="_blank" rel="noopener" href="${g}"><i class="ph ph-google-logo"></i>Google</a><a class="btn ghost" target="_blank" rel="noopener" href="${y}"><i class="ph ph-compass"></i>Yandex</a></div>`;
-const TABS=[['map','Xarita','map-trifold'],['go',"Yo'l",'navigation-arrow'],['ship','Kemalar','sailboat'],['route','Marshrut','path'],['chat','Gid','chats-circle'],['money','Byudjet','wallet']];
-const CATS=[['all','Barchasi'],['secret','Yashirin'],['history','Tarix'],['food','Ovqat'],['photo','Foto'],['bazaar','Bozor']];
-const CATICON={secret:'diamond',history:'bank',food:'fork-knife',photo:'camera',bazaar:'shopping-bag'};
-
-let saved=[];try{saved=JSON.parse(localStorage.getItem('gid_saved')||'[]')}catch(e){}
-function persist(){try{localStorage.setItem('gid_saved',JSON.stringify(saved))}catch(e){}$('#planN').textContent=saved.length}
-persist();
+const gUrl=p=>`https://www.google.com/maps/search/?api=1&query=${p.coords[0]},${p.coords[1]}`;
+const yUrl=p=>`https://yandex.com/maps/?pt=${p.coords[1]},${p.coords[0]}&z=16&l=map`;
+const CAT={history:['bank','#f59e0b','Tarix'],secret:['diamond','#8e44ec','Yashirin'],food:['fork-knife','#ef4444','Ovqat'],photo:['camera','#0ea5a4','Foto'],bazaar:['shopping-bag','#e0701a','Bozor']};
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const toast=m=>{const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('on'),2600)};
+const openExt=u=>{if(tg)tg.openLink(u);else window.open(u,'_blank','noopener')};
+document.addEventListener('click',e=>{const a=e.target.closest('a[data-ext]');if(a){e.preventDefault();haptic();openExt(a.href)}});
+const mapActs=(g,y,extra='')=>`<div class="acts ${extra?'three':''}"><a class="act main" data-ext href="${g}"><i class="ph-fill ph-google-logo"></i>Google</a><a class="act" data-ext href="${y}"><i class="ph-fill ph-compass"></i>Yandex</a>${extra}</div>`;
 
 // tabs
-$('nav').innerHTML=TABS.map(([id,t,i],n)=>`<button data-t="${id}" class="${n?'':'on'}"><i class="ph ph-${i}"></i>${t}</button>`).join('');
-function tab(id){document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id==='v-'+id));document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===id));scrollTo(0,0);if(id==='map'&&map)setTimeout(()=>map.invalidateSize(),60)}
-$('nav').onclick=e=>{const b=e.target.closest('button');if(b)tab(b.dataset.t)};
+const TABS=[['map','Xarita','map-trifold'],['go',"Yo'l",'path'],['chat','Gid','chats-circle'],['money','Byudjet','wallet']];
+$('#tabs').innerHTML='<span class="ind"></span>'+TABS.map(([id,t,i],n)=>`<button data-t="${id}" class="${n?'':'on'}"><i class="${n?'ph':'ph-fill'} ph-${i}"></i>${t}</button>`).join('');
+function tab(id){const n=TABS.findIndex(t=>t[0]===id);
+  document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id==='v-'+id));
+  document.querySelectorAll('#tabs button').forEach((b,i)=>{b.classList.toggle('on',i===n);const ic=b.querySelector('i');ic.className=(i===n?'ph-fill':'ph')+' ph-'+TABS[i][2]});
+  $('.tabs .ind').style.transform=`translateX(${n*100}%)`;tick();if(id==='map'&&map)setTimeout(()=>map.invalidateSize(),40)}
+$('#tabs').onclick=e=>{const b=e.target.closest('button');if(b)tab(b.dataset.t)};
+document.querySelectorAll('.view').forEach(v=>{const nav=v.querySelector('.nav'),t=v.querySelector('.large');if(nav&&t)new IntersectionObserver(([e])=>nav.classList.toggle('show',!e.isIntersecting),{root:v,rootMargin:'-44px 0px 0px 0px'}).observe(t)});
+
+// detent sheet on the map
+const ds=$('#ds'),dl=$('#list');const D={y:0,raf:0,apply(y){ds.style.transform=`translate3d(0,${y}px,0)`}};
+let det=[];
+function detents(){const H=innerHeight;det=[58,Math.round(H*.5),H-196]}
+function snap(y,v){const t=det.reduce((a,b)=>Math.abs(b-y)<Math.abs(a-y)?b:a);if(t!==snap.last){tick();snap.last=t}
+  ds.classList.toggle('full',t===det[0]);if(t!==det[0])dl.scrollTop=0;springTo(D,t,v,null,.44,v&&Math.abs(v)>700?.82:1)}
+detents();D.y=det[1];D.apply(det[1]);snap.last=det[1];
+function bindDrag(el,scroller,canDrag,move,end){
+  let s=null;
+  el.addEventListener('touchstart',e=>{if(e.touches.length>1)return;const t=e.touches[0];s={y0:t.clientY,x0:t.clientX,on:false,in:scroller&&scroller.contains(e.target),h:[{y:t.clientY,t:e.timeStamp}]}},{passive:true});
+  el.addEventListener('touchmove',e=>{if(!s||e.touches.length>1)return;const t=e.touches[0],dy=t.clientY-s.y0;s.h.push({y:t.clientY,t:e.timeStamp});if(s.h.length>8)s.h.shift();
+    if(!s.on){if(Math.abs(dy)<6||Math.abs(t.clientX-s.x0)>Math.abs(dy))return;if(!canDrag(dy,s.in)){s=null;return}s.on=true;s.base=move(null);s.y0=t.clientY}
+    e.preventDefault();move(t.clientY-s.y0,s.base)},{passive:false});
+  const fin=()=>{if(s&&s.on)end(velocity(s.h));s=null};el.addEventListener('touchend',fin);el.addEventListener('touchcancel',fin);
+  el.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.target.closest('input,button,.dlist,.mbody'))return;el.setPointerCapture(e.pointerId);s={y0:e.clientY,h:[],on:true,base:move(null)}});
+  el.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse'||!s||!s.on)return;s.h.push({y:e.clientY,t:e.timeStamp});if(s.h.length>8)s.h.shift();move(e.clientY-s.y0,s.base)});
+  el.addEventListener('pointerup',e=>{if(e.pointerType==='mouse')fin()})}
+bindDrag(ds,dl,(dy,inList)=>{if(!inList)return true;if(!ds.classList.contains('full'))return true;return dl.scrollTop<=0&&dy>0},
+  (d,base)=>{if(d===null){cancelAnimationFrame(D.raf);return D.y}let y=base+d;if(y<det[0])y=det[0]-rubber(det[0]-y,300);if(y>det[2])y=det[2]+rubber(y-det[2],300);D.y=y;D.apply(y)},
+  v=>snap(D.y+project(v),v));
+ds.querySelector('.grab').addEventListener('click',()=>snap(D.y===det[0]?det[1]:det[0],0));
 
 // map
-let map=null,markers={},layers={},cat='all',query='';
+let map=null,markers={},layers={},cat='all',query='',meDot=null;
+addEventListener('resize',()=>{detents();snap(D.y,0);map&&map.invalidateSize()});
 function initMap(){
   if(!window.L){$('#map').innerHTML='<p class="empty">Xarita yuklanmadi. Internetni tekshiring.</p>';return}
-  map=L.map('map',{zoomControl:false}).setView([41.03,29.0],11);
-  L.control.zoom({position:'bottomright'}).addTo(map);
+  map=L.map('map',{zoomControl:false,attributionControl:true}).setView([41.03,29.0],11);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);
-  P.forEach(p=>{const icon=L.divIcon({className:'',html:`<div class="pin ${p.category==='secret'?'secret':''}"><i class="ph-fill ph-${CATICON[p.category]}"></i></div>`,iconSize:[30,30],iconAnchor:[15,15]});
-    markers[p.id]=L.marker(p.coords,{icon,title:p.name}).on('click',()=>open(p.id)).addTo(map)});
-  Object.entries(G.lines).forEach(([k,l])=>{layers[k]=L.polyline(l.coords,{color:'#1747d1',weight:4,opacity:.8,dashArray:l.dashArray||null})});
+  P.forEach(p=>{const [ic,col]=CAT[p.category];const icon=L.divIcon({className:'',html:`<div class="pin" style="background:${col}"><i class="ph-fill ph-${ic}"></i></div>`,iconSize:[32,32],iconAnchor:[16,16]});
+    markers[p.id]=L.marker(p.coords,{icon,title:p.name}).on('click',()=>place(p.id)).addTo(map)});
+  Object.entries(G.lines).forEach(([k,l])=>{layers[k]=L.polyline(l.coords,{color:l.color||'#007aff',weight:4,opacity:.85,dashArray:l.dashArray||null})});
+  map.fitBounds(L.latLngBounds(P.map(p=>p.coords)),{paddingTopLeft:[24,70],paddingBottomRight:[24,innerHeight*.5+10]});
 }
-const LINE={t1:'T1 tramvay',bosphorus:'Bosfor kemasi',adalar:'Orollar kemasi',marmaray:'Marmaray'};
-$('#lineChips').innerHTML=Object.keys(G.lines).map(k=>`<button class="chip" data-l="${k}">${LINE[k]||k}</button>`).join('');
-$('#lineChips').onclick=e=>{const b=e.target.closest('.chip');if(!b||!map)return;const k=b.dataset.l,on=b.classList.toggle('on');on?layers[k].addTo(map):layers[k].remove();if(on)map.fitBounds(layers[k].getBounds(),{padding:[24,24]})};
+const layerOn={};
+$('#layerBtn').onclick=()=>{haptic();open(`<div class="pad plain"><h2 class="mtitle">Transport chiziqlari</h2><p class="msub">Xaritada ko'rsatish uchun yoqing.</p><div class="group">${Object.entries(G.lines).map(([k,l])=>`<label class="row" style="margin:0;font-size:1rem;color:var(--label);font-weight:400"><span class="tx">${l.name}</span><span class="switch"><input type="checkbox" data-l="${k}" ${layerOn[k]?'checked':''}><span></span></span></label>`).join('')}</div></div>`)};
+$('#mbody').addEventListener('change',e=>{const k=e.target.dataset.l;if(!k||!map)return;tick();layerOn[k]=e.target.checked;if(e.target.checked){layers[k].addTo(map);map.fitBounds(layers[k].getBounds(),{paddingTopLeft:[24,70],paddingBottomRight:[24,innerHeight*.5]})}else layers[k].remove()});
+$('#meBtn').onclick=()=>{haptic();if(!navigator.geolocation)return toast('Joylashuv mavjud emas');navigator.geolocation.getCurrentPosition(p=>{const c=[p.coords.latitude,p.coords.longitude];if(meDot)meDot.remove();meDot=L.marker(c,{icon:L.divIcon({className:'',html:'<div class="medot"></div>',iconSize:[18,18],iconAnchor:[9,9]})}).addTo(map);map.setView(c,14)},()=>toast("Joylashuvga ruxsat berilmadi"),{timeout:9000})};
 
 // list
+const CATS=[['all','Barchasi']].concat(['secret','history','food','photo','bazaar'].map(k=>[k,CAT[k][2]]));
 $('#cats').innerHTML=CATS.map(([k,t],i)=>`<button class="chip ${i?'':'on'}" data-c="${k}">${t}</button>`).join('');
-$('#cats').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;cat=b.dataset.c;document.querySelectorAll('#cats .chip').forEach(x=>x.classList.toggle('on',x===b));list()};
+$('#cats').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;tick();cat=b.dataset.c;document.querySelectorAll('#cats .chip').forEach(x=>x.classList.toggle('on',x===b));list();if(D.y>det[1])snap(det[1],0)};
 $('#q').oninput=e=>{query=e.target.value.toLowerCase().trim();list()};
+$('#q').onfocus=()=>snap(det[0],0);
 function list(){
   const r=P.filter(p=>(cat==='all'||p.category===cat)&&(!query||(p.name+' '+p.turkishName+' '+p.district).toLowerCase().includes(query)));
-  $('#list').innerHTML=r.length?r.map(p=>`<button class="card" data-p="${p.id}"><img src="${p.image}" alt="" loading="lazy"><div><b>${p.name}</b><span>${p.entryPrice}</span></div></button>`).join(''):`<p class="empty">Hech narsa topilmadi. Boshqa so'z bilan qidiring.</p>`;
-  if(map)P.forEach(p=>{const m=markers[p.id];r.includes(p)?m.addTo(map):m.remove()});
-}
-document.addEventListener('click',e=>{const c=e.target.closest('[data-p]');if(c)open(c.dataset.p)});
+  dl.innerHTML=r.length?r.map(p=>`<button class="item" data-p="${p.id}"><img src="${p.image}" alt="" loading="lazy"><span class="tx"><b>${p.name}</b><small>${p.district}</small><small>${p.entryPrice}</small></span></button>`).join(''):`<p class="empty">Hech narsa topilmadi.<br>Boshqa so'z bilan qidiring.</p>`;
+  if(map)P.forEach(p=>{const m=markers[p.id];r.includes(p)?m.addTo(map):m.remove()})}
 
-// place sheet
-function open(id){const p=byId(id),on=saved.includes(id);
-  $('#sheetIn').innerHTML=`<img src="${p.image}" alt="${p.name}"><div class="in"><h3>${p.name}</h3><p class="sub">${p.turkishName}<br>${p.district}</p>
-  ${mapBtns(gUrl(p),yUrl(p))}
-  <button class="btn ghost save" data-save="${id}"><i class="ph ph-bookmark-simple"></i>${on?'Rejadan olib tashlash':"Rejaga qo'shish"}</button>
-  <div class="rows">
-   <div class="row"><i class="ph ph-ticket"></i><div>${p.entryPrice}<small>${p.exitPrice}</small></div></div>
-   <div class="row"><i class="ph ph-train-simple"></i><div>${p.routeLine}<small>${p.routeStation}, ${p.routeCost}</small></div></div>
-   <div class="row"><i class="ph ph-clock"></i><div>${p.hours}</div></div>
-   <div class="row"><i class="ph ph-person-simple-walk"></i><div>${p.walkWhere}<small>Qayerda yurish</small></div></div>
-   <div class="row"><i class="ph ph-coffee"></i><div>${p.sitWhere}<small>Qayerda o'tirish</small></div></div>
-   <div class="row"><i class="ph ph-camera"></i><div>${p.photoSpot}<small>Eng yaxshi surat joyi</small></div></div>
-  </div><p class="h">${p.historyUz}</p><p class="note">${p.guideTipUz}</p></div>`;
-  $('#sheet').classList.add('on');$('#sheet>div').scrollTop=0;$('.close').focus()}
-function closeSheet(){$('#sheet').classList.remove('on')}
-$('#sheet').onclick=e=>{if(e.target.id==='sheet'||e.target.closest('.close'))closeSheet();const s=e.target.closest('[data-save]');if(s){const id=s.dataset.save;saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];persist();open(id)}};
-addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
-$('#planBtn').onclick=()=>{$('#sheetIn').innerHTML=`<div class="in" style="padding-top:22px"><h3>Rejam</h3><p class="sub">Saqlangan joylar shu telefonda turadi.</p><div class="grid" style="margin-top:14px">${saved.length?saved.map(id=>{const p=byId(id);return `<button class="card" data-p="${id}"><div><b>${p.name}</b><span>${p.entryPrice}</span></div></button>`}).join(''):`<p class="empty">Hali joy qo'shilmagan. Joyni ochib, "Rejaga qo'shish"ni bosing.</p>`}</div></div>`;$('#sheet').classList.add('on')};
+// modal sheet
+const M=$('#modal'),mb=$('#mbody'),scrim=$('#scrim');const hM=()=>M.offsetHeight||innerHeight;
+const S={y:0,raf:0,apply(y){M.style.transform=`translate3d(0,${y}px,0)`;scrim.style.opacity=.42*Math.max(0,1-y/hM())}};let isOpen=false;
+function open(html){mb.innerHTML=html;mb.scrollTop=0;
+  if(!isOpen){isOpen=true;M.style.visibility=scrim.style.visibility='visible';S.y=hM();S.apply(S.y);$('#tabs').classList.add('hide');if(tg)tg.BackButton.show()}
+  springTo(S,0,0,null,.4,1);M.querySelector('.mclose').focus({preventScroll:true})}
+function close(v){isOpen=false;if(tg)tg.BackButton.hide();$('#tabs').classList.remove('hide');springTo(S,hM(),v||0,()=>{if(!isOpen){M.style.visibility=scrim.style.visibility='hidden';mb.innerHTML=''}},.34,1)}
+if(tg)tg.BackButton.onClick(()=>close());
+scrim.onclick=()=>close();M.querySelector('.mclose').onclick=()=>close();addEventListener('keydown',e=>{if(e.key==='Escape'&&isOpen)close()});
+bindDrag(M,mb,(dy,inB)=>dy>0&&(!inB||mb.scrollTop<=0),
+  (d,base)=>{if(d===null){cancelAnimationFrame(S.raf);return S.y}let y=base+d;if(y<0)y=-rubber(-y,200);S.y=y;S.apply(y)},
+  v=>{if(S.y+project(v)*.5>hM()*.45||v>900){haptic();close(v)}else springTo(S,0,v,null,.4,1)});
+
+// place card
+let saved=[];try{saved=JSON.parse(localStorage.getItem('gid_saved')||'[]')}catch(e){}
+function persist(){try{localStorage.setItem('gid_saved',JSON.stringify(saved))}catch(e){}const b=$('#planN');b.textContent=saved.length;b.classList.toggle('on',saved.length>0)}
+persist();
+const R=(ic,col,a,b)=>`<div class="row"><span class="ic" style="background:${col}"><i class="ph-fill ph-${ic}"></i></span><span class="tx">${a}${b?`<small>${b}</small>`:''}</span></div>`;
+function place(id){const p=byId(id),on=saved.includes(id);haptic();
+  const saveBtn=`<button class="act" data-save="${id}"><i class="${on?'ph-fill':'ph'} ph-bookmark-simple"></i>${on?'Rejada':'Rejaga'}</button>`;
+  open(`<img class="hero" src="${p.image}" alt="${p.name}"><div class="pad"><h2 class="mtitle">${p.name}</h2><p class="msub">${p.turkishName}<br>${p.district}</p>
+  ${mapActs(gUrl(p),yUrl(p),saveBtn)}<div style="height:16px"></div>
+  <div class="group">${R('ticket','#34c759',p.entryPrice,p.exitPrice)}${R('clock','#ff9500',p.hours)}${R('train-simple','#007aff',p.routeLine,p.routeStation+', '+p.routeCost)}</div>
+  <p class="call"><b>Gid maslahati</b>${p.guideTipUz}</p>
+  <div class="group">${R('person-simple-walk','#5856d6',p.walkWhere,"Qayerda yurish")}${R('coffee','#a2845e',p.sitWhere,"Qayerda o'tirish")}${R('camera','#ff2d55',p.photoSpot,'Eng yaxshi surat joyi')}</div>
+  <p class="head">Tarixi</p><div class="group"><div class="prose">${p.historyUz}</div></div>
+  <p class="foot" style="margin:-12px 16px 0">${p.categoryLabel}</p></div>`)}
+document.addEventListener('click',e=>{const c=e.target.closest('[data-p]');if(c&&!c.closest('#seg'))place(c.dataset.p)});
+mb.addEventListener('click',e=>{const s=e.target.closest('[data-save]');if(!s)return;const id=s.dataset.save;saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];persist();haptic('medium');const on=saved.includes(id);s.innerHTML=`<i class="${on?'ph-fill':'ph'} ph-bookmark-simple"></i>${on?'Rejada':'Rejaga'}`});
+$('#planBtn').onclick=()=>{haptic();open(`<div class="pad plain"><h2 class="mtitle">Rejam</h2><p class="msub">Saqlangan joylar shu telefonda turadi.</p>${saved.length?`<div class="group">${saved.map(id=>{const p=byId(id);return `<button class="row tap" data-p="${id}"><span class="ic" style="background:${CAT[p.category][1]}"><i class="ph-fill ph-${CAT[p.category][0]}"></i></span><span class="tx">${p.name}<small>${p.entryPrice}</small></span><i class="ph ph-caret-right chev"></i></button>`}).join('')}</div>`:`<p class="empty">Hali joy qo'shilmagan.<br>Joyni ochib, "Rejaga"ni bosing.</p>`}</div>`)};
+
+// segmented control
+$('#seg').onclick=e=>{const b=e.target.closest('button');if(!b)return;tick();const n=+b.dataset.p;$('#seg i').style.transform=`translateX(${n*100}%)`;document.querySelectorAll('.pane').forEach(p=>p.classList.toggle('on',+p.dataset.pane===n))};
 
 // point to point
 $('#from').innerHTML=Object.entries(G.origins).map(([k,o])=>`<option value="${k}">${o.name}</option>`).join('');
@@ -191,61 +309,64 @@ let pax=2;
 function go(){const o=G.origins[$('#from').value],d=byId($('#to').value);
   const one=Math.round((d.ridesFromCenter+o.extraRides)*FARE+d.extraFareTL+o.airportFee),all=one*pax,rt=all*2;
   const [a,b]=o.coords,[c,e]=d.coords;
-  $('#goOut').innerHTML=`<div class="total"><small>Borish va qaytish, ${pax} kishi</small><strong>${fmt(rt)} TL</strong><small>~$${(rt/USD).toFixed(1)} USD</small><div class="split"><div><span>1 kishi, bir tomon</span><b>${fmt(one)} TL</b></div><div><span>${pax} kishi, bir tomon</span><b>${fmt(all)} TL</b></div></div></div>
-  <div class="panel"><h3>Qanday boriladi</h3><p style="line-height:1.55;margin:8px 0">${o.prefix} <b>${d.routeLine}</b> orqali <b>${d.routeStation}</b>ga borasiz.</p><p class="tag" style="margin:0">Kirish: ${d.entryPrice}</p>
-  ${mapBtns(`https://www.google.com/maps/dir/?api=1&origin=${a},${b}&destination=${c},${e}&travelmode=transit`,`https://yandex.com/maps/?rtext=${a},${b}~${c},${e}&rtt=mt`)}</div>`}
-$('#from').onchange=$('#to').onchange=go;
-document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{pax=Math.max(1,Math.min(20,pax+ +b.dataset.s));$('#pax').textContent=pax;go()});
+  $('#goOut').innerHTML=`<div class="total"><small>Borish va qaytish, ${pax} kishi</small><strong>${fmt(rt)} TL</strong><small>~$${(rt/USD).toFixed(1)} USD. Taksidan ancha arzon</small><dl><div><dt>1 kishi, bir tomon</dt><dd>${fmt(one)} TL</dd></div><div><dt>${pax} kishi, bir tomon</dt><dd>${fmt(all)} TL</dd></div></dl></div>
+  <p class="head">Qanday boriladi</p><div class="group"><div class="prose"><p>${o.prefix} <b>${d.routeLine}</b> orqali <b>${d.routeStation}</b>ga borasiz.</p><p style="color:var(--label2);font-size:.92rem">Kirish: ${d.entryPrice}</p></div></div>
+  ${mapActs(`https://www.google.com/maps/dir/?api=1&origin=${a},${b}&destination=${c},${e}&travelmode=transit`,`https://yandex.com/maps/?rtext=${a},${b}~${c},${e}&rtt=mt`)}<div style="height:24px"></div>`}
+$('#from').onchange=$('#to').onchange=()=>{tick();go()};
+document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{pax=Math.max(1,Math.min(20,pax+ +b.dataset.s));$('#pax').textContent=pax;tick();go()});
 
 // ships and routes
-$('#ships').innerHTML=G.ships.map(s=>`<article class="panel" style="margin:0"><h3>${s.name}</h3><p class="tag">${s.badge}</p><div class="rows">
- <div class="row"><i class="ph ph-anchor"></i><div>${s.pierWhere}</div></div><div class="row"><i class="ph ph-map-pin"></i><div>${s.WhereItGoes}</div></div>
- <div class="row"><i class="ph ph-coins"></i><div>${s.price}</div></div><div class="row"><i class="ph ph-clock"></i><div>${s.duration}</div></div>
- <div class="row"><i class="ph ph-buildings"></i><div>${s.company}</div></div></div><p class="note">${s.tipUz}</p>${mapBtns(gUrl(s),yUrl(s))}</article>`).join('');
-$('#routes').innerHTML=G.routes.map(r=>`<article class="panel"><h3>${r.title}</h3><p class="tag">${r.badge}</p><div class="rows">
- <div class="row"><i class="ph ph-clock"></i><div>${r.duration}</div></div><div class="row"><i class="ph ph-train-simple"></i><div>${r.transport}<small>${r.transportCost}</small></div></div><div class="row"><i class="ph ph-ticket"></i><div>${r.entryTotal}</div></div></div>
- <ol class="steps">${r.steps.map(s=>`<li>${s}</li>`).join('')}</ol></article>`).join('');
+const L1=(ic,a,b)=>`<div class="line"><i class="ph ph-${ic}"></i><div>${a}${b?`<small>${b}</small>`:''}</div></div>`;
+$('#ships').innerHTML=G.ships.map((s,i)=>`<details ${i?'':'open'}><summary class="row tap"><span class="ic" style="background:#0a84ff"><i class="ph-fill ph-boat"></i></span><span class="tx">${s.name}<small>${s.badge}</small></span><i class="ph ph-caret-right chev"></i></summary><div class="body"><div class="rows">${L1('anchor',s.pierWhere,'Pristan')}${L1('map-pin',s.WhereItGoes,'Qayerga boradi')}${L1('coins',s.price,'Narxi')}${L1('clock',s.duration,'Vaqti')}${L1('buildings',s.company)}</div><p class="call">${s.tipUz}</p>${mapActs(gUrl(s),yUrl(s))}</div></details>`).join('');
+$('#routes').innerHTML=G.routes.map((r,i)=>`<details ${i?'':'open'}><summary class="row tap"><span class="ic" style="background:#34c759"><i class="ph-fill ph-path"></i></span><span class="tx">${r.title}<small>${r.badge}</small></span><i class="ph ph-caret-right chev"></i></summary><div class="body"><div class="rows">${L1('clock',r.duration)}${L1('train-simple',r.transport,r.transportCost)}${L1('ticket',r.entryTotal)}</div><ol class="steps">${r.steps.map(s=>`<li>${s}</li>`).join('')}</ol></div></details>`).join('');
 
 // chat
 const A=G.answers,chat=$('#chat');
-function say(who,html,ids){const d=document.createElement('div');d.className='msg'+(who==='me'?' me':'');d.innerHTML=html+(ids&&ids.length?`<div class="links">${ids.filter(byId).map(i=>`<button data-p="${i}">${byId(i).name}</button>`).join('')}</div>`:'');chat.append(d);d.scrollIntoView({block:'nearest'})}
-const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function say(who,html,ids){const d=document.createElement('div');d.className='msg'+(who==='me'?' me':'');d.innerHTML=html+(ids&&ids.length?`<div class="links">${ids.filter(byId).map(i=>`<button data-p="${i}">${byId(i).name}</button>`).join('')}</div>`:'');chat.append(d);const v=$('#v-chat');v.scrollTo({top:v.scrollHeight,behavior:REDUCE?'auto':'smooth'})}
 say('bot',"<p>Salom! Men Sardor Agha. Qaysi kemaga chiqish, yashirin joylar va xarajatlar haqida so'rang.</p>");
 $('#qs').innerHTML=Object.entries(A).map(([k,a])=>`<button data-q="${k}">${a.question}</button>`).join('');
-$('#qs').onclick=e=>{const b=e.target.closest('button');if(!b)return;const a=A[b.dataset.q];say('me',esc(a.question));say('bot',a.answerHtml,a.relatedIds)};
+$('#qs').onclick=e=>{const b=e.target.closest('button');if(!b)return;tick();const a=A[b.dataset.q];say('me',esc(a.question));setTimeout(()=>say('bot',a.answerHtml,a.relatedIds),260)};
+$('#askIn').onfocus=()=>{document.body.classList.add('kbd');$('#tabs').classList.add('hide')};
+$('#askIn').onblur=()=>{document.body.classList.remove('kbd');if(!isOpen)$('#tabs').classList.remove('hide')};
 $('#ask').onsubmit=e=>{e.preventDefault();const t=$('#askIn').value.trim();if(!t)return;$('#askIn').value='';say('me',esc(t));const q=t.toLowerCase(),has=(...w)=>w.some(x=>q.includes(x));
- if(has('kema','parom','vapur','orol','buyukada','büyükada'))say('bot',A.which_ship.answerHtml,A.which_ship.relatedIds);
- else if(has('yashirin','kuzguncuk','pierre','camlica','hech kim'))say('bot',A.secret_gems.answerHtml,A.secret_gems.relatedIds);
- else if(has('aeroport','airport','ist','saw'))say('bot',A.airport_to_center.answerHtml,A.airport_to_center.relatedIds);
- else if(has('halol','ovqat','restoran','kafe'))say('bot',A.halal_food.answerHtml,A.halal_food.relatedIds);
- else if(has('bozor','suvenir','kiyim','shirinlik'))say('bot',A.shopping_bazaar.answerHtml,A.shopping_bazaar.relatedIds);
- else if(has('ayasofya','sulton','masjid'))say('bot',"<p><b>Ayasofya va Sultonahmet maydoni</b>ga <b>T1 Tramvay</b>da boring va <b>Sultanahmet</b> bekatida tushing (46.20 TL).</p><p>Ko'k Masjidga kirish <b>BEPUL</b>, Ayasofya yuqori galereyasi <b>€25 (~960 TL)</b>.</p>",['ayasofya','seven_hills']);
- else if(has('galata','istiqlol','taksim'))say('bot',"<p><b>Galata minorasi</b>ga <b>M2 Metro</b>da <b>Şişhane</b> bekatida tushing yoki Karaköydan <b>F2 Tünel</b> vagoniga chiqing (46.20 TL).</p>",['galata']);
- else say('bot',"<p>Bu savolga tayyor javobim yo'q. Quyidagi joylardan birini oching: yo'l, narx va xarita shu yerda.</p>",['kuzguncuk','buyukada','pierre_loti','ayasofya','ortakoy'])};
+ const ans=(html,ids)=>setTimeout(()=>say('bot',html,ids),260);
+ if(has('kema','parom','vapur','orol','buyukada','büyükada'))ans(A.which_ship.answerHtml,A.which_ship.relatedIds);
+ else if(has('yashirin','kuzguncuk','pierre','camlica','hech kim'))ans(A.secret_gems.answerHtml,A.secret_gems.relatedIds);
+ else if(has('aeroport','airport','saw'))ans(A.airport_to_center.answerHtml,A.airport_to_center.relatedIds);
+ else if(has('halol','ovqat','restoran','kafe'))ans(A.halal_food.answerHtml,A.halal_food.relatedIds);
+ else if(has('bozor','suvenir','kiyim','shirinlik'))ans(A.shopping_bazaar.answerHtml,A.shopping_bazaar.relatedIds);
+ else if(has('ayasofya','sulton','masjid'))ans("<p><b>Ayasofya va Sultonahmet maydoni</b>ga <b>T1 Tramvay</b>da boring va <b>Sultanahmet</b> bekatida tushing (46.20 TL).</p><p>Ko'k Masjidga kirish <b>BEPUL</b>, Ayasofya yuqori galereyasi <b>€25 (~960 TL)</b>.</p>",['ayasofya','seven_hills']);
+ else if(has('galata','istiqlol','taksim'))ans("<p><b>Galata minorasi</b>ga <b>M2 Metro</b>da <b>Şişhane</b> bekatida tushing yoki Karaköydan <b>F2 Tünel</b> vagoniga chiqing (46.20 TL).</p>",['galata']);
+ else ans("<p>Bu savolga tayyor javobim yo'q. Quyidagi joylardan birini oching: yo'l, narx va xarita shu yerda.</p>",['kuzguncuk','buyukada','pierre_loti','ayasofya','ortakoy'])};
 
 // budget
 const B={people:2,days:4};
-$('#tix').innerHTML=G.tickets.map((t,i)=>`<label class="check"><input type="checkbox" data-t="${t.tl}" ${t.on?'checked':''}><span>${t.name}</span><em>${fmt(t.tl)} TL</em></label>`).join('');
+$('#tix').innerHTML=G.tickets.map(t=>`<label class="row" style="margin:0;font-size:1rem;font-weight:400;color:var(--label)"><span class="tx">${t.name}<small>${fmt(t.tl)} TL</small></span><span class="switch"><input type="checkbox" data-t="${t.tl}" ${t.on?'checked':''}><span></span></span></label>`).join('');
 function budget(){const {people:p,days:d}=B,tr=Math.round(Math.ceil(p/3)*165+p*d*+$('#rides').value*FARE);
   const ti=[...document.querySelectorAll('#tix input:checked')].reduce((s,c)=>s+ +c.dataset.t,0)*p,fo=+$('#food').value*p*d,all=tr+ti+fo;
-  $('#tTL').textContent=fmt(all)+' TL';$('#tFx').textContent=`~$${fmt(all/USD)} USD, ~€${fmt(all/EUR)} EUR`;$('#tNote').textContent=`${p} kishi, ${d} kun (1 kishiga ${fmt(all/p)} TL)`;
+  $('#tTL').textContent=fmt(all)+' TL';$('#tFx').textContent=`~$${fmt(all/USD)} USD, ~€${fmt(all/EUR)} EUR`;$('#tNote').textContent=`${p} kishi, ${d} kun. 1 kishiga ${fmt(all/p)} TL`;
   $('#tTr').textContent=fmt(tr)+' TL';$('#tTi').textContent=fmt(ti)+' TL';$('#tFo').textContent=fmt(fo)+' TL'}
-document.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{const [k,v]=b.dataset.b.split(':');B[k]=Math.max(1,Math.min(k==='days'?30:20,B[k]+ +v));$('#bP').textContent=B.people;$('#bD').textContent=B.days;budget()});
-$('#rides').onchange=$('#food').onchange=$('#tix').onchange=budget;
-$('#prices').innerHTML=[...P.map(p=>[p.name,p.entryPrice]),...G.ships.map(s=>[s.name,s.price])].map(([a,b])=>`<div><span>${a}</span><span>${b}</span></div>`).join('');
+document.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{const [k,v]=b.dataset.b.split(':');B[k]=Math.max(1,Math.min(k==='days'?30:20,B[k]+ +v));$('#bP').textContent=B.people;$('#bD').textContent=B.days;tick();budget()});
+$('#rides').onchange=$('#food').onchange=$('#tix').onchange=()=>{tick();budget()};
+$('#prices').innerHTML=[...P.map(p=>[p.name,p.entryPrice]),...G.ships.map(s=>[s.name,s.price])].map(([a,b])=>`<div class="row"><span class="tx">${a}</span><span class="val">${b}</span></div>`).join('');
 
 initMap();list();go();budget();
 }
+
+// Content: instant from this phone's cache, then checked against the server; works offline after the first load.
 (async function(){
-  const txt=document.getElementById('loadTxt'),back=()=>location.replace('./?kod=1');
+  const txt=document.getElementById('loadTxt'),back=()=>location.replace('./?kod=1'),done=()=>{const l=document.getElementById('load');if(l)l.remove()};
   let a=null;try{a=JSON.parse(localStorage.getItem('gid_auth'))}catch(e){}
   if(!a)return back();
+  let box=null,started=false;
+  try{box=await caches.open('gid-v1');const r=await box.match('content');if(r){window.G=await r.json();start();started=true;done()}}catch(e){}
   try{
     const r=await fetch('https://yeoursdadumvobnlaqwq.supabase.co/rest/v1/rpc/gid_open',{method:'POST',headers:{'content-type':'application/json',apikey:'sb_publishable_TcYmYxYVbbpJETdBEjRW5Q_G7X-50PQ',authorization:'Bearer sb_publishable_TcYmYxYVbbpJETdBEjRW5Q_G7X-50PQ'},body:JSON.stringify({p_code:a.code,p_device:a.device})});
     const j=await r.json();
-    if(!j||!j.data){try{localStorage.removeItem('gid_auth')}catch(e){}return back()}
-    window.G=j.data;start();document.getElementById('load').remove();
-  }catch(e){txt.innerHTML='Gid yuklanmadi. Internetni tekshiring.<br><br><button class="btn" onclick="location.reload()">Qayta urinish</button>'}
+    if(j&&j.data){if(box)box.put('content',new Response(JSON.stringify(j.data))).catch(()=>{});if(!started){window.G=j.data;start();done()}return}
+    if(j&&j.error){try{localStorage.removeItem('gid_auth');box&&box.delete('content')}catch(e){}return back()}
+    throw new Error('bad response');
+  }catch(e){if(!started)txt.innerHTML='Gid yuklanmadi. Internetni tekshiring.<br><br><button class="btn" onclick="location.reload()">Qayta urinish</button>'}
 })();
 </script>
 </body>
