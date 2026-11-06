@@ -45,7 +45,7 @@ html,body{height:100%;overflow:hidden;overscroll-behavior:none}
 .total dl{margin:12px 0 0;padding-top:10px;border-top:.5px solid rgb(255 255 255/.34);display:grid;gap:6px}.total dl div{display:flex;justify-content:space-between;gap:12px;font-size:.95rem}.total dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums}.total dt{opacity:.92}
 .prose{padding:13px 16px;line-height:1.42}.prose p{margin:0 0 8px}.prose p:last-child{margin:0}
 .acts{display:grid;grid-template-columns:1fr 1fr;gap:8px}.act{display:grid;justify-items:center;gap:3px;min-height:58px;padding:9px 6px;border-radius:14px;background:var(--cell);color:var(--blue-text);font-size:.78rem;font-weight:500;transition:transform 140ms var(--out)}.act:active{transform:scale(.97)}.act i{font-size:1.4rem}
-.acts.three{grid-template-columns:repeat(3,1fr)}.act.main{background:var(--blue);color:#fff}
+.acts.three{grid-template-columns:repeat(4,1fr)}.act.main{background:var(--blue);color:#fff}
 .call{padding:12px 14px;border-radius:14px;background:var(--tint);line-height:1.4;font-size:.94rem;margin:0 0 22px}.call b{display:block;color:var(--blue-text);font-size:.82rem;margin-bottom:2px}
 details>summary{list-style:none;cursor:pointer}details>summary::-webkit-details-marker{display:none}
 details{position:relative}details[open] .chev{transform:rotate(90deg)}.chev{transition:transform 200ms var(--drawer)}
@@ -69,10 +69,18 @@ details{position:relative}details[open] .chev{transform:rotate(90deg)}.chev{tran
 .item{position:relative;display:flex;align-items:center;gap:12px;width:100%;padding:9px 0;text-align:left}.item+.item:before{content:"";position:absolute;left:68px;right:0;top:0;height:.5px;background:var(--sep)}.item:active{opacity:.6}
 .item img{flex:none;width:56px;height:56px;border-radius:12px;object-fit:cover;background:var(--cell2)}.item .tx{min-width:0;flex:1;line-height:1.26}.item b{display:block;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.item small{display:block;color:var(--label2);font-size:.82rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
 .empty{padding:30px 12px;text-align:center;color:var(--label2);line-height:1.4}
+.thead{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.pcard{display:flex;width:100%;align-items:center;justify-content:space-between;padding:16px 18px;border-radius:22px;margin-bottom:14px;background:linear-gradient(135deg,#0a84ff,#0040dd);color:#fff;text-align:left;transition:transform 140ms var(--out)}.pcard small{display:block;font-size:.85rem;opacity:.9}.pcard b{font-size:1.2rem;font-weight:600}.pcard strong{font-size:2.1rem;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.call.warn{background:rgba(255,149,0,.16)}.call.warn b{color:#c93400}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:22px}.tile{display:grid;justify-items:center;gap:7px;padding:14px 4px 12px;border-radius:18px;background:var(--cell);font-size:.8rem;font-weight:500;transition:transform 140ms var(--out)}.tile span{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;color:#fff;font-size:1.5rem}
+.listen{display:grid;grid-template-columns:34px 1fr;width:100%;padding:11px 14px;margin:0 0 12px;border-radius:14px;background:var(--tint);color:var(--blue-text);text-align:left;align-items:center;column-gap:8px}.listen i{grid-row:span 2;font-size:2rem}.listen span{font-weight:600;line-height:1.15}.listen small{color:var(--label2);font-size:.78rem}.listen.on{background:var(--blue);color:#fff}.listen.on small{color:rgb(255 255 255/.85)}
+.phr i{color:var(--blue-text);font-size:1.7rem}.phr.on{background:var(--tint)}.phr b{font-weight:600}
+.steps.tl li:not(:last-child):after{content:"";position:absolute;left:11px;top:25px;bottom:-12px;width:1.5px;background:var(--sep)}
+.onb{min-height:68vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:30px 26px}.onb>span{width:88px;height:88px;border-radius:24px;display:grid;place-items:center;color:#fff;font-size:2.8rem;margin-bottom:20px}.onb .msub{margin:10px 0 22px;line-height:1.42}.dots2{display:flex;gap:7px;margin-bottom:24px}.dots2 i{width:7px;height:7px;border-radius:50%;background:var(--label3)}.dots2 i.on{background:var(--blue)}
 /* tab bar */
-.tabs{position:fixed;z-index:20;left:50%;bottom:calc(env(safe-area-inset-bottom) + 10px);transform:translateX(-50%);width:min(92vw,440px);height:62px;border-radius:31px;display:grid;grid-template-columns:repeat(4,1fr);padding:4px;transition:transform 240ms var(--drawer),opacity 160ms ease}
+.tabs{position:fixed;z-index:20;left:50%;bottom:calc(env(safe-area-inset-bottom) + 10px);transform:translateX(-50%);width:min(92vw,440px);height:62px;border-radius:31px;display:grid;grid-template-columns:repeat(5,1fr);padding:4px;transition:transform 240ms var(--drawer),opacity 160ms ease}
 .tabs.hide{transform:translate(-50%,120px);opacity:0;pointer-events:none}
-.tabs .ind{position:absolute;top:4px;bottom:4px;left:4px;width:calc((100% - 8px)/4);border-radius:27px;background:var(--tint);transition:transform 300ms var(--drawer)}
+.tabs .ind{position:absolute;top:4px;bottom:4px;left:4px;width:calc((100% - 8px)/5);border-radius:27px;background:var(--tint);transition:transform 300ms var(--drawer)}
 .tabs button{position:relative;z-index:1;display:grid;justify-items:center;align-content:center;gap:1px;color:var(--label2);font-size:.68rem;font-weight:500;letter-spacing:0}.tabs button i{font-size:1.45rem}.tabs button.on{color:var(--blue-text)}
 /* modal sheet */
 .scrim{position:fixed;inset:0;z-index:30;background:#000;opacity:0;visibility:hidden}
@@ -108,7 +116,16 @@ body.kbd .ask{bottom:10px}#v-chat{padding-bottom:calc(90px + env(safe-area-inset
 <body>
 <div class="load" id="load"><b>Istanbul VIP Gid</b><span id="loadTxt">Gid yuklanmoqda...</span></div>
 
-<section class="view on" id="v-map">
+<section class="view on" id="v-today">
+  <div class="nav">Bugun</div>
+  <div class="page">
+    <div class="thead"><h1 class="large">Bugun</h1><button class="chip" id="langBtn">Кирил</button></div>
+    <p class="lead" id="todayDate"></p>
+    <div id="todayBody"></div>
+  </div>
+</section>
+
+<section class="view" id="v-map">
   <div id="map" role="application" aria-label="Istanbul xaritasi"></div>
   <div class="fab glass">
     <button id="planBtn" aria-label="Rejam"><i class="ph-fill ph-bookmark-simple"></i><span class="badge" id="planN">0</span></button>
@@ -141,7 +158,7 @@ body.kbd .ask{bottom:10px}#v-chat{padding-bottom:calc(90px + env(safe-area-inset
       <div id="goOut"></div>
     </div>
     <div class="pane" data-pane="1">
-      <p class="call"><b>Bosfor sirri</b>Turistlar $40-50 to'laydigan Bosfor sayohatini davlat kemasida 46.20 TL ga qiling. Barcha shahar kemalariga oddiy Istanbulkart bosiladi.</p>
+      <p class="call"><b>Bosfor sirri</b>Turistlar $40-50 to'laydigan Bosfor sayohatini davlat kemasida 46-65 TL ga qiling. Barcha shahar kemalariga oddiy Istanbulkart bosiladi.</p>
       <div class="group" id="ships"></div>
     </div>
     <div class="pane" data-pane="2"><div class="group" id="routes"></div></div>
@@ -153,6 +170,7 @@ body.kbd .ask{bottom:10px}#v-chat{padding-bottom:calc(90px + env(safe-area-inset
   <div class="page">
     <h1 class="large">Sardor Agha</h1>
     <p class="lead">Shaxsiy gidingiz. Savolni tanlang yoki yozing.</p>
+    <div class="group"><a class="row tap" data-tg href="https://t.me/istanbulda_ish_bot"><span class="ic" style="background:#007aff"><i class="ph-fill ph-robot"></i></span><span class="tx">Jonli savol berish<small>Sun'iy intellekt botda javob beradi</small></span><i class="ph ph-caret-right chev"></i></a></div>
     <div class="qs" id="qs"></div>
     <div class="chat" id="chat" aria-live="polite"></div>
     <form class="ask glass" id="ask"><input id="askIn" aria-label="Savolingiz" placeholder="Savolingiz..." autocomplete="off"><button aria-label="Yuborish"><i class="ph-fill ph-arrow-up"></i></button></form>
@@ -174,8 +192,8 @@ body.kbd .ask{bottom:10px}#v-chat{padding-bottom:calc(90px + env(safe-area-inset
     </div>
     <p class="head">Chiptalar, 1 kishi uchun</p>
     <div class="group" id="tix"></div>
-    <div class="group"><details><summary class="row tap"><span class="tx">2026 narxlar jadvali<small>Yashirin joylarning deyarli barchasiga kirish BEPUL</small></span><i class="ph ph-caret-right chev"></i></summary><div class="tbl" id="prices"></div></details></div>
-    <p class="foot">1 USD ≈ 35.1 TL, 1 EUR ≈ 38.4 TL. Narxlar taxminiy.</p>
+    <div class="group"><details><summary class="row tap"><span class="tx">2026 narxlar jadvali<small>Yashirin joylarning ko'piga kirish bepul</small></span><i class="ph ph-caret-right chev"></i></summary><div class="tbl" id="prices"></div></details></div>
+    <p class="foot">Narxlar 2026-yil noyabrdagi ochiq manbalardan olingan, joyida farq qilishi mumkin. Kurs internetdan avtomatik yangilanadi.</p>
   </div>
 </section>
 
@@ -196,8 +214,8 @@ function springTo(st,to,v0,done,response=.42,damping=.92){
   cancelAnimationFrame(st.raf);
   if(REDUCE){st.y=to;st.apply(to);done&&done();return}
   const w=2*Math.PI/response;let x=st.y,v=v0||0,last=performance.now();
-  const step=now=>{let dt=Math.min(.032,(now-last)/1000);last=now;
-    for(let i=0;i<4;i++){const h=dt/4,a=-w*w*(x-to)-2*damping*w*v;v+=a*h;x+=v*h}
+  const step=now=>{let dt=Math.min(.06,(now-last)/1000);last=now;
+    for(let i=0;i<8;i++){const h=dt/8,a=-w*w*(x-to)-2*damping*w*v;v+=a*h;x+=v*h}
     if(Math.abs(x-to)<.4&&Math.abs(v)<8){st.y=to;st.apply(to);done&&done();return}
     st.y=x;st.apply(x);st.raf=requestAnimationFrame(step)};
   st.raf=requestAnimationFrame(step)}
@@ -207,7 +225,7 @@ function velocity(hist){const n=hist.length;if(n<2)return 0;const a=hist[Math.ma
 
 function start(){
 const $=s=>document.querySelector(s),P=G.places,byId=id=>P.find(p=>p.id===id),fmt=n=>Math.round(n).toLocaleString('en-US');
-const FARE=46.2,USD=35.1,EUR=38.4;
+const FARE=46.2;let FX={usd:50,eur:56,uzs:238};
 const gUrl=p=>`https://www.google.com/maps/search/?api=1&query=${p.coords[0]},${p.coords[1]}`;
 const yUrl=p=>`https://yandex.com/maps/?pt=${p.coords[1]},${p.coords[0]}&z=16&l=map`;
 const CAT={history:['bank','#f59e0b','Tarix'],secret:['diamond','#8e44ec','Yashirin'],food:['fork-knife','#ef4444','Ovqat'],photo:['camera','#0ea5a4','Foto'],bazaar:['shopping-bag','#e0701a','Bozor']};
@@ -218,7 +236,7 @@ document.addEventListener('click',e=>{const a=e.target.closest('a[data-ext]');if
 const mapActs=(g,y,extra='')=>`<div class="acts ${extra?'three':''}"><a class="act main" data-ext href="${g}"><i class="ph-fill ph-google-logo"></i>Google</a><a class="act" data-ext href="${y}"><i class="ph-fill ph-compass"></i>Yandex</a>${extra}</div>`;
 
 // tabs
-const TABS=[['map','Xarita','map-trifold'],['go',"Yo'l",'path'],['chat','Gid','chats-circle'],['money','Byudjet','wallet']];
+const TABS=[['today','Bugun','sun'],['map','Xarita','map-trifold'],['go',"Yo'l",'path'],['chat','Gid','chats-circle'],['money','Byudjet','wallet']];
 $('#tabs').innerHTML='<span class="ind"></span>'+TABS.map(([id,t,i],n)=>`<button data-t="${id}" class="${n?'':'on'}"><i class="${n?'ph':'ph-fill'} ph-${i}"></i>${t}</button>`).join('');
 function tab(id){const n=TABS.findIndex(t=>t[0]===id);
   document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id==='v-'+id));
@@ -283,7 +301,7 @@ const S={y:0,raf:0,apply(y){M.style.transform=`translate3d(0,${y}px,0)`;scrim.st
 function open(html){mb.innerHTML=html;mb.scrollTop=0;
   if(!isOpen){isOpen=true;M.style.visibility=scrim.style.visibility='visible';S.y=hM();S.apply(S.y);$('#tabs').classList.add('hide');if(tg)tg.BackButton.show()}
   springTo(S,0,0,null,.4,1);M.querySelector('.mclose').focus({preventScroll:true})}
-function close(v){isOpen=false;if(tg)tg.BackButton.hide();$('#tabs').classList.remove('hide');springTo(S,hM(),v||0,()=>{if(!isOpen){M.style.visibility=scrim.style.visibility='hidden';mb.innerHTML=''}},.34,1)}
+function close(v){isOpen=false;stopAudio();if(tg)tg.BackButton.hide();$('#tabs').classList.remove('hide');springTo(S,hM(),v||0,()=>{if(!isOpen){M.style.visibility=scrim.style.visibility='hidden';mb.innerHTML=''}},.34,1)}
 if(tg)tg.BackButton.onClick(()=>close());
 scrim.onclick=()=>close();M.querySelector('.mclose').onclick=()=>close();addEventListener('keydown',e=>{if(e.key==='Escape'&&isOpen)close()});
 bindDrag(M,mb,(dy,inB)=>dy>0&&(!inB||mb.scrollTop<=0),
@@ -296,11 +314,12 @@ function persist(){try{localStorage.setItem('gid_saved',JSON.stringify(saved))}c
 persist();
 const R=(ic,col,a,b)=>`<div class="row"><span class="ic" style="background:${col}"><i class="ph-fill ph-${ic}"></i></span><span class="tx">${a}${b?`<small>${b}</small>`:''}</span></div>`;
 function place(id){const p=byId(id),on=saved.includes(id);haptic();
+  const seenBtn=`<button class="act" data-seen="${id}"><i class="${seen.includes(id)?'ph-fill':'ph'} ph-check-circle"></i>${seen.includes(id)?"Bo'ldim":'Bordim'}</button>`;
   const saveBtn=`<button class="act" data-save="${id}"><i class="${on?'ph-fill':'ph'} ph-bookmark-simple"></i>${on?'Rejada':'Rejaga'}</button>`;
   const ph=p.photos;
   open(`<div class="gal"><div class="gtrack" id="gt">${ph.map((f,i)=>`<img src="photos/${p.id}-${i+1}.jpg" alt="${p.name}" ${i?'loading="lazy"':''}>`).join('')}</div><div class="gcap"><h2>${p.name}</h2><span>${p.turkishName}</span></div>${ph.length>1?`<div class="dots">${ph.map((_,i)=>`<i class="${i?'':'on'}"></i>`).join('')}</div>`:''}</div>
   <div class="pad rise"><p class="msub" style="margin-top:0">${p.district}</p>
-  ${mapActs(gUrl(p),yUrl(p),saveBtn)}<div style="height:16px"></div>
+  ${listen(p.id,'Audiogidni tinglash')}${mapActs(gUrl(p),yUrl(p),saveBtn+seenBtn)}<div style="height:16px"></div>
   <div class="group">${R('ticket','#34c759',p.entryPrice,p.exitPrice)}${R('clock','#ff9500',p.hours)}${R('train-simple','#007aff',p.routeLine,p.routeStation+', '+p.routeCost)}</div>
   <p class="call"><b>Gid maslahati</b>${p.guideTipUz}</p>
   <p class="head">Haqida</p><div class="group"><div class="prose"><p>${p.about}</p><p>${p.historyUz}</p></div></div>
@@ -309,7 +328,7 @@ function place(id){const p=byId(id),on=saved.includes(id);haptic();
   <p class="credit">${p.categoryLabel}. Fotosuratlar: ${ph.map(f=>`<a data-ext href="${f.u}">${esc(f.a)}, ${esc(f.l)}</a>`).join('; ')}, Wikimedia Commons.</p></div>`);
   const gt=$('#gt'),ds2=mb.querySelectorAll('.dots i');if(gt&&ds2.length)gt.addEventListener('scroll',()=>{const n=Math.round(gt.scrollLeft/gt.clientWidth);ds2.forEach((d,i)=>d.classList.toggle('on',i===n))},{passive:true})}
 document.addEventListener('click',e=>{const c=e.target.closest('[data-p]');if(c&&!c.closest('#seg'))place(c.dataset.p)});
-mb.addEventListener('click',e=>{const s=e.target.closest('[data-save]');if(!s)return;const id=s.dataset.save;saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];persist();haptic('medium');const on=saved.includes(id);s.innerHTML=`<i class="${on?'ph-fill':'ph'} ph-bookmark-simple"></i>${on?'Rejada':'Rejaga'}`});
+mb.addEventListener('click',e=>{const v=e.target.closest('[data-seen]');if(v){const id=v.dataset.seen;seen=seen.includes(id)?seen.filter(x=>x!==id):[...seen,id];try{localStorage.setItem('gid_seen',JSON.stringify(seen))}catch(_){}haptic('medium');const on=seen.includes(id);v.innerHTML=`<i class="${on?'ph-fill':'ph'} ph-check-circle"></i>${on?"Bo'ldim":'Bordim'}`;today();return}const s=e.target.closest('[data-save]');if(!s)return;const id=s.dataset.save;saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];persist();haptic('medium');const on=saved.includes(id);s.innerHTML=`<i class="${on?'ph-fill':'ph'} ph-bookmark-simple"></i>${on?'Rejada':'Rejaga'}`});
 $('#planBtn').onclick=()=>{haptic();open(`<div class="pad plain"><h2 class="mtitle">Rejam</h2><p class="msub">Saqlangan joylar shu telefonda turadi.</p>${saved.length?`<div class="group">${saved.map(id=>{const p=byId(id);return `<button class="row tap" data-p="${id}"><span class="ic" style="background:${CAT[p.category][1]}"><i class="ph-fill ph-${CAT[p.category][0]}"></i></span><span class="tx">${p.name}<small>${p.entryPrice}</small></span><i class="ph ph-caret-right chev"></i></button>`}).join('')}</div>`:`<p class="empty">Hali joy qo'shilmagan.<br>Joyni ochib, "Rejaga"ni bosing.</p>`}</div>`)};
 
 // segmented control
@@ -322,7 +341,7 @@ let pax=2;
 function go(){const o=G.origins[$('#from').value],d=byId($('#to').value);
   const one=Math.round((d.ridesFromCenter+o.extraRides)*FARE+d.extraFareTL+o.airportFee),all=one*pax,rt=all*2;
   const [a,b]=o.coords,[c,e]=d.coords;
-  $('#goOut').innerHTML=`<div class="total"><small>Borish va qaytish, ${pax} kishi</small><strong>${fmt(rt)} TL</strong><small>~$${(rt/USD).toFixed(1)} USD. Taksidan ancha arzon</small><dl><div><dt>1 kishi, bir tomon</dt><dd>${fmt(one)} TL</dd></div><div><dt>${pax} kishi, bir tomon</dt><dd>${fmt(all)} TL</dd></div></dl></div>
+  $('#goOut').innerHTML=`<div class="total"><small>Borish va qaytish, ${pax} kishi</small><strong>${fmt(rt)} TL</strong><small>~$${(rt/FX.usd).toFixed(1)} USD. Taksidan ancha arzon</small><dl><div><dt>1 kishi, bir tomon</dt><dd>${fmt(one)} TL</dd></div><div><dt>${pax} kishi, bir tomon</dt><dd>${fmt(all)} TL</dd></div></dl></div>
   <p class="head">Qanday boriladi</p><div class="group"><div class="prose"><p>${o.prefix} <b>${d.routeLine}</b> orqali <b>${d.routeStation}</b>ga borasiz.</p><p style="color:var(--label2);font-size:.92rem">Kirish: ${d.entryPrice}</p></div></div>
   ${mapActs(`https://www.google.com/maps/dir/?api=1&origin=${a},${b}&destination=${c},${e}&travelmode=transit`,`https://yandex.com/maps/?rtext=${a},${b}~${c},${e}&rtt=mt`)}<div style="height:24px"></div>`}
 $('#from').onchange=$('#to').onchange=()=>{tick();go()};
@@ -357,13 +376,105 @@ const B={people:2,days:4};
 $('#tix').innerHTML=G.tickets.map(t=>`<label class="row" style="margin:0;font-size:1rem;font-weight:400;color:var(--label)"><span class="tx">${t.name}<small>${fmt(t.tl)} TL</small></span><span class="switch"><input type="checkbox" data-t="${t.tl}" ${t.on?'checked':''}><span></span></span></label>`).join('');
 function budget(){const {people:p,days:d}=B,tr=Math.round(Math.ceil(p/3)*165+p*d*+$('#rides').value*FARE);
   const ti=[...document.querySelectorAll('#tix input:checked')].reduce((s,c)=>s+ +c.dataset.t,0)*p,fo=+$('#food').value*p*d,all=tr+ti+fo;
-  $('#tTL').textContent=fmt(all)+' TL';$('#tFx').textContent=`~$${fmt(all/USD)} USD, ~€${fmt(all/EUR)} EUR`;$('#tNote').textContent=`${p} kishi, ${d} kun. 1 kishiga ${fmt(all/p)} TL`;
+  $('#tTL').textContent=fmt(all)+' TL';$('#tFx').textContent=`~$${fmt(all/FX.usd)} USD, ~€${fmt(all/FX.eur)} EUR`;$('#tNote').textContent=`${p} kishi, ${d} kun. 1 kishiga ${fmt(all/p)} TL`;
   $('#tTr').textContent=fmt(tr)+' TL';$('#tTi').textContent=fmt(ti)+' TL';$('#tFo').textContent=fmt(fo)+' TL'}
 document.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{const [k,v]=b.dataset.b.split(':');B[k]=Math.max(1,Math.min(k==='days'?30:20,B[k]+ +v));$('#bP').textContent=B.people;$('#bD').textContent=B.days;tick();budget()});
 $('#rides').onchange=$('#food').onchange=$('#tix').onchange=()=>{tick();budget()};
 $('#prices').innerHTML=[...P.map(p=>[p.name,p.entryPrice]),...G.ships.map(s=>[s.name,s.price])].map(([a,b])=>`<div class="row"><span class="tx">${a}</span><span class="val">${b}</span></div>`).join('');
 
-initMap();list();go();budget();
+// ---- audio player: one voice at a time
+const player=new Audio();let playing=null;
+function stopAudio(){player.pause();if(playing){playing.classList.remove('on');const i=playing.querySelector('i');if(i)i.className='ph-fill ph-play-circle';playing=null}}
+function play(src,btn){const same=playing===btn&&!player.paused;stopAudio();if(same)return;player.src='audio/'+src+'.mp3';player.play().catch(()=>toast('Audio ochilmadi'));if(btn){playing=btn;btn.classList.add('on');const i=btn.querySelector('i');if(i)i.className='ph-fill ph-pause-circle'}haptic()}
+player.onended=stopAudio;
+document.addEventListener('click',e=>{const a=e.target.closest('[data-audio]');if(a)play(a.dataset.audio,a)});
+const listen=(src,t="Tinglash")=>`<button class="listen" data-audio="${src}"><i class="ph-fill ph-play-circle"></i><span>${t}</span><small>Sardor ovozi</small></button>`;
+
+// ---- live exchange rate, with a saved value for offline use
+function loadFx(){try{const c=JSON.parse(localStorage.getItem('gid_fx')||'null');if(c)FX=c}catch(e){}
+  fetch('https://open.er-api.com/v6/latest/USD').then(r=>r.json()).then(d=>{const r=d.rates;if(!r||!r.TRY)return;FX={usd:r.TRY,eur:r.TRY/r.EUR,uzs:r.UZS/r.TRY,at:Date.now()};try{localStorage.setItem('gid_fx',JSON.stringify(FX))}catch(e){}budget();go();today()}).catch(()=>{})}
+
+// ---- prayer times, calculated on the phone (Diyanet angles), so they work offline
+const CITY=[41.0082,28.9784,3];
+function prayers(date){const [lat,lng,tz]=CITY,rad=Math.PI/180,y=date.getFullYear(),m=date.getMonth()+1,d=date.getDate();
+  const a=Math.floor((14-m)/12),Y=y+4800-a,Mo=m+12*a-3,jd=d+Math.floor((153*Mo+2)/5)+365*Y+Math.floor(Y/4)-Math.floor(Y/100)+Math.floor(Y/400)-32045;
+  const D=jd-2451545,g=(357.529+.98560028*D)*rad,q=280.459+.98564736*D,L=(q+1.915*Math.sin(g)+.02*Math.sin(2*g))*rad,e=(23.439-.00000036*D)*rad;
+  const RA=Math.atan2(Math.cos(e)*Math.sin(L),Math.cos(L))/rad/15,decl=Math.asin(Math.sin(e)*Math.sin(L));
+  let eqt=q/15-((RA%24)+24)%24;eqt=((eqt+12)%24+24)%24-12;
+  const noon=12+tz-lng/15-eqt,la=lat*rad,ang=x=>Math.acos((-Math.sin(x*rad)-Math.sin(la)*Math.sin(decl))/(Math.cos(la)*Math.cos(decl)))/rad/15;
+  const asrA=Math.atan(1/(1+Math.tan(Math.abs(la-decl))))/rad,asr=noon+Math.acos((Math.sin(asrA*rad)-Math.sin(la)*Math.sin(decl))/(Math.cos(la)*Math.cos(decl)))/rad/15;
+  return [['Bomdod',noon-ang(18)],['Quyosh',noon-ang(.833)],['Peshin',noon+.03],['Asr',asr],['Shom',noon+ang(.833)],['Xufton',noon+ang(17)]]}
+const hm=h=>{const m=Math.round(h*60);return String(Math.floor(m/60)%24).padStart(2,'0')+':'+String(m%60).padStart(2,'0')};
+function nextPrayer(){const n=new Date(),t=n.getHours()+n.getMinutes()/60,l=prayers(n),x=l.find(p=>p[1]>t&&p[0]!=='Quyosh');return x||['Bomdod',prayers(new Date(+n+864e5))[0][1]]}
+
+// ---- today screen
+const MONTHS=['yanvar','fevral','mart','aprel','may','iyun','iyul','avgust','sentabr','oktabr','noyabr','dekabr'],DAYS=['Yakshanba','Dushanba','Seshanba','Chorshanba','Payshanba','Juma','Shanba'];
+const CLOSED={1:['dolmabahce'],2:['topkapi']};
+let seen=[];try{seen=JSON.parse(localStorage.getItem('gid_seen')||'[]')}catch(e){}
+const TILES=[['arrival','Aeroportdan','airplane-landing','#007aff'],['halal','Namoz','moon-stars','#34c759'],['phrases','Turkcha','translate','#5856d6'],['scams','Aldovlar','shield-warning','#ff9500'],['laleli','Xaridlar','bag','#af52de'],['sos','SOS','first-aid-kit','#ff3b30']];
+function today(){const n=new Date(),np=nextPrayer(),closed=(CLOSED[n.getDay()]||[]).map(byId),r=G.routes[n.getDate()%G.routes.length];
+  $('#todayDate').textContent=`${DAYS[n.getDay()]}, ${n.getDate()}-${MONTHS[n.getMonth()]}`;
+  $('#todayBody').innerHTML=`
+  <button class="pcard press" data-sec="halal"><span><small>Keyingi namoz</small><b>${np[0]}</b></span><strong>${hm(np[1])}</strong></button>
+  ${closed.length?`<p class="call warn"><b>Bugun yopiq</b>${closed.map(p=>p.name).join(', ')}</p>`:''}
+  <div class="tiles">${TILES.map(([k,t,i,c])=>`<button class="tile press" data-sec="${k}"><span style="background:${c}"><i class="ph-fill ph-${i}"></i></span>${t}</button>`).join('')}</div>
+  <p class="head">Bugungi reja</p>
+  <div class="group"><button class="row tap" id="planToday"><span class="ic" style="background:#34c759"><i class="ph-fill ph-path"></i></span><span class="tx">${r.title}<small>${r.duration}. ${r.badge}</small></span><i class="ph ph-caret-right chev"></i></button></div>
+  <p class="head">Yaqin joylar</p>
+  <div class="group"><button class="row tap" id="nearBtn"><span class="ic" style="background:#007aff"><i class="ph-fill ph-navigation-arrow"></i></span><span class="tx">Atrofimdagi joylar<small>Joylashuv bo'yicha saralash</small></span><i class="ph ph-caret-right chev"></i></button></div>
+  <p class="head">Sayohatim</p>
+  <div class="group"><div class="row"><span class="ic" style="background:#ff9500"><i class="ph-fill ph-medal"></i></span><span class="tx">${seen.length} / ${P.length} joyda bo'ldingiz<small>Joy kartasida "Bordim" tugmasini bosing</small></span></div>
+  <button class="row tap" id="fxBtn"><span class="ic" style="background:#30b0c7"><i class="ph-fill ph-currency-circle-dollar"></i></span><span class="tx">1 USD = ${FX.usd.toFixed(1)} TL<small>Valyuta hisoblagichi</small></span><i class="ph ph-caret-right chev"></i></button></div>`}
+document.addEventListener('click',e=>{const s=e.target.closest('[data-sec]');if(s)section(s.dataset.sec);
+  if(e.target.closest('#planToday')){tab('go');$('#seg [data-p="2"]').click()}
+  if(e.target.closest('#nearBtn'))near();if(e.target.closest('#fxBtn'))converter()});
+
+// ---- sections
+function section(k){haptic();const m=G.more;
+  if(k==='phrases')return open(`<div class="pad plain rise"><h2 class="mtitle">Turkcha iboralar</h2><p class="msub">Bosing va to'g'ri talaffuzni eshiting. Kerak bo'lsa, ekranni ko'rsating.</p><div class="group">${m.phrases.map(([a,b,s])=>`<button class="row tap phr" data-audio="${s}"><span class="tx notr"><b>${a}</b><small class="tr">${b}</small></span><i class="ph-fill ph-play-circle"></i></button>`).join('')}</div></div>`);
+  const s=m[k],head=`<div class="pad plain rise"><h2 class="mtitle">${s.title}</h2><p class="msub">${s.lead}</p>${listen(s.audio)}`;
+  if(k==='arrival')return open(head+`<ol class="steps tl">${s.steps.map(x=>`<li>${x}</li>`).join('')}</ol><p class="head" style="margin-top:18px">Aeroportdan yo'l</p><div class="group"><div class="prose">${G.answers.airport_to_center.answerHtml}</div></div></div>`);
+  if(k==='scams'||k==='laleli')return open(head+`<div class="group">${s.items.map(([a,b])=>`<div class="row"><span class="tx"><b>${a}</b><small>${b}</small></span></div>`).join('')}</div></div>`);
+  if(k==='sos')return open(head+`<div class="group">${s.calls.map(([a,b,n])=>`<a class="row tap" href="tel:${n}"><span class="ic" style="background:#ff3b30"><i class="ph-fill ph-phone"></i></span><span class="tx"><b>${a}</b><small>${b}</small></span><span class="val">${n}</span></a>`).join('')}</div><p class="call"><b>Bosh konsullik</b>${s.consulate}</p><div class="group">${s.steps.map(([a,b])=>`<div class="row"><span class="tx"><b>${a}</b><small>${b}</small></span></div>`).join('')}</div></div>`);
+  if(k==='halal'){const l=prayers(new Date());return open(head+`<div class="group">${l.map(([a,h])=>`<div class="row"><span class="tx">${a}</span><span class="val">${hm(h)}</span></div>`).join('')}</div><p class="foot" style="margin:-14px 16px 18px">Istanbul bo'yicha taxminiy hisob.</p>
+   <div class="group"><div class="row"><span class="ic" style="background:#34c759"><i class="ph-fill ph-compass" id="qArrow"></i></span><span class="tx">Qibla: janubi-sharqqa, taxminan 151°<small>Telefon kompasi bilan aniqlash</small></span><button class="chip" id="qBtn">Kompas</button></div></div>
+   <p class="head">Halol taomlar</p><div class="group"><div class="prose">${G.answers.halal_food.answerHtml}</div></div>
+   <p class="head">Masjidlar</p><div class="group">${s.mosques.map(i=>`<button class="row tap" data-p="${i}"><span class="tx">${byId(i).name}</span><i class="ph ph-caret-right chev"></i></button>`).join('')}</div></div>`)}}
+function compass(){const on=e=>{const h=e.webkitCompassHeading!=null?e.webkitCompassHeading:360-(e.alpha||0),a=$('#qArrow');if(a)a.style.transform=`rotate(${151-h}deg)`};
+  const add=()=>addEventListener('deviceorientation',on,true);
+  if(window.DeviceOrientationEvent&&DeviceOrientationEvent.requestPermission)DeviceOrientationEvent.requestPermission().then(r=>r==='granted'?add():toast('Kompasga ruxsat berilmadi')).catch(()=>toast('Kompas ochilmadi'));else add()}
+document.addEventListener('click',e=>{if(e.target.closest('#qBtn'))compass()});
+
+// ---- nearby and converter
+const km=(a,b)=>{const r=Math.PI/180,x=Math.sin((b[0]-a[0])*r/2)**2+Math.cos(a[0]*r)*Math.cos(b[0]*r)*Math.sin((b[1]-a[1])*r/2)**2;return 12742*Math.asin(Math.sqrt(x))};
+function near(){haptic();if(!navigator.geolocation)return toast('Joylashuv mavjud emas');toast('Joylashuv aniqlanmoqda...');navigator.geolocation.getCurrentPosition(p=>{const c=[p.coords.latitude,p.coords.longitude],l=[...P].map(x=>[x,km(c,x.coords)]).sort((a,b)=>a[1]-b[1]).slice(0,8);
+  open(`<div class="pad plain rise"><h2 class="mtitle">Atrofimdagi joylar</h2><p class="msub">Sizga eng yaqin 8 ta joy.</p><div class="group">${l.map(([x,d])=>`<button class="row tap" data-p="${x.id}"><span class="tx">${x.name}<small>${x.entryPrice}</small></span><span class="val">${d<1?Math.round(d*1000)+' m':d.toFixed(1)+' km'}</span></button>`).join('')}</div></div>`)},()=>toast("Joylashuvga ruxsat berilmadi"),{timeout:9000})}
+function converter(){haptic();open(`<div class="pad plain rise"><h2 class="mtitle">Valyuta</h2><p class="msub">Kurs internet bo'lganda yangilanadi.</p><div class="group"><div class="row pick"><label for="cvIn">Turk lirasi (TL)</label><input id="cvIn" type="number" inputmode="decimal" value="1000" style="min-height:34px;padding:0;background:none;font-size:1.6rem;font-weight:600"></div><div class="row"><span class="tx">AQSh dollari</span><span class="val" id="cvU"></span></div><div class="row"><span class="tx">Yevro</span><span class="val" id="cvE"></span></div><div class="row"><span class="tx">O'zbek so'mi</span><span class="val" id="cvS"></span></div></div></div>`);
+  const up=()=>{const v=+$('#cvIn').value||0;$('#cvU').textContent='$'+(v/FX.usd).toFixed(2);$('#cvE').textContent='€'+(v/FX.eur).toFixed(2);$('#cvS').textContent=fmt(v*FX.uzs)+" so'm"};$('#cvIn').oninput=up;up()}
+
+// ---- latin to cyrillic, applied to everything on screen
+const MAP=[["yo'",'йў'],["o'",'ў'],["o‘",'ў'],["g'",'ғ'],["g‘",'ғ'],['sh','ш'],['ch','ч'],['yo','ё'],['yu','ю'],['ya','я'],['ye','е'],['a','а'],['b','б'],['d','д'],['e','е'],['f','ф'],['g','г'],['h','ҳ'],['i','и'],['j','ж'],['k','к'],['l','л'],['m','м'],['n','н'],['o','о'],['p','п'],['q','қ'],['r','р'],['s','с'],['t','т'],['u','у'],['v','в'],['x','х'],['y','й'],['z','з']];
+const cyrl=s=>{let o='',i=0;while(i<s.length){const w=s.slice(i,i+3),lo=w.toLowerCase();let hit=null;for(const [a,b] of MAP)if(lo.startsWith(a)){hit=[a,b];break}
+  if(hit){const up=s[i]!==s[i].toLowerCase();let c=hit[1];if(hit[0]==='e'&&(i===0||!/\p{L}/u.test(s[i-1])))c='э';o+=up?c.toUpperCase():c;i+=hit[0].length}else{const mid=s[i]==="'"&&i>0&&/\p{L}/u.test(s[i-1])&&/\p{L}/u.test(s[i+1]||'');o+=mid?'ъ':s[i];i++}}return o};
+let cyr=false;try{cyr=localStorage.getItem('gid_lang')==='cyr'}catch(e){}
+const orig=new WeakMap();
+function walk(root){const t=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest('script,style,.notr:not(.tr),.leaflet-container')&&!n.parentElement.closest('.tr')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});let n;while(n=t.nextNode()){if(!/[A-Za-z]/.test(n.nodeValue))continue;if(cyr){orig.set(n,n.nodeValue);n.nodeValue=cyrl(n.nodeValue)}}}
+const mo=new MutationObserver(ms=>{if(!cyr)return;mo.disconnect();ms.forEach(m=>m.addedNodes.forEach(x=>{if(x.nodeType===1)walk(x);else if(x.nodeType===3&&x.parentElement)walk(x.parentElement)}));watch()});
+const watch=()=>mo.observe(document.body,{childList:true,subtree:true,characterData:false});
+function setLang(v){try{localStorage.setItem('gid_lang',v?'cyr':'lat')}catch(e){}location.reload()}
+$('#langBtn').onclick=()=>setLang(!cyr);
+$('#langBtn').textContent=cyr?'Lotin':'Кирил';
+
+// ---- first run
+function onboard(){const S=[['map-trifold','#007aff','Butun Istanbul telefoningizda',"18 joy, xarita, kemalar va tayyor marshrutlar. Ilk kirishdan keyin internetsiz ham ochiladi."],['headphones','#af52de','Sardor ovozi bilan',"Har bir joy haqida audiogid tinglang va turkcha iboralarni eshiting."],['first-aid-kit','#ff3b30','Doim yoningizda',"Namoz vaqtlari, favqulodda raqamlar va aldovlardan saqlanish yo'llari."]];let i=0;
+  const show=()=>{const [ic,c,t,d]=S[i];open(`<div class="onb rise"><span style="background:${c}"><i class="ph-fill ph-${ic}"></i></span><h2 class="mtitle">${t}</h2><p class="msub">${d}</p><div class="dots2">${S.map((_,k)=>`<i class="${k===i?'on':''}"></i>`).join('')}</div><button class="btn wide" id="onbNext">${i<2?'Davom etish':'Boshlash'}</button></div>`)};
+  document.addEventListener('click',e=>{if(!e.target.closest('#onbNext'))return;if(++i<3)show();else{try{localStorage.setItem('gid_onb','1')}catch(_){}close()}});show()}
+
+initMap();list();go();budget();today();loadFx();
+if(cyr){walk(document.body);watch()}
+try{if(!localStorage.getItem('gid_onb'))setTimeout(onboard,350)}catch(e){}
+document.addEventListener('click',e=>{const a=e.target.closest('a[data-tg]');if(a&&tg){e.preventDefault();tg.openTelegramLink(a.href)}});
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
 const showLeft=()=>{const e=window.GEXP;if(!e)return;const ms=e*1000-Date.now();if(ms<=0)return expire();const h=Math.floor(ms/36e5),l=$('#left');l.classList.add('on');l.querySelector('span').textContent=h>=24?`${Math.floor(h/24)} kun ${h%24} soat qoldi`:h>0?`${h} soat qoldi`:`${Math.ceil(ms/6e4)} daqiqa qoldi`};
 showLeft();setInterval(showLeft,60000);
 }
