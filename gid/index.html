@@ -12,16 +12,16 @@
 <meta property="og:title" content="Istanbul VIP Gid">
 <meta property="og:description" content="18 joy, kemalar, tayyor marshrutlar va narxlar. O'zbek tilida.">
 <meta property="og:url" content="https://muslimceek.github.io/gid/">
-<meta property="og:image" content="https://muslimceek.github.io/gid/assets/uskudar.jpg">
+<meta property="og:image" content="https://muslimceek.github.io/gid/assets/bot-cover.jpg">
 <link rel="preload" href="assets/onest.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/ph-regular.css">
 <link rel="stylesheet" href="assets/ph-fill.css">
 <link rel="stylesheet" href="assets/base.css">
 <script src="assets/telegram-web-app.js"></script>
 <style>
-.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 max(16px,env(safe-area-inset-left));background:var(--glass);-webkit-backdrop-filter:blur(24px) saturate(180%);backdrop-filter:blur(24px) saturate(180%)}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;height:52px;max-width:480px;margin:auto;padding:0 16px;background:var(--glass);-webkit-backdrop-filter:blur(24px) saturate(180%);backdrop-filter:blur(24px) saturate(180%)}
 .top b{font-weight:600}.top a{font-weight:500;font-size:.95rem}
-.wrap{max-width:1040px;margin:auto;padding:0 16px}
+.wrap{max-width:480px;margin:auto;padding:0 16px}
 .hero{text-align:center;padding:44px 0 28px}
 .hero .eye{font-weight:600;color:var(--blue-text);margin:0 0 10px}
 .hero h1{font-size:clamp(2.6rem,10.5vw,5rem);line-height:1.04;letter-spacing:-.035em;font-weight:700}
@@ -56,7 +56,6 @@ label{display:block;font-weight:500;font-size:.9rem;margin-bottom:6px;color:var(
 footer{padding:36px 16px calc(30px + env(safe-area-inset-bottom));text-align:center;color:var(--label2);font-size:.85rem}
 .reveal{opacity:0;transform:translateY(14px);transition:opacity 500ms var(--out),transform 500ms var(--out)}.reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
-@media (min-width:760px){.big{grid-column:span 4;min-height:360px}.blue{grid-column:span 2}.tile:not(.big):not(.blue){grid-column:span 2}.buy{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}.code{margin-top:0}.free{grid-auto-flow:row;grid-template-columns:repeat(3,1fr);margin:0;padding:0;overflow:visible}}
 </style>
 </head>
 <body>
@@ -68,10 +67,10 @@ footer{padding:36px 16px calc(30px + env(safe-area-inset-bottom));text-align:cen
   <h1>Butun Istanbul.<br>Bitta telefonda.</h1>
   <p class="sub">18 joy, kemalar, tayyor marshrutlar va aniq narxlar.</p>
   <div class="cta">
-    <a class="btn press" href="https://t.me/istanbulda_ish_bot?start=gid"><i class="ph-fill ph-telegram-logo"></i>Gidni sotib olish</a>
+    <a class="btn press" href="https://t.me/istanbulda_ish_bot?start=gid"><i class="ph-fill ph-telegram-logo"></i>Kod olish</a>
     <a class="btn tinted press" href="#bepul">Bepul ko'rish</a>
   </div>
-  <figure class="shot"><img src="assets/uskudar.jpg" alt="Bosfor bo'yidagi masjid va ko'prik, quyosh botishi" width="720" height="538" fetchpriority="high"></figure>
+  <figure class="shot"><img src="photos/ortakoy-1.jpg" alt="Bosfor bo'yidagi O'rtako'y masjidi va ko'prik" fetchpriority="high"></figure>
 </div>
 </div>
 
@@ -79,7 +78,7 @@ footer{padding:36px 16px calc(30px + env(safe-area-inset-bottom));text-align:cen
   <h2>Sayohatga kerak hamma narsa</h2>
   <p>Har bir joyga qanday borish va qancha pul ketishi yozilgan.</p>
   <div class="bento">
-    <div class="tile big"><img src="assets/buyukada.jpg" alt="Büyükada oroli" loading="lazy"><div><h3>Jonli xarita va 18 joy</h3><p>6 ta yashirin joy bilan. Bir bosishda Google yoki Yandex marshruti.</p></div></div>
+    <div class="tile big"><img src="photos/buyukada-1.jpg" alt="Büyükada oroli" loading="lazy"><div><h3>Jonli xarita va 18 joy</h3><p>6 ta yashirin joy bilan. Bir bosishda Google yoki Yandex marshruti.</p></div></div>
     <div class="tile blue"><i class="ph-fill ph-boat"></i><h3>Kemalar</h3><p>Qaysi pristandan, necha pulga.</p></div>
     <div class="tile"><i class="ph-fill ph-path"></i><h3>Marshrutlar</h3><p>Ertalabdan kechgacha, qadam-baqadam.</p></div>
     <div class="tile"><i class="ph-fill ph-calculator"></i><h3>Byudjet</h3><p>Kun va odam soniga qarab jami xarajat.</p></div>
@@ -92,7 +91,7 @@ footer{padding:36px 16px calc(30px + env(safe-area-inset-bottom));text-align:cen
   <p>Gid ichida joylar shunday ko'rinadi. Qolgan 15 tasi, jumladan 6 ta yashirin joy, kod bilan ochiladi.</p>
   <div class="free">
 <article class="place">
-  <img src="assets/ayasofya.jpg" alt="Ayasofya va Sultonahmet Maydoni" width="720" height="538" loading="lazy">
+  <img src="photos/ayasofya-1.jpg" alt="Ayasofya va Sultonahmet Maydoni" loading="lazy">
   <div class="pb">
     <h3>Ayasofya va Sultonahmet Maydoni</h3>
     <p class="muted">Fotih (Sultonahmet)</p>
@@ -105,7 +104,7 @@ footer{padding:36px 16px calc(30px + env(safe-area-inset-bottom));text-align:cen
   </div>
 </article>
 <article class="place">
-  <img src="assets/galata.jpg" alt="Galata Minorasi va Istiqlol Ko'chasi" width="720" height="538" loading="lazy">
+  <img src="photos/galata-1.jpg" alt="Galata Minorasi va Istiqlol Ko'chasi" loading="lazy">
   <div class="pb">
     <h3>Galata Minorasi va Istiqlol Ko'chasi</h3>
     <p class="muted">Beyoğlu (Galata)</p>
@@ -118,7 +117,7 @@ footer{padding:36px 16px calc(30px + env(safe-area-inset-bottom));text-align:cen
   </div>
 </article>
 <article class="place">
-  <img src="assets/kapalicarsi.jpg" alt="Kapalıçarşı (Katta Yopiq Bozor)" width="720" height="538" loading="lazy">
+  <img src="photos/kapalicarsi-1.jpg" alt="Kapalıçarşı (Katta Yopiq Bozor)" loading="lazy">
   <div class="pb">
     <h3>Kapalıçarşı (Katta Yopiq Bozor)</h3>
     <p class="muted">Fotih (Beyazıt)</p>
@@ -135,16 +134,16 @@ footer{padding:36px 16px calc(30px + env(safe-area-inset-bottom));text-align:cen
 
 <section class="reveal"><div class="wrap">
   <h2>Qanday sotib olinadi</h2>
-  <p>Hammasi Telegram bot orqali, bir necha daqiqada.</p>
+  <p>Muddat birinchi kirgan paytdan boshlanadi va tugagach gid o'zi yopiladi.</p>
   <div class="buy">
     <ul class="steps">
-      <li><i class="ph-fill ph-telegram-logo"></i><div><b>Botga kiring</b><span>Bot narx va karta raqamini ko'rsatadi.</span></div></li>
-      <li><i class="ph-fill ph-receipt"></i><div><b>To'lab, chekni yuboring</b><span>Chek skrinshotini botga jo'nating.</span></div></li>
-      <li><i class="ph-fill ph-key"></i><div><b>Kodni oling</b><span>To'lov tasdiqlangach bot kodingizni yuboradi.</span></div></li>
+      <li><i class="ph-fill ph-calendar-check"></i><div><b>Muddatni tanlang</b><span>Botda 1 kundan 10 kungacha tanlaysiz.</span></div></li>
+      <li><i class="ph-fill ph-chat-circle-dots"></i><div><b>Adminga yozing</b><span>Narxni kelishib, to'lov qilasiz.</span></div></li>
+      <li><i class="ph-fill ph-key"></i><div><b>Kodni oling</b><span>Kod bot orqali keladi va 1 ta telefonda ishlaydi.</span></div></li>
     </ul>
     <form class="code" id="kod" novalidate>
       <h3>Kodingiz bormi?</h3>
-      <p>Bir marta kirsangiz, telefoningiz sizni eslab qoladi.</p>
+      <p>Kirganingizdan keyin telefoningiz sizni eslab qoladi.</p>
       <label for="c">Kirish kodi</label>
       <input id="c" name="code" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="9" placeholder="XXXX-XXXX" aria-describedby="err">
       <p class="err" id="err" role="alert"></p>
@@ -164,7 +163,7 @@ if(saved&&!wantKod){const k=document.getElementById('have');k.href='app.html';k.
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});
 document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
 const f=document.getElementById('kod'),c=document.getElementById('c'),err=document.getElementById('err'),go=document.getElementById('go');
-const MSG={invalid:"Kod noto'g'ri. Tekshirib, qayta kiriting.",limit:"Bu kod allaqachon 2 ta qurilmada ishlatilgan. Botga yozing.",server:"Xatolik yuz berdi. Birozdan keyin urinib ko'ring."};
+const MSG={invalid:"Kod noto'g'ri. Tekshirib, qayta kiriting.",limit:"Bu kod boshqa telefonda ishlatilgan. Adminga yozing.",expired:"Kod muddati tugagan. Yangi kod uchun botga kiring.",server:"Xatolik yuz berdi. Birozdan keyin urinib ko'ring."};
 function device(){let d='';try{d=localStorage.getItem('gid_device')||''}catch(e){}if(!d){d=crypto.getRandomValues(new Uint32Array(4)).join('').slice(0,32).padEnd(16,'0');try{localStorage.setItem('gid_device',d)}catch(e){}}return d}
 c.addEventListener('input',()=>{let v=c.value.toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,8);c.value=v.length>4?v.slice(0,4)+'-'+v.slice(4):v;err.textContent=''});
 f.addEventListener('submit',async e=>{e.preventDefault();err.textContent='';
@@ -172,13 +171,14 @@ f.addEventListener('submit',async e=>{e.preventDefault();err.textContent='';
  go.disabled=true;go.textContent='Tekshirilmoqda...';
  try{const dev=device();const r=await fetch('https://yeoursdadumvobnlaqwq.supabase.co/rest/v1/rpc/gid_open',{method:'POST',headers:{'content-type':'application/json',apikey:'sb_publishable_TcYmYxYVbbpJETdBEjRW5Q_G7X-50PQ',authorization:'Bearer sb_publishable_TcYmYxYVbbpJETdBEjRW5Q_G7X-50PQ'},body:JSON.stringify({p_code:c.value,p_device:dev})});
   const j=await r.json().catch(()=>({}));
-  if(r.ok&&j&&j.data){try{localStorage.setItem('gid_auth',JSON.stringify({code:c.value,device:dev}))}catch(_){}
-   try{const ch=await caches.open('gid-v1');await ch.put('content',new Response(JSON.stringify(j.data)))}catch(_){}
+  if(r.ok&&j&&j.data){try{localStorage.setItem('gid_auth',JSON.stringify({code:c.value,device:dev}));localStorage.setItem('gid_exp',String(j.exp||0))}catch(_){}
+   try{const ch=await caches.open('gid-v2');await ch.put('content',new Response(JSON.stringify(j.data)))}catch(_){}
    location.href='app.html';return}
   err.textContent=MSG[j&&j.error]||MSG.server}
  catch(_){err.textContent=MSG.server}
  go.disabled=false;go.textContent='Gidni ochish'});
 if(wantKod)f.scrollIntoView({block:'center'});
+const e0=new URLSearchParams(location.search).get('e');if(e0&&MSG[e0])err.textContent=MSG[e0];
 </script>
 </body>
 </html>
