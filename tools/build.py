@@ -9,9 +9,9 @@ from translit import to_latin, slugify
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://muslimceek.github.io"
-TG = "https://t.me/turkiyada_uzbekla"
+TG = "https://t.me/turk_ish_iskandar"
 BOT = "https://t.me/istanbulda_ish_bot"
-HANDLE, BRAND = "@turkiyada_uzbekla", "Туркияда ишлар"
+HANDLE, BRAND = "@turk_ish_iskandar", "TURK | ISH"
 IST = timezone(timedelta(hours=3))
 PER_PAGE = 24
 LP = "@@L@@"          # language path prefix, filled in per script version
@@ -37,7 +37,7 @@ LINKS = [
     ("İBB", "Истанбул шаҳар ҳокимлиги: транспорт, тадбирлар ва шаҳар эълонлари.", "https://www.ibb.istanbul"),
 ]
 FAQ = [
-    ("«Туркияда ишлар» канали нима?",
+    ("«TURK | ISH» канали нима?",
      "Туркияда, асосан Истанбулда яшаётган ва ишлаётган ўзбеклар учун бепул Telegram канал. Ҳар куни шаҳар янгиликлари, нархлар, ҳужжатлар бўйича ўзгаришлар ва иш эълонлари ўзбек тилида чиқади."),
     ("Иш эълонлари қаердан олинади?",
      "Эълонлар Туркиядаги очиқ иш сайтларидан танлаб олинади ва ўзбек тилига қисқача таржима қилинади. Ҳар бир эълонда асл манбага ҳавола бор — ариза ўша ерда топширилади."),
@@ -301,7 +301,7 @@ def home(posts, meta):
           {"@context": "https://schema.org", **ORG},
           {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
               {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": strip(a)}} for q, a in FAQ]}]
-    shell("/", "Туркияда иш ва янгиликлар ўзбек тилида | Туркияда ишлар",
+    shell("/", f"Туркияда иш ва янгиликлар ўзбек тилида | {BRAND}",
           "Истанбул ва Туркиядаги иш эълонлари, маошлар, транспорт, нархлар, икамет ва иш рухсатномаси бўйича кундалик янгиликлар — ўзбек тилида, бепул.",
           body, ld=ld, current="home", lastmod=newest)
 

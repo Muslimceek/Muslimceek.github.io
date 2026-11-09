@@ -8,7 +8,7 @@ import html, io, json, os, re, sys, urllib.request
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CHANNEL = "turkiyada_uzbekla"
+CHANNEL = "turk_ish_iskandar"
 POSTS = os.path.join(ROOT, "data", "posts.json")
 META = os.path.join(ROOT, "data", "meta.json")
 IMG = os.path.join(ROOT, "img", "p")
