@@ -1,5 +1,149 @@
 [
  {
+  "id": 545,
+  "date": "2026-11-11T16:15:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/ev-yardimcisi-i4805689",
+  "kind": "job",
+  "title": "Уй ёрдамчиси (Ev Yardımcısı)",
+  "company": "Hamit Bey",
+  "place": "İstanbul, Üsküdar",
+  "salary": "55.000 TL",
+  "schedule": "Тўлиқ иш куни, ҳафтада 5 кун",
+  "points": [
+   "Вазифа: тозалик, овқат тайёрлаш ва уйнинг умумий тартибини сақлаш",
+   "Иш жойи: İstanbul, Üsküdar (Altunizade) ҳудудидаги хонадон",
+   "Уй ишларида юқори тажриба ва масъулиятли бўлиш талаб этилади",
+   "Шароит: йўл харажати алоҳида тўлаб берилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 543,
+  "date": "2026-11-11T14:45:25+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-elemani-i4805833",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Elemanı)",
+  "company": "Ağaoğlu Myhome Maslak",
+  "place": "İstanbul, Sarıyer",
+  "salary": "47.650 TL",
+  "schedule": "Тўлиқ иш куни, 6/1 график",
+  "points": [
+   "Маслакдаги турар жой мажмуаси ҳудудини тозалаш ва озода сақлаш",
+   "Тозалик воситалари ва жиҳозлари билан ишлай олиш кўникмаси",
+   "Иш вақти: 08:00 дан 17:00 гача, кунига 7,5 соатдан ишланади",
+   "25 ёшдан 49 ёшгача бўлган масъулиятли ходимлар таклиф этилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 542,
+  "date": "2026-11-11T14:00:23+00:00",
+  "link": "https://www.guvengazetesi.com.tr/igdir-da-agri-dagi-eteklerinde-kacak-gocmen-operasyonu-11-yabanci-uyruklu-yakalandi/112321/",
+  "kind": "news",
+  "title": "Iğdır'да 11 нафар ноқонуний мигрант қўлга олинди",
+  "cat": "hujjat",
+  "lead": "Iğdır вилоятидаги Ağrı Dağı этакларида ўтказилган операцияда 11 нафар чет эл фуқароси ушланди.",
+  "facts": [
+   "Тадбир Ağrı Dağı этакларида амалга оширилди"
+  ],
+  "source": "guvengazetesi.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 541,
+  "date": "2026-11-11T13:15:25+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-personeli-i4805614",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "Anatolia Sign İnşaat Reklam",
+  "place": "İstanbul, Beylikdüzü",
+  "salary": "34.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Иш жойи: Beylikdüzü, Yakuplu даги фабрика",
+   "Вазифа: фабрика майдонларида тозалик ва тартибни сақлаш",
+   "Талаблар: озодалик, масъулият ва жамоада ишлай олиш",
+   "Тажриба ёки ўрганишга иштиёқ бўлиши керак"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 539,
+  "date": "2026-11-11T11:45:44+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-personeli-erkek-3-vardiya-ikitelli-i4805563",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "Atalian Global Services",
+  "place": "İstanbul, Başakşehir",
+  "salary": "32.400 TL",
+  "schedule": "Тўлиқ иш куни, 3 смена",
+  "points": [
+   "Икителлидаги омбор лойиҳасида тозалик ишларини бажариш.",
+   "Ҳафтасига 6 кун иш, якшанба дам олиш куни.",
+   "Хизмат автобуси ва овқатланиш имконияти мавжуд."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 538,
+  "date": "2026-11-11T11:00:30+00:00",
+  "link": "https://www.sozcu.com.tr/istanbula-firtina-uyarisi-lodosun-hizi-90-kilometreye-ulasacak-p380279",
+  "kind": "news",
+  "title": "İstanbul учун бўрон огоҳлантириши: шамол тезлиги 90 км/соатга етади",
+  "cat": "obhavo",
+  "lead": "İstanbul Valiliği пайшанба куни тушдан кейин жануби-ғарбий шамол кучайиши ва жума эрталабдан тезлиги соатига 90 километргача чиқиши ҳақида огоҳлантирди.",
+  "facts": [
+   "Шамол пайшанба куни тушдан сўнг кучаяди",
+   "Жума куни эрталабдан шамол тезлиги 90 км/соатга етиши кутилмоқда"
+  ],
+  "source": "sozcu.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 537,
+  "date": "2026-11-11T10:15:33+00:00",
+  "link": "https://www.eleman.net/is-ilani/pendik-bay-temizlik-personeli-i4805437",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "ISS TESİS YÖNETİM HİZMETLERİ A.Ş.",
+  "place": "İstanbul, Pendik",
+  "salary": "28.000 TL",
+  "schedule": "Тўлиқ иш куни (08:00-17:30)",
+  "points": [
+   "Истанбулнинг Pendik туманидаги банк лойиҳаси учун",
+   "25-45 ёшдаги эркаклар, тозалик соҳасида тажриба керак",
+   "Банк биносида кундалик тозалик ишларини бажариш",
+   "Иш тартиби: кундузги смена, 08:00 дан 17:30 гача"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 535,
+  "date": "2026-11-11T08:46:23+00:00",
+  "link": "https://www.eleman.net/is-ilani/uretim-operatoru-i4805290",
+  "kind": "job",
+  "title": "Ишлаб чиқариш оператори (Üretim Operatörü)",
+  "company": "FİRMA ADI GİZLİ",
+  "place": "İstanbul, Esenyurt",
+  "salary": "45.000 TL - 55.000 TL",
+  "schedule": "Тўлиқ иш куни, 3 смена",
+  "points": [
+   "Озиқ-овқат хавфсизлиги ва меҳнат хавфсизлиги қоидаларига риоя қилган ҳолда ишлаб чиқариш л",
+   "Машиналарни созлаш, хом ашёни бошқариш, маҳсулот ва қадоқлаш жараёнларини кузатиш.",
+   "Илк ва даврий сифат назоратини ўтказиш, ҳисоботларни тайёрлаш, тортиш ва ёрлиқлаш ишларини",
+   "Иш ҳақи: 45.000 - 55.000 TL + овқат + сервис + суғурта + 3.850 TL харид картаси."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 534,
   "date": "2026-11-11T08:00:48+00:00",
   "link": "https://www.sozcu.com.tr/umraniye-de-vinc-devrildi-yol-trafige-kapatildi-p380183",
