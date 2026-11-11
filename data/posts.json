@@ -1,5 +1,58 @@
 [
  {
+  "id": 548,
+  "date": "2026-11-11T18:30:28+00:00",
+  "link": "https://www.urfanatik.com/sanliurfada-ikamet-izni-alacaklar-bu-iki-sistemi-karistirmasin-randevu-ve-ikamet-islemlerinde-iki-ayri-sistem-kullaniliyor",
+  "kind": "news",
+  "title": "Şanlıurfa'да икамет олувчилар учун 2 та тизим ишламоқда",
+  "cat": "hujjat",
+  "lead": "Şanlıurfa'да икамет изни оладиганлар рандеву ва икамет жараёнларида иккита алоҳида тизимдан фойдаланилади.",
+  "facts": [
+   "Икамет олишда тизимларни аралаштириб юбормаслик керак."
+  ],
+  "source": "urfanatik.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 547,
+  "date": "2026-11-11T17:45:50+00:00",
+  "link": "https://www.eleman.net/is-ilani/demi-chef-i4805695",
+  "kind": "job",
+  "title": "Ошпаз ёрдамчиси (Demi Chef)",
+  "company": "Lady Buger",
+  "place": "İstanbul, Bakırköy",
+  "salary": "35.000 TL - 45.000 TL",
+  "schedule": "Тўлиқ иш куни, сменали",
+  "points": [
+   "Рецепт бўйича таомларни тайёрлаш ва безаш",
+   "Маҳсулотлар сақланиши ва ошхона гигиенасини назорат қилиш",
+   "Ошхона ҳамда курьерлар билан ҳамкорликда ишлаш",
+   "Florya ҳудудига қатнаш имконияти бўлиши лозим"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 546,
+  "date": "2026-11-11T17:01:32+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-gorevlisi-i4805611",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Görevlisi)",
+  "company": "İSTEK VAKFI OKULLARI",
+  "place": "İstanbul, Bakırköy",
+  "salary": "33.500 TL - 37.500 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Мактабда тозалик ва гигиена ишларини бажариш",
+   "Масъулиятли, озода ва жамоада ишлай оладиган бўлиш",
+   "Ишда тартиб ва хавфсизлик қоидаларига риоя қилиш",
+   "Тозалик соҳасида тажрибаси бор номзодлар маъқулланади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 545,
   "date": "2026-11-11T16:15:29+00:00",
   "link": "https://www.eleman.net/is-ilani/ev-yardimcisi-i4805689",
