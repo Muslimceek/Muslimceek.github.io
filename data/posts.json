@@ -1,5 +1,23 @@
 [
  {
+  "id": 611,
+  "date": "2026-11-15T05:45:18+00:00",
+  "link": "https://www.eleman.net/is-ilani/mutfak-elemani-i4807730",
+  "kind": "job",
+  "title": "Ошхона ходими (Mutfak Elemanı)",
+  "company": "Yakaza Kafe",
+  "place": "İstanbul, Gaziosmanpaşa",
+  "salary": "30.000 TL - 35.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Мактаб тармоғи кафетериясида ошхонада ишлаш",
+   "Уй таомлари ва ширинликлар тайёрлашни билиш лозим",
+   "Пазандалик маҳорати ва мазали таом пишира олиш керак"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 608,
   "date": "2026-11-14T18:30:37+00:00",
   "link": "https://www.istanbulgazetesi.com.tr/sultangazide-2-iett-otobusu-carpisti",
