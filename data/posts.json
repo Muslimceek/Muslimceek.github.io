@@ -1,5 +1,110 @@
 [
  {
+  "id": 623,
+  "date": "2026-11-15T14:46:11+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-personeli-ispartakule-i4807649",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "Orkun Şirketler Grubu",
+  "place": "İstanbul, Avcılar",
+  "salary": "",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Иш жойи Ispartakule (Avcılar), Şahintepe ва Tahtakale яқинида.",
+   "Катлар, зиналар, лифтларни тозалаш ва чиқиндиларни йиғиш.",
+   "Тозаликка эътиборли, масъулиятли ва тартибли бўлиш.",
+   "Турар жой мажмуасида блок назоратчиси вазифаси."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 622,
+  "date": "2026-11-15T14:00:35+00:00",
+  "link": "https://www.havadis.com/edirne/uzunkopru-yolunda-gece-yarisi-operasyonu-sinir-disi-hazirligindaki-gruba-jandarma-engeli/536761",
+  "kind": "news",
+  "title": "Uzunköprü йўлида депортация қилинадиган мигрантлар ушланди",
+  "cat": "hujjat",
+  "lead": "Uzunköprü йўлида тунда ўтказилган операцияда депортацияга тайёрланаётган мигрантлар гуруҳи жандарма томонидан тўхтатиб қолинди.",
+  "facts": [
+   "Операция тун ярмида жандарма томонидан ўтказилган"
+  ],
+  "source": "havadis.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 621,
+  "date": "2026-11-15T13:16:35+00:00",
+  "link": "https://www.eleman.net/is-ilani/elektrik-ustasi-i4807591",
+  "kind": "job",
+  "title": "Электрик устаси (Elektrik Ustası)",
+  "company": "Byco Mühendislik",
+  "place": "İstanbul, Ataşehir",
+  "salary": "50.000 TL - 70.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Бино ва ресторанларда электр монтаж ҳамда таъмирлаш ишлари.",
+   "Таъмирлаш ва носозликларни бартараф этишда тажриба керак.",
+   "В тоифали ҳайдовчилик гувоҳномаси ва ҳайдаш тажрибаси лозим.",
+   "Истанбулнинг Осиё томонида яшовчи масъулиятли усталар керак."
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 619,
+  "date": "2026-11-15T11:46:02+00:00",
+  "link": "https://www.eleman.net/is-ilani/idari-isler-elemani-i4807507",
+  "kind": "job",
+  "title": "Идоравий ишлар ходими (İdari İşler Elemanı)",
+  "company": "İZ NOKTA KORUMA",
+  "place": "İstanbul, Kartal",
+  "salary": "40.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Қурилиш лойиҳасида идоравий ишларга ёрдам бериш",
+   "Компьютер ва MS Office дастурларида ишлай олиш",
+   "Ходимлар табели ва давоматини юритиш",
+   "Ҳужжатларни тартиблаш ва топшириқларни бажариш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 618,
+  "date": "2026-11-15T11:00:33+00:00",
+  "link": "https://www.yeniakit.com.tr/haber/losemi-hastasi-cocuklari-icin-bagis-toplayan-ozbek-aileye-gozalti-babadan-haber-alinamiyor-2033744.html",
+  "kind": "news",
+  "title": "Лейкемияли фарзандига ёрдам йиғган ўзбек оиласи қўлга олинди",
+  "cat": "turkiya",
+  "lead": "Туркияда лейкемия билан оғриган фарзанди учун хайрия йиғган ўзбек оиласи ушлангани ҳақида хабар берилди.",
+  "facts": [
+   "Отадан ҳозирда хабар олинмаяпти."
+  ],
+  "source": "yeniakit.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 617,
+  "date": "2026-11-15T10:16:00+00:00",
+  "link": "https://www.eleman.net/is-ilani/sevkiyat-soforu-i4807694",
+  "kind": "job",
+  "title": "Ҳайдовчи-етказувчи (Sevkiyat Şoförü)",
+  "company": "Kasabım",
+  "place": "İstanbul, Şişli",
+  "salary": "35.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Вазифа: гўшт маҳсулотларини ресторанларга етказиб бериш",
+   "Талаблар: B тоифа гувоҳномаси, SRC, Psikoteknik ва 1 йил тажриба",
+   "Шароитлар: расмий иш (SGK), йўл ва овқат пули берилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 615,
   "date": "2026-11-15T08:45:27+00:00",
   "link": "https://www.eleman.net/is-ilani/resepsiyonist-silivri-i4807315",
