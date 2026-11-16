@@ -1,5 +1,58 @@
 [
  {
+  "id": 635,
+  "date": "2026-11-16T08:46:14+00:00",
+  "link": "https://www.eleman.net/is-ilani/vasifsiz-uretim-personeli-i4808276",
+  "kind": "job",
+  "title": "Малакасиз ишлаб чиқариш ходими (Vasıfsız Üretim Personeli)",
+  "company": "Balonevi",
+  "place": "İstanbul, Tuzla",
+  "salary": "33.100 TL",
+  "schedule": "Тўлиқ иш куни, 2 смена",
+  "points": [
+   "Бошланғич ойлик маош: 33.100 TL (ўрта мактаб) / 34.700 TL (лицей)",
+   "Ҳар ой 4000 TL давомийлик мукофоти ва йилига 5 марта 4000 TL лик маркет чеки",
+   "Иш вақти: 07:00-19:00 / 19:00-07:00, кунига 1,5 соат қўшимча иш ҳақи",
+   "5 кунлик иш ҳафтаси, шанба ва якшанба дам олиш куни"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 634,
+  "date": "2026-11-16T08:02:45+00:00",
+  "link": "https://haberlerankara.com/2027-asgari-ucrette-3-kritik-senaryo-37900-tllik-o-hesap-ortaya-cikti-ilk-kez",
+  "kind": "news",
+  "title": "2027 йилги энг кам иш ҳақи учун 37 900 лиралик илк сценарий",
+  "cat": "narx",
+  "lead": "Туркияда келгуси йил учун энг кам иш ҳақи (asgari ücret) бўйича илк ҳисоб-китоблар эълон қилинди: экспертлар 37 900 TL гача бўлган рақамларни прогноз қилмоқда.",
+  "facts": [
+   "Декабрь ойида бўлиб ўтадиган комиссия йиғилишида якуний миқдор белгиланади",
+   "Ҳозирда жами 5 хил турли хил ошириш сценарийлари кўриб чиқилмоқда"
+  ],
+  "source": "haberlerankara.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 633,
+  "date": "2026-11-16T07:15:32+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-elemani-i4808072",
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Elemanı)",
+  "company": "KLÜH PROFESYONEL HİZMETLER TİC. A.Ş.",
+  "place": "İstanbul, Sarıyer",
+  "salary": "31.500 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Спорт клубида тозалик ва тартибни сақлаш",
+   "25-50 ёшдаги эркак номзодлар таклиф этилади",
+   "Йўл кира ҳақи ва овқат берилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 632,
   "date": "2026-11-16T06:31:12+00:00",
   "link": "https://www.habermeydan.com/gundem/yabanci-konaklama-platformlarina-yeni-sartlar-5-milyon-tl-izin-bedeli-h229598/",
