@@ -1,5 +1,24 @@
 [
  {
+  "id": 666,
+  "date": "2026-11-17T16:17:50+00:00",
+  "link": "https://www.eleman.net/is-ilani/depo-personeli-i4809587",
+  "kind": "job",
+  "title": "Омбор ходими (Depo Personeli)",
+  "company": "Score Tekstil",
+  "place": "İstanbul, Güngören",
+  "salary": "28.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Гюнгёрен Мертердаги омборда ишлаш",
+   "Омбордаги ишларни бажариш ва дўконга маҳсулот ташиш",
+   "20-27 ёш оралиғида, ҳайдовчилик гувоҳномаси бўлиши керак",
+   "Ойлик: 28.000 TL + суғурта + йўл + овқат"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 664,
   "date": "2026-11-17T14:47:25+00:00",
   "link": "https://www.eleman.net/is-ilani/cay-servisi-ve-temizlik-elemani-i4809557",
