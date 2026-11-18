@@ -44,7 +44,7 @@ FAQ = [
     ("Ишга жойлашиш учун пул тўлаш керакми?",
      "Йўқ. Канал ҳам, сайт ҳам бепул. Ишга жойлаштириш учун олдиндан пул сўраганларга ишонманг. Расмий ишлаш учун çalışma izni (иш рухсатномаси) керак бўлади."),
     ("Янгиликлар қанчалик тез-тез чиқади?",
-     "Ҳар куни соат 08:00 дан 22:00 гача (Истанбул вақти билан) 18 тагача пост чиқади: тахминан 12 та янгилик ва 6 та иш эълони."),
+     "Ҳар куни соат 08:00 дан 22:15 гача (Истанбул вақти билан) 12 та пост: ҳуқуқингиз ҳақида карточкалар ва тест, муҳим янгиликлар, кунига 2 марта 5 тадан саралаган иш эълонлари ва Истанбул ҳақида фойдали маълумот."),
     ("Икамет ва иш рухсатномаси бўйича расмий маълумотни қаердан олиш мумкин?",
      "Икамет бўйича — Göç İdaresi'нинг e-İkamet тизими ва YİMER 157 алоқа маркази, иш рухсатномаси бўйича — e-İzin тизими. Ҳаволалар «Расмий хизматлар» бўлимида берилган."),
     ("Каналда реклама бериш мумкинми?",
@@ -136,8 +136,8 @@ def latinize(doc):
 
 def shell(path, title, desc, body, *, image="/assets/og.jpg", og_type="website", ld=(), current="", lastmod=None, index=True):
     file_page = path.endswith(".html")
-    nav = [("Бош саҳифа", "/", "home"), ("Янгиликлар", "/yangiliklar/", "news"), ("Иш эълонлари", "/ish/", "jobs"),
-           ("Фойдали", "/#foydali", ""), ("Савол-жавоб", "/#savollar", "")]
+    nav = [("Бош саҳифа", "/", "home"), ("Ҳуқуқингиз", "/huquq/", "huquq"), ("Янгиликлар", "/yangiliklar/", "news"),
+           ("Иш эълонлари", "/ish/", "jobs"), ("Савол-жавоб", "/#savollar", "")]
     menu = "".join(f'<a href="{LP}{href}"{CUR if key and key == current else ""}>{name}</a>' for name, href, key in nav)
     scripts = "".join('<script type="application/ld+json">' + json.dumps(x, ensure_ascii=False).replace("</", "<\\/") + "</script>" for x in ld)
     alt = "" if file_page else (f'<link rel="canonical" href="{SITE}{LP}{path}">'
@@ -184,7 +184,7 @@ def shell(path, title, desc, body, *, image="/assets/og.jpg", og_type="website",
 <footer><div class="wrap foot">
 <div><a class="logo" href="{LP}/"><i></i>{BRAND}</a>
 <p>Туркиядаги ўзбеклар учун янгиликлар ва иш эълонлари. Хабарлар Telegram каналдан олинади, манба ҳар бир хабарда кўрсатилган.</p></div>
-<nav aria-label="Қуйи меню"><a href="{LP}/yangiliklar/">Янгиликлар</a><a href="{LP}/ish/">Иш эълонлари</a><a href="{TG}" rel="noopener">Telegram</a><a href="{BOT}" rel="noopener">Бот</a>
+<nav aria-label="Қуйи меню"><a href="{LP}/huquq/">Ҳуқуқингиз</a><a href="{LP}/yangiliklar/">Янгиликлар</a><a href="{LP}/ish/">Иш эълонлари</a><a href="{TG}" rel="noopener">Telegram</a><a href="{BOT}" rel="noopener">Бот</a>
 <a href="/feed.xml">RSS</a><a href="https://t.me/Muslim_Ostanov" rel="noopener">Реклама</a></nav>
 </div></footer>
 <script src="/assets/site.js?v={CSS_V}" defer></script>
@@ -348,7 +348,7 @@ def job_pages(jobs):
 def post_page(p, posts):
     d = when(p)
     path = path_of(p)
-    tg_link = f"{TG}/{p['id']}"
+    tg_link = f"{TG}/{p.get('post', p['id'])}"
     poster = f'<aside><a class="poster" href="/img/p/{p["id"]}.jpg" style="display:block">{img(p, eager=True)}</a></aside>'
     share = '<button class="btn" type="button" data-share data-done="Ҳавола нусхаланди">Улашиш</button>'
     same = [x for x in posts if x["kind"] == p["kind"] and x["id"] != p["id"]]
@@ -389,6 +389,46 @@ def post_page(p, posts):
             + (f'<section class="more">{more}</section>' if related else "") + f"</div>{cta()}</main>")
     shell(path, title, summary(p)[:300], body, image=f"/img/p/{p['id']}.jpg", og_type=og_type, ld=ld,
           current="jobs" if p["kind"] == "job" else "news", lastmod=d.date().isoformat())
+
+def huquq_pages(items):
+    """Rights and checklists, the same hand-checked cards the channel publishes (data/huquq.json from the bot)."""
+    if not items:
+        return
+    today = datetime.now(IST).date().isoformat()
+    path_h = lambda c: f"/huquq/{c['id']}/"
+    trail = [("Бош саҳифа", "/"), ("Ҳуқуқингиз", "/huquq/")]
+    def tiles(kind):
+        return "".join(f'<a class="lnk glass rv" style="--i:{n % 3}" href="{LP}{path_h(c)}"><b>{e(c["title"])}</b><p>{e(c["hook"])}</p></a>'
+                       for n, c in enumerate(x for x in items if x["kind"] == kind))
+    body = (f'<main id="main" class="page"><div class="wrap">{crumbs(*trail)}<h1 class="title">Туркияда ҳуқуқингиз</h1>'
+            '<p class="sub">Икамет, депорт, маош, паспорт, ижара — қийин вазиятда нима қилиш керак, қадамма-қадам. '
+            'Ўзбек тилида, бепул. Умумий маълумот, юридик маслаҳат эмас.</p>'
+            f'<h2 class="title" style="font-size:1.5rem;margin-top:28px">Вазиятлар: нима қилиш керак</h2><div class="links">{tiles("vaziyat")}</div>'
+            f'<h2 class="title" style="font-size:1.5rem;margin-top:40px">Сақлаб қўйинг: рўйхатлар</h2><div class="links">{tiles("royxat")}</div>'
+            f'</div>{cta()}</main>')
+    shell("/huquq/", f"Туркияда ҳуқуқингиз: икамет, депорт, маош — нима қилиш керак | {BRAND}",
+          "Туркиядаги ўзбеклар учун: икамет муддати, депорт, маош берилмаса, паспорт йўқолса ва бошқа вазиятларда нима қилиш керак — ўзбек тилида.",
+          body, current="huquq", ld=[crumbs_ld(*trail)], lastmod=today)
+    for c in items:
+        steps = "".join(f"<li><span><b>{e(a)}</b> — {e(b)}</span></li>" for a, b in c["rows"])
+        name, url = c["src"]
+        related = [x for x in items if x["id"] != c["id"] and x["kind"] == c["kind"]][:3]
+        more = "".join(f'<a class="lnk glass" href="{LP}{path_h(x)}"><b>{e(x["title"])}</b><p>{e(x["hook"])}</p></a>' for x in related)
+        main = (f'<div class="meta"><span class="chip red">{"Ҳуқуқингиз" if c["kind"] == "vaziyat" else "Рўйхат"}</span></div>'
+                f'<h1>{e(c["title"])}</h1><p class="lead">{e(c["hook"])}</p><ul class="facts">{steps}</ul>'
+                f'<p class="note">💡 {e(c["note"])}</p>'
+                f'<div class="acts"><a class="btn red" href="{TG}" rel="noopener">{TG_ICON}Каналга қўшилиш</a>'
+                f'<a class="btn" href="{BOT}?start=sovga" rel="noopener">Барча вазиятлар — PDF</a></div>'
+                f'<p class="src">Манба: <a href="{e(url)}" rel="noopener" target="_blank">{e(name)}</a>. Умумий маълумот, юридик маслаҳат эмас — '
+                'аниқ ҳолатингизни YİMER 157 ёки расмий идорада текширинг.</p>')
+        ld = [crumbs_ld(*(trail + [(c["title"], path_h(c))])),
+              {"@context": "https://schema.org", "@type": "HowTo", "name": c["title"], "description": c["hook"], "inLanguage": "uz",
+               "step": [{"@type": "HowToStep", "name": a, "text": b} for a, b in c["rows"]]}]
+        body = (f'<main id="main" class="page"><div class="wrap">{crumbs(*(trail + [(c["title"], path_h(c))]))}'
+                f'<article class="article"><div>{main}</div></article>'
+                f'<section class="more">{head_block("Ҳуқуқ", "Яна ўқинг", "/huquq/", "Барчаси")}<div class="links">{more}</div></section></div>{cta()}</main>')
+        shell(path_h(c), f"{c['title']} — нима қилиш керак | {BRAND}", f"{c['hook']} " + "; ".join(a for a, _ in c["rows"])[:200],
+              body, current="huquq", ld=ld, lastmod=today)
 
 def not_found():
     body = ('<main id="main" class="page"><div class="wrap" style="text-align:center;padding-block:8vh"><span class="chip">404</span>'
@@ -437,11 +477,12 @@ def main():
     rates(meta)
     blob = b"".join(open(os.path.join(ROOT, "assets", f), "rb").read() for f in ("site.css", "site.js"))
     CSS_V = hashlib.md5(blob).hexdigest()[:8]
-    for d in ("yangiliklar", "ish", "lotin"):
+    for d in ("yangiliklar", "ish", "lotin", "huquq"):
         shutil.rmtree(os.path.join(ROOT, d), ignore_errors=True)
     home(posts, meta)
     news_pages([p for p in posts if p["kind"] == "news"])
     job_pages([p for p in posts if p["kind"] == "job"])
+    huquq_pages(load("huquq.json", []))
     for p in posts:
         post_page(p, posts)
     not_found()

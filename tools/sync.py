@@ -49,6 +49,8 @@ def parse(block):
     link = html.unescape(button.group(1)) if button else ""
     tags = re.findall(r"#[\wўқғҳЎҚҒҲ]+", lines[-1]) if lines else []
     post = {"id": int(m.group(1)), "date": when.group(1), "photo": html.unescape(photo.group(1)), "link": link}
+    if "#иш" in tags and "ИШ ЭЪЛОНЛАРИ" in lines[0]:
+        return digest_jobs(post, raw)
     if "#иш" in tags and "ИШ ЭЪЛОНИ" in lines[0]:
         title = next((b for b in bolds if b != "ИШ ЭЪЛОНИ"), "")
         points = [l.lstrip("✅ ").strip() for l in text_of(quote.group(1)).split("\n") if l.strip()] if quote else []
@@ -66,15 +68,55 @@ def parse(block):
         return None
     return post
 
+KEYCAP = re.compile(r"^([1-5])\ufe0f?\u20e3\s*(.+)$")
+
+def digest_jobs(post, raw):
+    """Since 18.11.2026 vacancies come five per post. Each becomes its own job with id = post*10+n and "post" = post id."""
+    links = [html.unescape(u) for u in re.findall(r'<a href="([^"]+)"[^>]*>Ариза топшириш</a>', raw)]
+    lines = [l.strip() for l in text_of(raw).split("\n") if l.strip()]
+    jobs, cur = [], None
+    for line in lines:
+        m = KEYCAP.match(line)
+        if m:
+            cur = {"n": int(m.group(1)), "title": m.group(2).strip(), "salary": "", "place": "", "schedule": "", "company": "", "points": []}
+            jobs.append(cur)
+            continue
+        if not cur:
+            continue
+        if line.startswith(("💰", "📍", "⏰")):
+            for part in line.split(" · "):
+                part = part.strip()
+                if part.startswith("💰"):
+                    cur["salary"] = part[1:].strip()
+                elif part.startswith("📍"):
+                    cur["place"] = part[1:].strip()
+                elif part.startswith("⏰"):
+                    cur["schedule"] = part[1:].strip()
+        elif line.startswith("🏢"):
+            company, _, point = line[1:].strip().partition(" — ")
+            cur["company"], cur["points"] = company.strip(), [point.strip()] if point.strip() else []
+        elif line.startswith(("⚠", "📱", "🇹🇷")):
+            cur = None
+    out = []
+    for k, j in enumerate(jobs):
+        if not j["title"] or not re.search(r"[а-яўқғҳ]", j["title"].lower()):
+            continue
+        out.append({**post, "id": post["id"] * 10 + j["n"], "post": post["id"], "kind": "job", "title": j["title"],
+                    "company": j["company"], "place": j["place"], "salary": j["salary"], "schedule": j["schedule"],
+                    "points": j["points"], "link": links[k] if k < len(links) else ""})
+    return out or None
+
 def save_photo(post):
     path = os.path.join(IMG, f"{post['id']}.jpg")
     if not os.path.exists(path):
-        img = Image.open(io.BytesIO(get(post["photo"]))).convert("RGB")
+        img = Image.open(io.BytesIO(PHOTOS.get(post["photo"]) or PHOTOS.setdefault(post["photo"], get(post["photo"])))).convert("RGB")
         img.thumbnail((880, 1100))
         img.save(path, "JPEG", quality=84, optimize=True, progressive=True)
     with Image.open(path) as img:
         post["w"], post["h"] = img.size
     del post["photo"]
+
+PHOTOS = {}   # one digest picture serves five jobs
 
 def main():
     pages = int(sys.argv[sys.argv.index("--pages") + 1]) if "--pages" in sys.argv else 1
@@ -96,8 +138,10 @@ def main():
         if not ids:
             break
         for block in blocks:
-            post = parse(block)
-            if post and post["id"] not in posts:
+            found = parse(block)
+            for post in found if isinstance(found, list) else [found]:
+                if not post or post["id"] in posts:
+                    continue
                 try:
                     save_photo(post)
                 except Exception as e:
@@ -106,7 +150,7 @@ def main():
                 posts[post["id"]] = post
                 added += 1
         before = min(ids)
-    out = sorted(posts.values(), key=lambda p: p["id"], reverse=True)
+    out = sorted(posts.values(), key=lambda p: (p.get("post", p["id"]), -p["id"] if "post" in p else 0), reverse=True)
     json.dump(out, open(POSTS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if meta:
         json.dump(meta, open(META, "w", encoding="utf-8"), ensure_ascii=False)

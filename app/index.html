@@ -78,7 +78,7 @@ function draw() {
   document.getElementById('count').textContent = shown.length ? `${shown.length} та вакансия` : '';
   document.getElementById('list').innerHTML = shown.slice(0, 120).map(j => {
     const d = new Date(j.date);
-    return `<button class="job" data-id="${j.id}"><h3>${esc(j.title)}</h3><div class="co">${esc(j.company)}</div>
+    return `<button class="job" data-post="${j.post || j.id}"><h3>${esc(j.title)}</h3><div class="co">${esc(j.company)}</div>
       <div class="row">${j.salary ? `<span class="tag pay">💰 ${esc(j.salary)}</span>` : ''}<span class="tag">📍 ${esc(district(j.place))}</span>
       ${j.schedule ? `<span class="tag">⏰ ${esc(j.schedule)}</span>` : ''}<span class="date">${d.getDate()} ${months[d.getMonth()]}</span></div></button>`;
   }).join('') || `<div class="empty">Ҳозирча мос вакансия йўқ.<br>«🔔 Мос иш келсин» тугмасини босинг — чиқиши билан юбораман.</div>`;
@@ -100,7 +100,7 @@ function chips() {
 }
 
 document.getElementById('q').oninput = draw;
-document.getElementById('list').onclick = ev => { const b = ev.target.closest('.job'); if (b) open(`${CHANNEL}/${b.dataset.id}`); };
+document.getElementById('list').onclick = ev => { const b = ev.target.closest('.job'); if (b) open(`${CHANNEL}/${b.dataset.post}`); };
 document.getElementById('alerts').onclick = () => open(`${BOT}?start=xabar`);
 document.getElementById('channel').onclick = () => open(CHANNEL);
 fetch('/data/posts.json', {cache: 'no-cache'}).then(r => r.json()).then(all => {
