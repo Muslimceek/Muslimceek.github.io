@@ -1,5 +1,119 @@
 [
  {
+  "id": 684,
+  "date": "2026-11-18T17:30:31+00:00",
+  "link": "https://www.babaocagi.com.tr/kadikoyde-d-100-alarmi-yol-bu-gece-2200de-kapatiliyor",
+  "kind": "news",
+  "title": "Kadıköy D-100 йўли бу кеча соат 22:00 да ёпилади",
+  "cat": "transport",
+  "lead": "Kadıköy'да D-100 трассасининг бир қисми бу кеча соат 22:00 да транспорт ҳаракати учун ёпилади. Ҳайдовчилар муқобил йўллардан фойдаланишлари керак.",
+  "facts": [
+   "Йўл ёпилиши 19 ноябрга ўтар кечаси соат 22:00 дан бошланади."
+  ],
+  "source": "babaocagi.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6821,
+  "date": "2026-11-18T15:00:13+00:00",
+  "link": "https://www.eleman.net/is-ilani/stok-depo-personeli-i4810556",
+  "post": 682,
+  "kind": "job",
+  "title": "Омбор ходими (Stok Depo Personeli)",
+  "company": "Bolero Çorap İplik Ve Tekstil",
+  "place": "İstanbul, Arnavutköy",
+  "salary": "35.000 TL - 40.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Электрон терминалдан фойдалана олиш афзал"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6822,
+  "date": "2026-11-18T15:00:13+00:00",
+  "link": "https://www.eleman.net/is-ilani/paketleme-elemani-i4810526",
+  "post": 682,
+  "kind": "job",
+  "title": "Қадоқлаш ишчиси (Paketleme Elemanı)",
+  "company": "Olcay Tüp A. Ş",
+  "place": "İstanbul, Esenyurt",
+  "salary": "30.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "3-4 йиллик тажриба, Эсенюртда яшовчи"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6823,
+  "date": "2026-11-18T15:00:13+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-elemani-i4810322",
+  "post": 682,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Elemanı)",
+  "company": "Bizim Servis",
+  "place": "İstanbul, Ümraniye",
+  "salary": "31.000 TL - 33.000 TL",
+  "schedule": "08:00-16:00 / 16:00-00:00",
+  "points": [
+   "Ҳафталик дам олиш: якшанба, сервис мавжуд"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6824,
+  "date": "2026-11-18T15:00:13+00:00",
+  "link": "https://www.eleman.net/is-ilani/danisma-gorevlisi-i4810229",
+  "post": 682,
+  "kind": "job",
+  "title": "Маълумот хизмати ходими (Danışma Görevlisi)",
+  "company": "Quess Entegre Tesis Yönetim Hizmetleri",
+  "place": "İstanbul, Şişli",
+  "salary": "38.228 TL",
+  "schedule": "Ҳафтасига 4 кун 08:00-18:00",
+  "points": [
+   "Шишлида жойлашган, аёл киши"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 680,
+  "date": "2026-11-18T12:01:02+00:00",
+  "link": "https://www.sozcu.com.tr/ibbden-d100-uyarisi-edirne-yonu-8-saat-kapatilacak-p382471",
+  "kind": "news",
+  "title": "D-100 йўлининг Edirne йўналиши бу кеча 8 соатга ёпилади",
+  "cat": "transport",
+  "lead": "İBB огоҳлантиришига кўра, Kadıköy'даги Bostancı Köprüsü'да олиб бориладиган ишлар сабабли D-100 автойўлининг Edirne йўналиши бу кеча соат 22:00 дан бошлаб ёпилади.",
+  "facts": [
+   "Автойўл 8 соат давомида ёпиқ бўлади",
+   "Таъмирлаш ишлари Bostancı Köprüsü ҳудудида олиб борилади"
+  ],
+  "source": "sozcu.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 678,
+  "date": "2026-11-18T09:31:38+00:00",
+  "link": "https://mansethaber.com/gundem/yatirim-yapan-yabancilara-ikamet-izni-150-bin-dolara-3-yil-200-bin-dolara-5-yil",
+  "kind": "news",
+  "title": "150 минг доллар сармояга 3 йиллик иқомат берилади",
+  "cat": "hujjat",
+  "lead": "Туркияда чет эллик сармоядорларга яшаш рухсатномаси (икамет) бериш бўйича янги қоидалар тасдиқланди: 150 минг доллар сармоя киритганларга 3 йил, 200 минг доллар сармоя учун 5 йиллик рухсат берилади.",
+  "facts": [
+   "Янги тартиб Resmî Gazete нашрида эълон қилинди"
+  ],
+  "source": "mansethaber.com",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 674,
   "date": "2026-11-18T07:15:26+00:00",
   "link": "https://www.eleman.net/is-ilani/temizlik-personeli-i4809911",
