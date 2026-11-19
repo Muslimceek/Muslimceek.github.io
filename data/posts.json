@@ -1,5 +1,86 @@
 [
  {
+  "id": 696,
+  "date": "2026-11-19T17:30:22+00:00",
+  "link": "https://gunebakisgazetesi.com/haber/29189788/turkiye-ozbekistandan-ulasimda-yeni-is-birligi-hamlesi",
+  "kind": "news",
+  "title": "Туркия ва Ўзбекистон ўртасида транспортда янги ҳамкорлик",
+  "cat": "turkiya",
+  "lead": "Туркия ва Ўзбекистон транспорт соҳасида янги ҳамкорлик ташаббусини бошлади. Бу ҳақда Adıyaman Güne Bakış Gazetesi хабар берди.",
+  "facts": [],
+  "source": "gunebakisgazetesi.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6941,
+  "date": "2026-11-19T15:01:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-personel-estethica-atasehir-bayan-i4811372",
+  "post": 694,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "ISS TESİS YÖNETİM HİZMETLERİ A.Ş.",
+  "place": "İstanbul, Ataşehir",
+  "salary": "28.000 TL - 35.000 TL",
+  "schedule": "Тўлиқ кун, 14:00-22:00",
+  "points": [
+   "Аташеҳир туманида, аёллар учун"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6942,
+  "date": "2026-11-19T15:01:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/garson-i4811360",
+  "post": 694,
+  "kind": "job",
+  "title": "Официант (Garson)",
+  "company": "Nora Food Gıda",
+  "place": "İstanbul, Büyükçekmece",
+  "salary": "30.000 TL - 40.000 TL",
+  "schedule": "Тўлиқ кун",
+  "points": [
+   "Büyükçekmece'да яшовчилар афзал"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6943,
+  "date": "2026-11-19T15:01:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/ikram-personeli-i4811240",
+  "post": 694,
+  "kind": "job",
+  "title": "Икром ходими (İkram Personeli)",
+  "company": "Pls Destek Hizmetler Ve Lojistik",
+  "place": "İstanbul, Beşiktaş",
+  "salary": "40.000 TL",
+  "schedule": "Икки смена, 6 иш 1 дам",
+  "points": [
+   "Аёллар учун, тажрибалилар афзал"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6944,
+  "date": "2026-11-19T15:01:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/paketleme-elemani-topkapi-i4811180",
+  "post": 694,
+  "kind": "job",
+  "title": "Қадоқлаш ишчиси (Paketleme Elemanı)",
+  "company": "Bizim Servis",
+  "place": "İstanbul, Zeytinburnu",
+  "salary": "45.000 TL",
+  "schedule": "Тўлиқ кун",
+  "points": [
+   "20-45 ёш, тажрибасизлар ҳам бўлади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 692,
   "date": "2026-11-19T12:02:53+00:00",
   "link": "https://kun.uz/news/2026/11/19/prezident-turk-kompaniyalarini-ozbekistondagi-yirik-loyihalarda-ishtirok-etishga-chaqirdi-61376",
