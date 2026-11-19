@@ -1,5 +1,102 @@
 [
  {
+  "id": 692,
+  "date": "2026-11-19T12:02:53+00:00",
+  "link": "https://kun.uz/news/2026/11/19/prezident-turk-kompaniyalarini-ozbekistondagi-yirik-loyihalarda-ishtirok-etishga-chaqirdi-61376",
+  "kind": "news",
+  "title": "Туркия ва Ўзбекистон транспорт йўлакларини мустаҳкамлайди",
+  "cat": "turkiya",
+  "lead": "Ўзбекистон Президенти турк компанияларини мамлакатдаги пуллик автомобил йўллари, аэропортлар ва логистика марказларини ривожлантириш каби йирик лойиҳаларда иштирок этишга чақирди.",
+  "facts": [
+   "Транспорт соҳаси икки давлат ўртасидаги истиқболли йўналиш сифатида кўрсатилди",
+   "Турк компаниялари Янги Тошкент қурилиши лойиҳаларига ҳам таклиф этилди"
+  ],
+  "source": "kun.uz",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 690,
+  "date": "2026-11-19T09:30:12+00:00",
+  "link": "https://gazeteoksijen.com/turkiye/150-bin-dolar-verene-3-yil-200-bin-dolar-verene-5-yil-ikamet-izni-296366",
+  "kind": "news",
+  "title": "150 минг долларга 3 йил, 200 минг долларга 5 йил икамет изни",
+  "cat": "hujjat",
+  "lead": "Туркияда 150 минг доллар эвазига 3 йил, 200 минг доллар эвазига 5 йил муддатга икамет изни бериш бўйича янги қарор кучга кирди.",
+  "facts": [],
+  "source": "gazeteoksijen.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6881,
+  "date": "2026-11-19T06:31:17+00:00",
+  "link": "https://www.eleman.net/is-ilani/guvenlik-gorevlisi-eyupsultan-gokturk-i4810505",
+  "post": 688,
+  "kind": "job",
+  "title": "Қўриқчи (Güvenlik Görevlisi)",
+  "company": "Tansav Özel Güvenlik Hizmetleri",
+  "place": "İstanbul, Eyüpsultan",
+  "salary": "48.500 TL",
+  "schedule": "2 кундуз, 2 кеча, 2 дам",
+  "points": [
+   "Ойлик: 48.500 TL (8900 TL овқат картаси)"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6882,
+  "date": "2026-11-19T06:31:17+00:00",
+  "link": "https://www.eleman.net/is-ilani/guvenlik-gorevlisi-atasehir-i4810490",
+  "post": 688,
+  "kind": "job",
+  "title": "Қўриқчи (Güvenlik Görevlisi)",
+  "company": "KLÜH PROFESYONEL HİZMETLER TİC. A.Ş.",
+  "place": "İstanbul, Ataşehir",
+  "salary": "63.550 TL",
+  "schedule": "18 кун иш",
+  "points": [
+   "Ойлик: 63.550 TL (53.000 TL нет + йўл + овқат)"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6883,
+  "date": "2026-11-19T06:31:17+00:00",
+  "link": "https://www.eleman.net/is-ilani/ozel-guvenlik-gorevlisi-i4810382",
+  "post": 688,
+  "kind": "job",
+  "title": "Қўриқчи (Özel Güvenlik Görevlisi)",
+  "company": "DG Group",
+  "place": "İstanbul, Ataşehir",
+  "salary": "47.800 TL",
+  "schedule": "Тўлиқ вақт",
+  "points": [
+   "Ойлик: 47.500 TL нет + иссиқ овқат"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 6884,
+  "date": "2026-11-19T06:31:17+00:00",
+  "link": "https://www.eleman.net/is-ilani/ozel-guvenlik-gorevlisi-i4810217",
+  "post": 688,
+  "kind": "job",
+  "title": "Қўриқчи (ÖZEL GÜVENLİK GÖREVLİSİ)",
+  "company": "Atalian Global Services",
+  "place": "İstanbul, Sarıyer",
+  "salary": "52.873 TL",
+  "schedule": "2 кундуз, 2 кеча, 2 дам",
+  "points": [
+   "Ойлик: 52.873 TL (44.873 TL маош + 8.000 TL Ticket)"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 684,
   "date": "2026-11-18T17:30:31+00:00",
   "link": "https://www.babaocagi.com.tr/kadikoyde-d-100-alarmi-yol-bu-gece-2200de-kapatiliyor",
