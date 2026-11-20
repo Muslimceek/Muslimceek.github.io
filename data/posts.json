@@ -1,5 +1,89 @@
 [
  {
+  "id": 708,
+  "date": "2026-11-20T17:30:48+00:00",
+  "link": "https://www.hurriyet.com.tr/gundem/istanbulda-lodos-alarmi-akom-saat-verdi-hizi-85-kilometreye-cikacak-saganak-geliyor-17-ilde-sari-kodlu-uyari-hafta-sonu-plan-43384481",
+  "kind": "news",
+  "title": "Истанбул ва 24 вилоятда кучли ёғин сабабли сариқ огоҳлантириш",
+  "cat": "obhavo",
+  "lead": "AKOM ва Метеорология хизмати Истанбул ҳамда 24 вилоятда кучли жала ёғиши муносабати билан сариқ кодли огоҳлантириш эълон қилди.",
+  "facts": [
+   "Дам олиш кунлари режа қилаётганлар учун огоҳлантириш берилди",
+   "AKOM Истанбулда кучли ёғингарчилик бўлиши ҳақида хабар берди"
+  ],
+  "source": "hurriyet.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7061,
+  "date": "2026-11-20T15:00:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/atasehir-depo-personeli-i4811822",
+  "post": 706,
+  "kind": "job",
+  "title": "Омбор ходими (Depo Personeli)",
+  "company": "Efora İnsan Kaynakları",
+  "place": "İstanbul, Ataşehir",
+  "salary": "32.000 TL",
+  "schedule": "Ҳафтада 6 кун (якш. дам)",
+  "points": [
+   "20-35 ёш, 32.000 TL маош ва 11.500 TL овқат картаси"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7062,
+  "date": "2026-11-20T15:00:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/garson-komi-i4811951",
+  "post": 706,
+  "kind": "job",
+  "title": "Официант - ёрдамчи (Garson - Komi)",
+  "company": "Yağcıoğlu Un Ve Unlu Mamüller",
+  "place": "İstanbul, Küçükçekmece",
+  "salary": "30.000 TL - 35.000 TL",
+  "schedule": "Тўлиқ бандлик",
+  "points": [
+   "Кафе ва ресторан соҳасида тажриба талаб этилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7063,
+  "date": "2026-11-20T15:00:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-personeli-cekmekoy-bay-bayan-i4812047",
+  "post": 706,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "RO GROUP A.Ş.",
+  "place": "İstanbul, Çekmeköy",
+  "salary": "33.260 TL",
+  "schedule": "Ҳафтада 6 кун (якш. дам)",
+  "points": [
+   "33.260 TL маош ҳамда 8.588 TL овқат картаси"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7064,
+  "date": "2026-11-20T15:00:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/tezgahtar-i4811903",
+  "post": 706,
+  "kind": "job",
+  "title": "Сотувчи (Tezgahtar)",
+  "company": "İK Ekspert",
+  "place": "İstanbul, Çekmeköy",
+  "salary": "30.000 TL",
+  "schedule": "Навбатли иш тартиби",
+  "points": [
+   "Нон сотувида тажриба ва маҳсулотларни билиш лозим"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 704,
   "date": "2026-11-20T12:02:25+00:00",
   "link": "https://www.sozcu.com.tr/istanbul-da-kira-getirisi-en-yuksek-ve-en-dusuk-ilceler-belli-oldu-p383049",
