@@ -1,5 +1,56 @@
 [
  {
+  "id": 7121,
+  "date": "2026-11-21T06:31:08+00:00",
+  "link": "https://www.eleman.net/is-ilani/gece-bulasikci-kadikoy-i4812062",
+  "post": 712,
+  "kind": "job",
+  "title": "Тунги идиш ювувчи (Gece Bulaşıkçı)",
+  "company": "ISS HAZIR YEMEK ÜRETİM VE HİZMET",
+  "place": "İstanbul, Kadıköy",
+  "salary": "28.000 TL - 35.000 TL",
+  "schedule": "Тўлиқ кунлик",
+  "points": [
+   "Маош лойиҳада муҳокама қилинади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7122,
+  "date": "2026-11-21T06:31:08+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-gorevlisi-i4811972",
+  "post": 712,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Görevlisi)",
+  "company": "Smart Servis Yazılım Bilgi Teknolojileri",
+  "place": "İstanbul, Ümraniye",
+  "salary": "30.000 TL - 35.000 TL",
+  "schedule": "Тўлиқ кунлик",
+  "points": [
+   "Ичимлик хизматини кўрсатиш, керакли материалларни ҳисобот қилиш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7123,
+  "date": "2026-11-21T06:31:08+00:00",
+  "link": "https://www.eleman.net/is-ilani/danisma-ve-gozetim-personeli-tuzla-i4811423",
+  "post": 712,
+  "kind": "job",
+  "title": "Маълумот ва кузатув ходими (Danışma Ve Gözetim Personeli)",
+  "company": "United Services",
+  "place": "İstanbul, Tuzla",
+  "salary": "42.500 TL",
+  "schedule": "Тўлиқ кунлик",
+  "points": [
+   "30-50 ёш оралиғидаги эркак ходим"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 708,
   "date": "2026-11-20T17:30:48+00:00",
   "link": "https://www.hurriyet.com.tr/gundem/istanbulda-lodos-alarmi-akom-saat-verdi-hizi-85-kilometreye-cikacak-saganak-geliyor-17-ilde-sari-kodlu-uyari-hafta-sonu-plan-43384481",
