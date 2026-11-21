@@ -1,5 +1,101 @@
 [
  {
+  "id": 7181,
+  "date": "2026-11-21T15:00:51+00:00",
+  "link": "https://www.eleman.net/is-ilani/atolye-yardimci-elemani-i4812272",
+  "post": 718,
+  "kind": "job",
+  "title": "Цех ёрдамчиси (Atölye Yardımcısı)",
+  "company": "Hepe Tasarım Ve İç Mimarlık",
+  "place": "İstanbul, Pendik",
+  "salary": "40.000 TL - 42.000 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "Мебель цехида ёрдам бериш ва етказиб бериш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7182,
+  "date": "2026-11-21T15:00:51+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-gorevlisi-i4811861",
+  "post": 718,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Görevlisi)",
+  "company": "EFM TESİS YÖNETİMİ",
+  "place": "İstanbul, Sultanbeyli",
+  "salary": "40.000 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "Тозалик соҳасида камида 1 йиллик тажриба"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7183,
+  "date": "2026-11-21T15:00:51+00:00",
+  "link": "https://www.eleman.net/is-ilani/magaza-satis-temsilcisi-i4812344",
+  "post": 718,
+  "kind": "job",
+  "title": "Сотувчи (Mağaza Satış Temsilcisi)",
+  "company": "Formet Çelik Kapı",
+  "place": "İstanbul, Maltepe",
+  "salary": "45.000 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "Савдо тажрибаси, ҳайдовчилик гувоҳномаси афзал"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7184,
+  "date": "2026-11-21T15:00:51+00:00",
+  "link": "https://www.eleman.net/is-ilani/mobilya-imalat-ustasi-i4812275",
+  "post": 718,
+  "kind": "job",
+  "title": "Мебель устаси (Mobilya İmalat Ustası)",
+  "company": "Hepe Tasarım Ve İç Mimarlık",
+  "place": "İstanbul, Pendik",
+  "salary": "65.000 TL - 70.000 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "Ўлчамлар бўйича мебель ясаш ва ўрнатиш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 716,
+  "date": "2026-11-21T12:00:41+00:00",
+  "link": "https://www.gazeta.uz/oz/2026/11/21/official/",
+  "kind": "news",
+  "title": "Turkiyada Хоразм бандлик тизими собиқ ходими ушланди",
+  "cat": "turkiya",
+  "lead": "Хоразм вилояти бандлик тизимида ишлаб, давлат маблағларини ўзлаштириш ва ҳужжатларни сохталаштиришда гумонланган аёл Туркияда ушланиб, Ўзбекистонга олиб келинди.",
+  "facts": [
+   "Гумонланувчи аёл халқаро қидирувда бўлган."
+  ],
+  "source": "gazeta.uz",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 714,
+  "date": "2026-11-21T09:30:28+00:00",
+  "link": "https://haber.aero/aero-gundem/limakin-buhara-havalimani-projesinde-imza-hazirligi/",
+  "kind": "news",
+  "title": "Buhara Havalimanı лойиҳаси: Limak шартнома имзолашга тайёрланмоқда",
+  "cat": "turkiya",
+  "lead": "Туркиянинг Limak компанияси Buhara Havalimanı лойиҳаси бўйича шартнома имзолашга тайёргарлик кўрмоқда.",
+  "facts": [],
+  "source": "haber.aero",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 7121,
   "date": "2026-11-21T06:31:08+00:00",
   "link": "https://www.eleman.net/is-ilani/gece-bulasikci-kadikoy-i4812062",
