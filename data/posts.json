@@ -1,5 +1,103 @@
 [
  {
+  "id": 732,
+  "date": "2026-11-22T17:30:39+00:00",
+  "link": "https://kun.uz/news/2026/11/22/firibgarlikda-gumonlanib-qidiruvda-bolgan-shaxs-turkiyada-qolga-olindi-61785",
+  "kind": "news",
+  "title": "Фирибгарликда гумонланган шахс Туркияда қўлга олинди",
+  "cat": "turkiya",
+  "lead": "Ўзбекистонда фирибгарликда гумонланиб қидирувда бўлган шахс Туркияда қўлга олинди.",
+  "facts": [
+   "У фуқароларнинг ишончига кириб, алдов йўли билан кўп миқдордаги мол-мулкини қўлга киритганликда гумо"
+  ],
+  "source": "kun.uz",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7301,
+  "date": "2026-11-22T15:01:12+00:00",
+  "link": "https://www.eleman.net/is-ilani/komi-servis-elemani-i4812401",
+  "post": 730,
+  "kind": "job",
+  "title": "Официант ёрдамчиси (KOMİ)",
+  "company": "Meşhur Sultanahmet Köftecisi",
+  "place": "İstanbul, Fatih",
+  "salary": "35.000 TL - 40.000 TL",
+  "schedule": "Тўлиқ кунлик",
+  "points": [
+   "16-25 ёшдаги эркаклар учун, тажрибасиз ҳам бўлади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7302,
+  "date": "2026-11-22T15:01:12+00:00",
+  "link": "https://www.eleman.net/is-ilani/musteri-temsilcisi-i4812251",
+  "post": 730,
+  "kind": "job",
+  "title": "Мижозлар вакили (MÜŞTERİ TEMSİLCİSİ)",
+  "company": "Evser Teknik",
+  "place": "İstanbul, Kağıthane",
+  "salary": "30.000 TL - 40.000 TL",
+  "schedule": "08:30 - 18:00, якшанба дам",
+  "points": [
+   "Телефонларга жавоб бериш, компьютерда ишлаш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7303,
+  "date": "2026-11-22T15:01:12+00:00",
+  "link": "https://www.eleman.net/is-ilani/bayan-kompleci-i4811840",
+  "post": 730,
+  "kind": "job",
+  "title": "Аёл сартарош (Bayan Kompleci)",
+  "company": "Aysan Kuaför Ayşe Özyaman",
+  "place": "İstanbul, Ataşehir",
+  "salary": "70.000 TL - 80.000 TL",
+  "schedule": "09:00 - 19:00/19:30",
+  "points": [
+   "Ичкиренкойда 30 йиллик сартарошхонада ишлаш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7304,
+  "date": "2026-11-22T15:01:12+00:00",
+  "link": "https://www.eleman.net/is-ilani/mekan-temizlik-gorevlisi-i4812407",
+  "post": 730,
+  "kind": "job",
+  "title": "Тозалик ходими (MEKÂN TEMİZLİK GÖREVLİSİ)",
+  "company": "ANT İnsan Kaynakları",
+  "place": "İstanbul, Bayrampaşa",
+  "salary": "",
+  "schedule": "Тўлиқ кунлик",
+  "points": [
+   "Кўргазма ва ташрифчилар жойларини тозалаш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 728,
+  "date": "2026-11-22T12:00:22+00:00",
+  "link": "https://www.mygazete.com/istanbulda-ulasimi-degistirecek-metro-19-aralikta-aciliyor/788999",
+  "kind": "news",
+  "title": "İstanbul'да янги метро линияси 19 декабр куни очилади",
+  "cat": "transport",
+  "lead": "İstanbul шаҳрида жамоат транспорти ҳаракатини енгиллаштирадиган янги метро линияси 19 декабр куни расман фойдаланишга топширилади.",
+  "facts": [
+   "Очилиш санаси: 19 декабр"
+  ],
+  "source": "mygazete.com",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 726,
   "date": "2026-11-22T09:30:27+00:00",
   "link": "https://daryo.uz/2026/11/22/firibgarlikda-gumonlanayotgan-yana-bir-ozbekistonlik-turkiyada-ushlandi/",
