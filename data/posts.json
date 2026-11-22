@@ -1,5 +1,88 @@
 [
  {
+  "id": 726,
+  "date": "2026-11-22T09:30:27+00:00",
+  "link": "https://daryo.uz/2026/11/22/firibgarlikda-gumonlanayotgan-yana-bir-ozbekistonlik-turkiyada-ushlandi/",
+  "kind": "news",
+  "title": "Туркияда фирибгарликда гумонланган ўзбекистонлик ушланди",
+  "cat": "turkiya",
+  "lead": "Алдов йўли билан фуқароларнинг кўп миқдордаги мол-мулкини қўлга киритганликда гумон қилинган шахс Туркияда ушланиб, депортация қилинди.",
+  "facts": [
+   "Фуқароларнинг кўп миқдордаги мол-мулкини ўзлаштиришда гумон қилинмоқда"
+  ],
+  "source": "daryo.uz",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7241,
+  "date": "2026-11-22T06:30:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/barista-i4812356",
+  "post": 724,
+  "kind": "job",
+  "title": "Бариста (Barista)",
+  "company": "Santa Nata",
+  "place": "İstanbul, Kadıköy",
+  "salary": "35.000 TL - 40.000 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "Қаҳвахонага қувноқ ва энергик ходимлар керак"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7242,
+  "date": "2026-11-22T06:30:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/diyet-garson-kadikoy-i4812050",
+  "post": 724,
+  "kind": "job",
+  "title": "Официант (Diyet Garson)",
+  "company": "ISS HAZIR YEMEK ÜRETİM VE HİZMET",
+  "place": "İstanbul, Kadıköy",
+  "salary": "28.000 TL - 35.000 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "Шифохона кейтеринг ошхонасида официантлик иши"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7243,
+  "date": "2026-11-22T06:30:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/part-time-temizlik-kadin-beyoglu-i4811921",
+  "post": 724,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik)",
+  "company": "Tepe Tesis Yönetimi",
+  "place": "İstanbul, Beyoğlu",
+  "salary": "14.170 TL",
+  "schedule": "Ярим иш куни",
+  "points": [
+   "Бейоғлу туманидаги дўконни тозалаш учун аёллар"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7244,
+  "date": "2026-11-22T06:30:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/marangoz-i4811969",
+  "post": 724,
+  "kind": "job",
+  "title": "Дурадгор (Marangoz)",
+  "company": "ISS TESİS YÖNETİM HİZMETLERİ A.Ş.",
+  "place": "İstanbul, Üsküdar",
+  "salary": "57.722 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "Объектларда дурадгорлик ва таъмирлаш ишлари"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 720,
   "date": "2026-11-21T17:30:31+00:00",
   "link": "https://www.ntv.com.tr/turkiye/istanbulun-bazi-ilcelerinde-dolu-ve-saganak-etkili-yollar-beyaza-burundu-1751952",
