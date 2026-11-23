@@ -1,5 +1,103 @@
 [
  {
+  "id": 740,
+  "date": "2026-11-23T12:02:06+00:00",
+  "link": "https://www.gazeta.uz/oz/2026/11/23/eksim-holding/",
+  "kind": "news",
+  "title": "Бухоро электр тармоқларини Туркия компанияси бошқариши мумкин",
+  "cat": "turkiya",
+  "lead": "Ўзбекистон президенти Туркиянинг EKSIM Holding компанияси билан Бухоро вилояти электр тармоқларини бошқариш бўйича музокаралар олиб борилаётганини маълум қилди.",
+  "facts": [
+   "Электр энергиясидаги йўқотишлар 20 фоизга етиши танқид қилинди",
+   "Музокаралар тармоқларни модернизация қилиш ва бошқаришга оид",
+   "Туркия компанияси билан ҳамкорликда тизимни янгилаш режалаштирилган"
+  ],
+  "source": "gazeta.uz",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 738,
+  "date": "2026-11-23T09:30:38+00:00",
+  "link": "https://istanbulticaretgazetesi.com/meteoroloji-istanbul-son-dakika-saat-1800e-dikkat-firtina-ve-saganak-geliyor-sicaklik-10-derece-dusecek",
+  "kind": "news",
+  "title": "Истанбулда соат 18:00 дан кучли бўрон кутилмоқда",
+  "cat": "obhavo",
+  "lead": "Метеорология хизмати Истанбул учун огоҳлантириш чиқарди: соат 18:00 дан эътиборан бўрон ва жала ёмғир бошланиб, ҳаво ҳарорати 10 даражага тушади.",
+  "facts": [],
+  "source": "istanbulticaretgazetesi.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7361,
+  "date": "2026-11-23T06:30:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/kayseri-yaglamasi-hazirlik-i4812422",
+  "post": 736,
+  "kind": "job",
+  "title": "Тайёрловчи (Kayseri yağlaması hazırlık)",
+  "company": "Kasnak Gıda Ve Üretim A. Ş",
+  "place": "İstanbul, Sarıyer",
+  "salary": "40.000 TL",
+  "schedule": "Толиқ бандлик",
+  "points": [
+   "Тажрибали ва тажрибасиз номзодлар қабул қилинади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7362,
+  "date": "2026-11-23T06:30:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-personeli-meydanci-i4812446",
+  "post": 736,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "İsabet Temizlik Sosyal Hizmetler",
+  "place": "İstanbul, Tuzla",
+  "salary": "45.500 TL",
+  "schedule": "08:00 - 17:00",
+  "points": [
+   "Маош 45.500 TL, тушлик берилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7363,
+  "date": "2026-11-23T06:30:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-personeli-i4812392",
+  "post": 736,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Personeli)",
+  "company": "Özlem Süer Tekstil Tasarım",
+  "place": "İstanbul, Şişli",
+  "salary": "28.100 TL",
+  "schedule": "Толиқ бандлик",
+  "points": [
+   "Офис ва шоурум тозалиги, маош 28.100 TL"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7364,
+  "date": "2026-11-23T06:30:22+00:00",
+  "link": "https://www.eleman.net/is-ilani/vasifsiz-uretim-elemani-i4812491",
+  "post": 736,
+  "kind": "job",
+  "title": "Ишлаб чиқариш ходими (Üretim Elemanı)",
+  "company": "Firma Adı Gizli",
+  "place": "İstanbul, Tuzla",
+  "salary": "",
+  "schedule": "3 сменали иш",
+  "points": [
+   "Озиқ-овқат корхонасига малакасиз ходимлар"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 732,
   "date": "2026-11-22T17:30:39+00:00",
   "link": "https://kun.uz/news/2026/11/22/firibgarlikda-gumonlanib-qidiruvda-bolgan-shaxs-turkiyada-qolga-olindi-61785",
