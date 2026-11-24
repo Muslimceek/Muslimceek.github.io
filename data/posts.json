@@ -1,5 +1,104 @@
 [
  {
+  "id": 756,
+  "date": "2026-11-24T17:30:50+00:00",
+  "link": "https://www.yenialanya.com/yok-duyurdu-yabanci-ogrenci-kayit-suresi-30-aralika-uzatildi",
+  "kind": "news",
+  "title": "Чет эллик талабалар учун рўйхатдан ўтиш 30 декабргача узайтирилди",
+  "cat": "hujjat",
+  "lead": "YÖK чет эллик талабалар учун олий ўқув юртларига рўйхатдан ўтиш муддати 30 декабргача узайтирилганини эълон қилди.",
+  "facts": [
+   "Охирги муддат: 30 декабрь",
+   "Манба: YÖK"
+  ],
+  "source": "yenialanya.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7541,
+  "date": "2026-11-24T15:00:58+00:00",
+  "link": "https://www.eleman.net/is-ilani/depo-elemani-i4814120",
+  "post": 754,
+  "kind": "job",
+  "title": "Омбор ходими (depo elemanı)",
+  "company": "Aspa Dış Ticaret Ve Pazarlama",
+  "place": "İstanbul, Başakşehir",
+  "salary": "29.000 TL",
+  "schedule": "Ҳафтасига 5.5 кун, 08:00-18:00",
+  "points": [
+   "Маош: 29.000 TL + 2000 TL йўл, иссиқ овқат"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7542,
+  "date": "2026-11-24T15:00:58+00:00",
+  "link": "https://www.eleman.net/is-ilani/tezgahtar-city-s-kozyatagi-avm-i4814144",
+  "post": 754,
+  "kind": "job",
+  "title": "Сотувчи (Tezgahtar)",
+  "company": "Magnolia Bakery",
+  "place": "İstanbul, Ataşehir",
+  "salary": "34.000 TL",
+  "schedule": "Тўлиқ кунлик",
+  "points": [
+   "Маош: 34.000 TL. Қаҳва тайёрлаш тажрибаси"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7543,
+  "date": "2026-11-24T15:00:58+00:00",
+  "link": "https://www.eleman.net/is-ilani/yemekhane-ve-temizlik-personeli-i4814096",
+  "post": 754,
+  "kind": "job",
+  "title": "Ошхона ва тозалик ходими (Yemekhane ve Temizlik Personeli)",
+  "company": "Albe Hazır Gıda",
+  "place": "İstanbul, Çekmeköy",
+  "salary": "29.000 TL",
+  "schedule": "Тўлиқ кунлик",
+  "points": [
+   "Маош: 29.000 TL. Султанбейли, Чекеккой, Султангази"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7544,
+  "date": "2026-11-24T15:00:58+00:00",
+  "link": "https://www.eleman.net/is-ilani/magaza-satis-temsilcisi-i4813985",
+  "post": 754,
+  "kind": "job",
+  "title": "Дўкон сотувчиси (Mağaza Satış Temsilcisi)",
+  "company": "Princess Puff",
+  "place": "İstanbul, Kadıköy",
+  "salary": "50.000 TL - 55.000 TL",
+  "schedule": "Тўлиқ кунлик",
+  "points": [
+   "Маош: 50.000 - 55.000 TL. Суадие филиали"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 752,
+  "date": "2026-11-24T12:00:52+00:00",
+  "link": "https://www.aksiyon.com.tr/istanbul-da-avm-otoparklarinda-3-saat-kuralina-uymayan-50-isletmeye-ceza-401246",
+  "kind": "news",
+  "title": "Истанбулда AVM автотураргоҳ қоидасини бузган 50 корхона жаримага тортилди",
+  "cat": "narx",
+  "lead": "Истанбулдаги савдо марказларида 3 соатлик бепул автотураргоҳ қоидасига амал қилмаган 50 та корхонага жарима солинди.",
+  "facts": [
+   "Савдо марказларида 3 соатлик бепул тўхтаб туриш қоидаси текширилди"
+  ],
+  "source": "aksiyon.com.tr",
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 750,
   "date": "2026-11-24T09:30:28+00:00",
   "link": "https://www.mygazete.com/yurt-disindan-telefon-getirecekler-dikkat-imei-ucretine-15-bin-tl-zam/789039",
