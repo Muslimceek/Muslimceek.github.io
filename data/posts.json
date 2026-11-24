@@ -1,5 +1,86 @@
 [
  {
+  "id": 744,
+  "date": "2026-11-23T17:31:11+00:00",
+  "link": "https://www.paraanaliz.com/haberler/ibb-den-2027-butcesinde-tarihi-sosyal-destek-hamlesi-emekliye-kira-ogrenciye-fat",
+  "kind": "news",
+  "title": "İBB 2027 йил бюджетида ижара ва талабаларга ёрдам беради",
+  "cat": "narx",
+  "lead": "İstanbul Büyükşehir Belediyesi (İBB) 2027 йил бюджетида пенсионерларга ижара, талабаларга эса коммунал тўловлар учун ёрдам беришни режалаштирмоқда.",
+  "facts": [],
+  "source": "paraanaliz.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7421,
+  "date": "2026-11-23T15:00:26+00:00",
+  "link": "https://www.eleman.net/is-ilani/cay-ve-yemek-personeli-i4813388",
+  "post": 742,
+  "kind": "job",
+  "title": "Ошхона ходими (Çay ve Yemek)",
+  "company": "Suvari İnşaat",
+  "place": "İstanbul, Küçükçekmece",
+  "salary": "28.075 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "20-50 ёшли аёллар; маош: 28.075 TL ва овқат"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7422,
+  "date": "2026-11-23T15:00:26+00:00",
+  "link": "https://www.eleman.net/is-ilani/cnc-freze-operatoru-i4813316",
+  "post": 742,
+  "kind": "job",
+  "title": "CNC оператори (Cnc Freze Operatörü)",
+  "company": "Deka Metal İmalat İç Ve Dış Ticaret Ltd Şti.",
+  "place": "İstanbul, Başakşehir",
+  "salary": "35.000 TL - 50.000 TL",
+  "schedule": "Толиқ иш куни, сменали",
+  "points": [
+   "1-2 йил тажриба; маош: 35.000 - 50.000 TL"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7423,
+  "date": "2026-11-23T15:00:26+00:00",
+  "link": "https://www.eleman.net/is-ilani/depo-personeli-bay-medicana-atasehir-hastanesi-i4813235",
+  "post": 742,
+  "kind": "job",
+  "title": "Омбор ходими (Depo Personeli)",
+  "company": "ISS TESİS YÖNETİM HİZMETLERİ A.Ş.",
+  "place": "İstanbul, Ataşehir",
+  "salary": "28.000 TL - 35.000 TL",
+  "schedule": "09:00 - 18:00",
+  "points": [
+   "Эркаклар учун; маош: 28.000 - 35.000 TL"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7424,
+  "date": "2026-11-23T15:00:26+00:00",
+  "link": "https://www.eleman.net/is-ilani/market-personeli-i4812953",
+  "post": 742,
+  "kind": "job",
+  "title": "Маркет ходими (Market Personeli)",
+  "company": "Ema Supermarket",
+  "place": "İstanbul, Beyoğlu",
+  "salary": "45.000 TL",
+  "schedule": "Толиқ иш куни",
+  "points": [
+   "Аёллар учун; маош: 45.000 TL + SGK"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 740,
   "date": "2026-11-23T12:02:06+00:00",
   "link": "https://www.gazeta.uz/oz/2026/11/23/eksim-holding/",
