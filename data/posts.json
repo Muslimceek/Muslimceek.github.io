@@ -1,5 +1,87 @@
 [
  {
+  "id": 769,
+  "date": "2026-11-25T12:00:39+00:00",
+  "link": "https://www.sondakika.com/amp/haber-25-kasim-etkinlikleri-oncesi-taksim-de-yasaklar-20461088/",
+  "kind": "news",
+  "title": "25 ноябрда Taksim метро бекати соат 15:00 да ёпилади",
+  "cat": "transport",
+  "lead": "İstanbul'да 25 ноябрь куни ўтказиладиган тадбирлар олдидан Taksim ҳудудида чекловлар кучга кирди ва метро соат 15:00 да ёпилиши маълум қилинди.",
+  "facts": [
+   "Taksim майдони ва атрофидаги йўлларда чекловлар бошланган",
+   "M2 линиясининг Taksim метро бекати соат 15:00 дан эътиборан ёпилади"
+  ],
+  "source": "sondakika.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 767,
+  "date": "2026-11-25T09:30:27+00:00",
+  "link": "https://www.urgupajans.com/urgup-ve-avanosta-faaliyet-gosteren-hamamlara-dikkat-ceken-operasyon-6-yabanci-kacak-calistirilmis/14109",
+  "kind": "news",
+  "title": "Ürgüp ва Avanos'да 6 нафар ноқонуний ишлаётган чет эллик ушланди",
+  "cat": "hujjat",
+  "lead": "Ürgüp ва Avanos туманларида жойлашган ҳамомларда ўтказилган операцияда 6 нафар ноқонуний ишлаётган чет эллик аниқланди.",
+  "facts": [
+   "Текширувлар Ürgüp ва Avanos'даги ҳамомларда ўтказилган"
+  ],
+  "source": "urgupajans.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7621,
+  "date": "2026-11-25T06:30:18+00:00",
+  "link": "https://www.eleman.net/is-ilani/vasifli-vasifsiz-yardimci-eleman-bay-i4814369",
+  "post": 762,
+  "kind": "job",
+  "title": "Ёрдамчи ходим (Yardımcı Eleman)",
+  "company": "Hazorfim Dış Ticaret",
+  "place": "İstanbul, Gaziosmanpaşa",
+  "salary": "30.000 TL - 35.000 TL",
+  "schedule": "Ду-Жу 07:30 дан",
+  "points": [
+   "Заргарлик буюмлари ишлаб чиқаришга ёрдамчи, иш ўргатилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7622,
+  "date": "2026-11-25T06:30:18+00:00",
+  "link": "https://www.eleman.net/is-ilani/kalite-kontrol-elemani-i4814267",
+  "post": 762,
+  "kind": "job",
+  "title": "Сифат назоратчиси (Kalite Kontrol)",
+  "company": "Hnk Tekstil",
+  "place": "İstanbul, Tuzla",
+  "salary": "31.000 TL",
+  "schedule": "3 сменали иш тартиби",
+  "points": [
+   "Текстиль фабрикасида газламалар сифатини назорат қилиш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7623,
+  "date": "2026-11-25T06:30:18+00:00",
+  "link": "https://www.eleman.net/is-ilani/ofis-boy-i4814195",
+  "post": 762,
+  "kind": "job",
+  "title": "Офис ёрдамчиси (Ofis Boy)",
+  "company": "İZ NOKTA KORUMA",
+  "place": "İstanbul, Üsküdar",
+  "salary": "35.000 TL",
+  "schedule": "Алмашинувли 5-6 кун",
+  "points": [
+   "Офис ичи ва ташқарисидаги топшириқларни бажариш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 756,
   "date": "2026-11-24T17:30:50+00:00",
   "link": "https://www.yenialanya.com/yok-duyurdu-yabanci-ogrenci-kayit-suresi-30-aralika-uzatildi",
