@@ -1,5 +1,154 @@
 [
  {
+  "id": 7831,
+  "date": "2026-11-26T15:00:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/depo-sevkiyat-personeli-i4815593",
+  "post": 783,
+  "kind": "job",
+  "title": "Омбор ва жўнатиш ходими (Depo Sevkiyat)",
+  "company": "Liklas İplik",
+  "place": "İstanbul, Başakşehir",
+  "salary": "40.000 TL",
+  "schedule": "Тўлиқ иш куни, 5 кун",
+  "points": [
+   "Икителлига сервис бор, эркаклар учун"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7832,
+  "date": "2026-11-26T15:00:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/vasifsiz-eleman-bayan-i4815563",
+  "post": 783,
+  "kind": "job",
+  "title": "Малакасиз ишчи аёл (Vasıfsız Eleman)",
+  "company": "Liklas İplik",
+  "place": "İstanbul, Başakşehir",
+  "salary": "39.000 TL",
+  "schedule": "Тўлиқ кун, сменали",
+  "points": [
+   "Сервис, овқат ва суғурта берилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7833,
+  "date": "2026-11-26T15:00:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/depo-operatoru-i4815527",
+  "post": 783,
+  "kind": "job",
+  "title": "Омбор оператори (Depo Operatörü)",
+  "company": "Maitrox Services Bilişim Limited Şirketi",
+  "place": "İstanbul, Küçükçekmece",
+  "salary": "35.000 TL - 45.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Товарларни қабул қилиш ва назорат қилиш"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7834,
+  "date": "2026-11-26T15:00:29+00:00",
+  "link": "https://www.eleman.net/is-ilani/ev-hizmetlisi-yardimcisi-i4815437",
+  "post": 783,
+  "kind": "job",
+  "title": "Уй ёрдамчиси (Ev Hizmetlisi)",
+  "company": "DOĞUŞ ÇAY",
+  "place": "İstanbul, Üsküdar",
+  "salary": "50.000 TL",
+  "schedule": "08:30–17:00, 6 кун",
+  "points": [
+   "Турк таомларини пиширишни билиш керак"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 779,
+  "date": "2026-11-26T09:30:20+00:00",
+  "link": "https://www.haber3.com/emlak/turkiyede-ikamet-izni-alan-yabanci-sayisi-da-en-cok-tercih-ettikleri-illerimiz-de-belli-oldu-haberi-6269938",
+  "kind": "news",
+  "title": "Туркияда икамет олган хорижликлар сони ва энг кўп танланган вилоятлар маълум бўлди",
+  "cat": "hujjat",
+  "lead": "Туркияда икамет изни олган хорижликлар сони ва улар энг кўп танлаган вилоятлар маълум қилинди.",
+  "facts": [],
+  "source": "haber3.com",
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7771,
+  "date": "2026-11-26T06:30:27+00:00",
+  "link": "https://www.eleman.net/is-ilani/bulasikci-i4814903",
+  "post": 777,
+  "kind": "job",
+  "title": "Идиш ювувчи (Bulaşıkçı)",
+  "company": "SARDUNYA GIDA MUTFAK",
+  "place": "İstanbul, Silivri",
+  "salary": "36.500 TL - 40.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Маош 36.500 - 40.000 TL, Silivri туманида"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7772,
+  "date": "2026-11-26T06:30:27+00:00",
+  "link": "https://www.eleman.net/is-ilani/asci-i4814891",
+  "post": 777,
+  "kind": "job",
+  "title": "Ошпаз (Aşçı)",
+  "company": "SARDUNYA GIDA MUTFAK",
+  "place": "İstanbul, Silivri",
+  "salary": "50.000 TL - 70.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Маош 50.000 - 70.000 TL, Silivri туманида"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7773,
+  "date": "2026-11-26T06:30:27+00:00",
+  "link": "https://www.eleman.net/is-ilani/depo-sevkiyat-elemani-i4814777",
+  "post": 777,
+  "kind": "job",
+  "title": "Омбор ходими (Depo Sevkiyat Elemanı)",
+  "company": "Birr Yapı Malzemeleri",
+  "place": "İstanbul, Esenyurt",
+  "salary": "35.000 TL - 40.000 TL",
+  "schedule": "Тўлиқ иш куни",
+  "points": [
+   "Маош 35.000 - 40.000 TL, Esenyurt туманида"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7774,
+  "date": "2026-11-26T06:30:27+00:00",
+  "link": "https://www.eleman.net/is-ilani/temizlik-gorevlisi-i4815107",
+  "post": 777,
+  "kind": "job",
+  "title": "Тозалик ходими (Temizlik Görevlisi)",
+  "company": "Orkun Şirketler Grubu",
+  "place": "İstanbul, Beylikdüzü",
+  "salary": "",
+  "schedule": "08:30 дан бошланади",
+  "points": [
+   "Beylikdüzü, Toryum AVM яқинида, эркаклар учун"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 773,
   "date": "2026-11-25T17:31:48+00:00",
   "link": "https://www.sozcu.com.tr/istanbul-da-trafik-kilitlendi-yogunluk-yuzde-85-e-ulasti-p384395",
