@@ -1,5 +1,73 @@
 [
  {
+  "id": 7891,
+  "date": "2026-11-27T06:30:36+00:00",
+  "link": "https://www.eleman.net/is-ilani/ayristirma-personeli-sultanbeyli-i4815641",
+  "post": 789,
+  "kind": "job",
+  "title": "Саралаш ходими (Ayrıştırma Personeli)",
+  "company": "Kolay Gelsin",
+  "place": "İstanbul, Sultanbeyli",
+  "salary": "30.000 TL - 40.000 TL",
+  "schedule": "Толиқ бандлик",
+  "points": [
+   "Карго ва жўнатмаларни саралаш иши, 30.000 - 40.000 TL маош"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7892,
+  "date": "2026-11-27T06:30:36+00:00",
+  "link": "https://www.eleman.net/is-ilani/ofis-gorevlisi-i4815407",
+  "post": 789,
+  "kind": "job",
+  "title": "Офис ходими (Ofis Görevlisi)",
+  "company": "Thinkcar Elektronik",
+  "place": "İstanbul, Sancaktepe",
+  "salary": "30.000 TL - 40.000 TL",
+  "schedule": "Толиқ бандлик",
+  "points": [
+   "Офис дастурларини билиш ва мулоқот қобилияти зарур"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7893,
+  "date": "2026-11-27T06:30:36+00:00",
+  "link": "https://www.eleman.net/is-ilani/on-muhasebe-elemani-i4815713",
+  "post": 789,
+  "kind": "job",
+  "title": "Ҳисобчи ёрдамчиси (Ön Muhasebe)",
+  "company": "Ahmet İşeri Tekstil",
+  "place": "İstanbul, Güngören",
+  "salary": "50.000 TL",
+  "schedule": "Толиқ бандлик",
+  "points": [
+   "Nebim ва Luca дастурларида тажриба талаб этилади"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
+  "id": 7894,
+  "date": "2026-11-27T06:30:36+00:00",
+  "link": "https://www.eleman.net/is-ilani/kasap-imalat-i4815440",
+  "post": 789,
+  "kind": "job",
+  "title": "Уста қассаб (Kasap)",
+  "company": "Kasabım",
+  "place": "İstanbul, Şişli",
+  "salary": "75.000 TL - 90.000 TL",
+  "schedule": "Толиқ бандлик",
+  "points": [
+   "Гўшт маҳсулотларини тайёрлаш ва бўлаклаш тажрибаси"
+  ],
+  "w": 640,
+  "h": 800
+ },
+ {
   "id": 785,
   "date": "2026-11-26T17:30:17+00:00",
   "link": "https://www.memurlar.net/haber/1185303/schengen-vizesi-ne-zaman-kalkacak-son-6-kriter-icin-yeni-adim.html?amp=1",
